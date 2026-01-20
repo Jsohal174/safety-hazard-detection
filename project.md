@@ -33,10 +33,10 @@ Phase 1: Environment & 3D Assets (Week 1)
 │   ├── [x] 1.1.1 - Create virtual environment
 │   ├── [x] 1.1.2 - Install core dependencies (requirements.txt)
 │   └── [x] 1.1.3 - Verify PyTorch MPS backend works on M2
-├── [ ] 1.2 - Blender Setup
-│   ├── [ ] 1.2.1 - Install Blender 4.x
-│   ├── [ ] 1.2.2 - Install BlenderKit addon (free assets)
-│   └── [ ] 1.2.3 - Learn basic navigation (camera, viewport)
+├── [x] 1.2 - Blender Setup
+│   ├── [x] 1.2.1 - Install Blender 4.x (have 5.0.1)
+│   ├── [x] 1.2.2 - Install BlenderKit addon (free assets)
+│   └── [x] 1.2.3 - Learn basic navigation (see blender/BLENDER_BASICS.md)
 ├── [ ] 1.3 - Asset Collection
 │   ├── [ ] 1.3.1 - Download warehouse shell/building
 │   ├── [ ] 1.3.2 - Download industrial shelving/racking
