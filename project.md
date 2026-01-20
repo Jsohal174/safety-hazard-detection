@@ -37,13 +37,13 @@ Phase 1: Environment & 3D Assets (Week 1)
 │   ├── [x] 1.2.1 - Install Blender 4.x (have 5.0.1)
 │   ├── [x] 1.2.2 - Install BlenderKit addon (free assets)
 │   └── [x] 1.2.3 - Learn basic navigation (see blender/BLENDER_BASICS.md)
-├── [ ] 1.3 - Asset Collection
-│   ├── [ ] 1.3.1 - Download warehouse shell/building
-│   ├── [ ] 1.3.2 - Download industrial shelving/racking
-│   ├── [ ] 1.3.3 - Download forklift model
-│   ├── [ ] 1.3.4 - Download pallets and boxes
-│   ├── [ ] 1.3.5 - Download floor textures (concrete, markings)
-│   └── [ ] 1.3.6 - Download human models (for PPE scenarios)
+├── [x] 1.3 - Asset Collection
+│   ├── [x] 1.3.1 - Download warehouse shell/building
+│   ├── [x] 1.3.2 - Download industrial shelving/racking
+│   ├── [x] 1.3.3 - Download forklift model
+│   ├── [x] 1.3.4 - Download pallets and boxes
+│   ├── [x] 1.3.5 - Download debris pack (for obstacles)
+│   └── [x] 1.3.6 - Download human models + PPE (hard hat, vest)
 ├── [ ] 1.4 - Scene Assembly
 │   ├── [ ] 1.4.1 - Create base warehouse layout
 │   ├── [ ] 1.4.2 - Set up lighting (industrial overhead)
