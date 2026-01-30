@@ -1,7 +1,7 @@
-# Warehouse Safety Hazard Detection
+# HAWKEYE: Drone-Based Warehouse Safety Hazard Detection
 
 ## Project Overview
-End-to-end ML system for detecting safety hazards in warehouse environments. Using synthetic data generation (3D rendering + Stable Diffusion/ControlNet) to train object detection models.
+Autonomous drone-based warehouse hazard detection system using RGB-D fusion trained on synthetic data. The system detects hazards from a drone's aerial perspective, tracks them across frames, and sends alerts to a dashboard.
 
 ## Owner
 Jaskirat Singh Sohal (Jas)
@@ -10,130 +10,137 @@ Jaskirat Singh Sohal (Jas)
 
 ## What We're Building
 A computer vision pipeline that:
-1. Generates synthetic warehouse images with hazards
-2. Trains object detection models (YOLOv8 + RT-DETR)
-3. Deploys as production-ready API
+1. Generates synthetic warehouse images from drone perspective (Blender + SD/ControlNet)
+2. Trains RGB-D fusion object detection models (4-channel YOLOv8)
+3. Tracks hazards across frames in simulated drone flights
+4. Deploys with real-time alert dashboard
+
+## Key Differentiators from Standard Approach
+- **Drone perspective** (aerial view at ~2.5m height, 45-60° pitch)
+- **RGB-D fusion** (depth camera adds distance/3D information)
+- **Multi-object tracking** (IoU-based tracker for consistency across frames)
+- **Real-time dashboard** (React frontend with WebSocket updates)
 
 ## Hazard Classes to Detect
-- Spills (liquid on floor)
-- Obstacles in aisles (boxes, debris)
-- Missing PPE (no hard hat, no vest)
-- Forklift violations
-- Blocked exits
-- Damaged racking
+| ID | Class | Description |
+|----|-------|-------------|
+| 0 | `spill` | Liquid on floor |
+| 1 | `obstacle` | Boxes/debris in aisle |
+| 2 | `missing_ppe` | Worker without hard hat/vest |
+| 3 | `forklift_violation` | Unsafe forklift operation |
+| 4 | `blocked_exit` | Exit door obstructed |
+| 5 | `damaged_rack` | Bent/broken racking |
 
 ## Tech Stack
 | Category | Tool |
 |----------|------|
-| 3D Modeling | Blender |
-| Image Generation | Stable Diffusion, ControlNet |
-| Labeling | CVAT |
-| Data Versioning | DVC |
+| 3D Modeling | Blender 4.0+ |
+| Image Enhancement | Stable Diffusion, ControlNet |
+| Depth Rendering | OpenEXR |
+| Config Management | Hydra |
 | Augmentation | Albumentations |
-| Training | PyTorch, Ultralytics (YOLOv8), RT-DETR |
+| Training | PyTorch, PyTorch Lightning, Ultralytics (YOLOv8) |
 | Experiment Tracking | Weights & Biases |
-| Distributed Training | PyTorch DDP |
 | Cloud GPU | RunPod or Lambda Labs |
-| Optimization | ONNX, TensorRT |
-| Serving | FastAPI, Uvicorn |
-| Containers | Docker, nvidia-docker |
-| Cloud Deployment | AWS SageMaker or GCP Vertex |
-| MLOps | MLflow, GitHub Actions |
+| Optimization | ONNX, TorchScript |
+| Backend | FastAPI, WebSockets |
+| Frontend | React, Tailwind CSS |
+| Evaluation | pycocotools |
 
-## Timeline (11 weeks)
+## Timeline (8 weeks - Already in Week 1-2)
 
-### Month 1: Data
-- **Week 1 (Jan 19-25):** Build 3D warehouse in Blender, render 500+ base images
-- **Week 2 (Jan 26-Feb 1):** Stable Diffusion + ControlNet pipeline, generate 2000+ images
-- **Week 3 (Feb 2-8):** Label with CVAT, define hazard classes, train/val/test split
-- **Week 4 (Feb 9-15):** DVC setup, PyTorch DataLoader, Albumentations augmentation
+### Weeks 1-2: Simulation Foundation
+- Build warehouse scene with drone camera setup
+- RGB-D rendering pipeline
+- Hazard spawning system
 
-### Month 2: Training & Evaluation
-- **Week 5 (Feb 16-22):** W&B setup, train baseline YOLOv8
-- **Week 6 (Feb 23-Mar 1):** Train RT-DETR, compare architectures, hyperparameter tuning
-- **Week 7 (Mar 2-8):** Mixed precision (FP16), distributed training on 2 GPUs
-- **Week 8 (Mar 9-15):** Evaluation - mAP, error analysis, edge case testing
+### Week 3: Data Pipeline
+- Domain randomization
+- Flight path generation
+- SD + ControlNet enhancement
+- Generate dataset (15000+ frames)
 
-### Month 3: Optimization, Deployment & MLOps
-- **Week 9 (Mar 16-22):** ONNX export, INT8 quantization, benchmark speed vs accuracy
-- **Week 10 (Mar 23-29):** FastAPI + Docker + nvidia-docker, batched inference
-- **Week 11 (Mar 30-Apr 5):** Deploy to SageMaker/Vertex, GitHub Actions CI/CD, MLflow registry
+### Weeks 4-5: Perception Model
+- RGB-D dataset and dataloader
+- Train RGB-only baseline
+- Train fusion model (4-channel YOLOv8)
+- Ablation studies
 
-## Project Structure (Target)
+### Week 6: Drone Integration
+- Inference pipeline optimization
+- Multi-object tracker
+- Simulation integration
+
+### Week 7: Alert System
+- FastAPI backend
+- React dashboard
+- WebSocket real-time updates
+
+### Week 8: Polish & Evaluation
+- Full evaluation suite
+- Demo materials
+- Documentation
+
+## Project Structure
 ```
-warehouse-safety-detection/
-├── CLAUDE.md                 # This file
-├── README.md                 # Project documentation
-├── data/
-│   ├── raw/                  # 3D rendered base images
-│   ├── synthetic/            # Stable Diffusion outputs
-│   ├── labeled/              # CVAT annotations
-│   └── processed/            # Final train/val/test splits
-├── notebooks/                # Exploration, experiments
-├── src/
-│   ├── data/
-│   │   ├── generate.py       # Stable Diffusion + ControlNet pipeline
-│   │   ├── augment.py        # Albumentations
-│   │   └── dataloader.py     # PyTorch DataLoader
-│   ├── models/
-│   │   ├── yolov8.py         # YOLOv8 training
-│   │   └── rtdetr.py         # RT-DETR training
-│   ├── evaluation/
-│   │   └── metrics.py        # mAP, precision, recall
-│   ├── optimization/
-│   │   ├── quantize.py       # ONNX, TensorRT
-│   │   └── benchmark.py      # Speed vs accuracy
-│   └── serving/
-│       └── api.py            # FastAPI endpoint
-├── configs/                  # Training configs
-├── docker/
-│   └── Dockerfile            # GPU inference container
-├── .github/
-│   └── workflows/
-│       └── train.yml         # CI/CD for retraining
-├── dvc.yaml                  # Data versioning
-├── requirements.txt
-└── pyproject.toml
+hawkeye/
+├── simulation/
+│   ├── blender/
+│   │   ├── assets/           # Warehouse, hazards, props
+│   │   ├── scripts/          # Generation scripts
+│   │   └── scenes/           # .blend files
+│   └── generation/           # Flight paths, annotations
+├── perception/
+│   ├── models/               # Fusion YOLOv8, dual encoder
+│   ├── datasets/             # RGB-D dataset class
+│   ├── training/             # Lightning module
+│   └── evaluation/           # Metrics
+├── drone/
+│   ├── planning/             # Path planning
+│   ├── inference/            # Real-time detection
+│   └── control/              # Tracker
+├── alert_system/
+│   ├── backend/              # FastAPI
+│   └── dashboard/            # React
+├── configs/                  # Hydra configs
+├── scripts/                  # Entry points
+├── outputs/
+│   ├── datasets/             # Generated data
+│   ├── checkpoints/          # Model weights
+│   └── results/              # Evaluation outputs
+└── docs/
 ```
-
-## Current Week
-Week 1 (Jan 19-25): Building 3D warehouse model in Blender
 
 ## Commands Reference
 ```bash
-# Data versioning
-dvc init
-dvc add data/
-dvc push
+# Generate dataset
+python scripts/generate_dataset.py
 
-# Training
-python src/models/yolov8.py --config configs/yolov8.yaml
-python src/models/rtdetr.py --config configs/rtdetr.yaml
+# Train model
+python scripts/train_model.py model=fusion_yolo training.epochs=100
 
-# Evaluation
-python src/evaluation/metrics.py --model runs/best.pt --data data/test
+# Evaluate
+python scripts/evaluate.py checkpoint=outputs/checkpoints/best.pt
 
-# Export & Quantize
-python src/optimization/quantize.py --model runs/best.pt --format onnx
-python src/optimization/benchmark.py --models runs/best.pt runs/best.onnx runs/best_int8.onnx
+# Run demo
+python scripts/run_demo.py
 
-# Serve
-uvicorn src.serving.api:app --host 0.0.0.0 --port 8000
+# Start alert backend
+uvicorn hawkeye.alert_system.backend.main:app --reload
 
-# Docker
-docker build -t warehouse-detector -f docker/Dockerfile .
-docker run --gpus all -p 8000:8000 warehouse-detector
+# Start dashboard (dev)
+cd hawkeye/alert_system/dashboard && npm run dev
 ```
 
 ## Goals
-1. Learn full ML engineer stack through one project
-2. Compare CNN (YOLOv8) vs Transformer (RT-DETR) architectures
-3. Production-ready deployment with MLOps
+1. Learn full ML engineer stack with drone/robotics angle
+2. Compare RGB-only vs RGB-D fusion performance
+3. Build end-to-end system from synthetic data to live dashboard
 4. Research paper/documentation for Prof. Akinyemi
 
 ## Success Metrics
-- mAP@50 > 0.80
-- Inference < 50ms per image
-- Deployed and accessible via API
-- CI/CD pipeline working
+- mAP@50 > 0.80 (target 0.85)
+- RGB-D fusion improves over RGB-only by >5%
+- Real-time inference > 15 FPS
+- Working alert dashboard with live visualization
 - All experiments tracked in W&B

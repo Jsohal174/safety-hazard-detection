@@ -1,0 +1,50 @@
+# HAWKEYE Main Configuration
+# Uses Hydra for config management: https://hydra.cc/
+
+defaults:
+  - simulation: warehouse
+  - model: fusion_yolo
+  - training: default
+  - _self_
+
+# Project paths
+paths:
+  root: ${hydra:runtime.cwd}
+  assets: ${paths.root}/hawkeye/simulation/blender/assets
+  scenes: ${paths.root}/hawkeye/simulation/blender/scenes
+  outputs: ${paths.root}/outputs
+  datasets: ${paths.outputs}/datasets
+  checkpoints: ${paths.outputs}/checkpoints
+  results: ${paths.outputs}/results
+  renders: ${paths.outputs}/renders
+
+# Dataset generation settings
+dataset:
+  name: hawkeye_v1
+  train_scenes: 1500
+  val_scenes: 200
+  test_scenes: 300
+  frames_per_scene: 10
+  output_resolution: [640, 640]
+  negative_sample_ratio: 0.2  # 20% scenes with no hazards
+
+# Hazard classes
+hazards:
+  classes:
+    0: spill
+    1: obstacle
+    2: missing_ppe
+    3: forklift_violation
+    4: blocked_exit
+    5: damaged_rack
+  num_classes: 6
+  per_scene_range: [0, 5]  # min, max hazards per scene
+
+# Experiment tracking
+wandb:
+  project: hawkeye
+  entity: null  # Set your W&B username
+  enabled: true
+
+# Random seed for reproducibility
+seed: 42

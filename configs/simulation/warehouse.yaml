@@ -1,0 +1,80 @@
+# Warehouse Simulation Configuration
+
+# Warehouse dimensions (meters)
+warehouse:
+  width: 50
+  depth: 30
+  height: 8
+
+# Rack configuration
+racks:
+  height_levels: 4
+  aisle_width: 3.5
+  rack_depth: 1.2
+  shelf_height: 1.5
+  fill_percentage_range: [0.3, 0.9]  # How full each shelf is
+
+# Drone camera settings
+camera:
+  rgb:
+    resolution: [1920, 1080]
+    fov: 84  # degrees
+  depth:
+    resolution: [1280, 720]
+    fov: 87  # degrees
+    range: [0.3, 10.0]  # min, max depth in meters
+    format: exr
+
+  # Drone flight parameters
+  height: 2.5  # meters above floor
+  pitch_range: [45, 60]  # degrees downward
+
+  # Pose noise for realism
+  position_noise_std: 0.05  # meters
+  rotation_noise_std: 2.0  # degrees
+
+# Depth noise model (simulates real sensor)
+depth_noise:
+  gaussian_std: 0.01  # increases with distance
+  dropout_rate: 0.03  # 3% of pixels
+  edge_artifact_width: 2  # pixels
+  quantization_bits: 12
+
+# Domain randomization
+domain_randomization:
+  lighting:
+    intensity_range: [500, 2000]  # lumens
+    color_temp_range: [3500, 6500]  # Kelvin
+    off_probability: 0.1  # 10% chance each light is off
+    ambient_occlusion_range: [0.1, 0.4]
+
+  textures:
+    floor_variations: 6
+    rack_colors: [orange, blue, yellow, gray, green]
+    box_variations: 5
+
+  camera:
+    position_jitter_std: 0.05  # meters
+    rotation_jitter_std: 2.0  # degrees
+    focal_length_variation: 0.05  # +/- 5%
+
+# Post-render artifacts (applied after Blender render)
+post_render:
+  motion_blur_range: [0.0, 0.02]
+  exposure_range: [0.8, 1.2]
+  jpeg_quality_range: [70, 95]
+  gaussian_noise_range: [0.01, 0.05]
+
+# Flight path settings
+flight_paths:
+  patrol:
+    overlap: 0.3  # 30% frame overlap
+    speed: 1.0  # m/s (simulated via waypoint spacing)
+
+  aisle_inspection:
+    waypoint_spacing: 2.0  # meters
+    bidirectional: true
+
+  targeted:
+    approach_distance: 1.5  # meters from hazard
+    viewing_angles: [0, 45, 90, -45]  # degrees around hazard

@@ -1,0 +1,51 @@
+# RGB-D Fusion YOLOv8 Model Configuration
+
+architecture: fusion_yolo
+
+# Backbone
+backbone: yolov8m  # Options: yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
+pretrained: true
+
+# Input configuration
+input:
+  channels: 4  # RGB (3) + Depth (1)
+  resolution: 640
+
+  # Depth preprocessing
+  depth:
+    normalize: true
+    clip_range: [0.3, 10.0]  # meters
+    log_scale: false  # Use linear scaling
+
+# Detection head
+detection:
+  num_classes: 6
+  confidence_threshold: 0.5
+  nms_iou_threshold: 0.45
+  max_detections: 100
+
+# Fusion strategy for early fusion
+fusion:
+  type: early  # Options: early, late
+
+  # For early fusion: how to initialize depth channel weights
+  depth_init: copy_green  # Copy weights from green channel
+
+  # For late fusion (if used)
+  late_fusion:
+    rgb_backbone: efficientnet_b4
+    depth_backbone: efficientnet_b2
+    fusion_method: cross_attention  # Options: concat, add, cross_attention
+
+# Loss weights
+loss:
+  box: 7.5
+  cls: 0.5
+  obj: 1.5
+
+# Model export settings
+export:
+  formats: [torchscript, onnx]
+  opset_version: 17
+  dynamic_axes: true
+  simplify: true

@@ -1,0 +1,76 @@
+# Training Configuration
+
+# Training hyperparameters
+epochs: 100
+batch_size: 16
+accumulate_grad_batches: 1
+
+# Optimizer
+optimizer:
+  name: adamw
+  lr: 1.0e-4
+  weight_decay: 0.01
+  betas: [0.9, 0.999]
+
+# Learning rate scheduler
+scheduler:
+  name: cosine
+  warmup_epochs: 5
+  min_lr: 1.0e-6
+
+# Early stopping
+early_stopping:
+  enabled: true
+  patience: 20
+  monitor: val/mAP50
+  mode: max
+
+# Checkpointing
+checkpoint:
+  save_top_k: 3
+  monitor: val/mAP50
+  mode: max
+  save_last: true
+  every_n_epochs: 10
+
+# Training settings
+precision: 16-mixed  # Options: 32, 16-mixed, bf16-mixed
+gradient_clip_val: 1.0
+deterministic: false
+
+# Data loading
+dataloader:
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+
+# Augmentation (Albumentations)
+augmentation:
+  # Geometric
+  horizontal_flip: 0.5
+  vertical_flip: 0.0
+  rotation_limit: 15
+  scale_range: [0.8, 1.2]
+
+  # Color (RGB only)
+  brightness_limit: 0.2
+  contrast_limit: 0.2
+  saturation_limit: 0.2
+  hue_limit: 0.1
+
+  # Advanced
+  mosaic: 0.5
+  mixup: 0.1
+  cutout:
+    enabled: true
+    num_holes: 4
+    max_size: 64
+
+# Hardware
+accelerator: auto  # Options: auto, gpu, mps, cpu
+devices: 1
+strategy: auto  # Options: auto, ddp, ddp_spawn
+
+# Logging
+log_every_n_steps: 50
+val_check_interval: 1.0  # Validate every epoch

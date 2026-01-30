@@ -1,4 +1,4 @@
-# Warehouse Safety Hazard Detection - Project Roadmap
+# HAWKEYE: Drone-Based Warehouse Hazard Detection
 
 ## Protocol for AI Assistant
 
@@ -6,12 +6,12 @@
 
 1. **The Briefing:**
    - **Goal:** What specific part are we building?
-   - **Tech Stack:** Which libraries/tools (e.g., "Using Albumentations for augmentation")
+   - **Tech Stack:** Which libraries/tools (e.g., "Using PyTorch Lightning for training")
    - **Context:** How does this connect to previous steps?
 
 2. **The Implementation:**
    - Provide **complete** file content. No placeholders like `# ... rest of code`
-   - Include file paths (e.g., `src/data/generate.py`)
+   - Include file paths (e.g., `hawkeye/perception/models/fusion.py`)
 
 3. **The Debrief:**
    - Explain the code under the hood
@@ -23,12 +23,20 @@
 
 ---
 
+## Project Overview
+
+Autonomous drone-based warehouse hazard detection system using RGB-D fusion trained on synthetic data. The system detects hazards from a drone's perspective, tracks them across frames, and sends alerts to a dashboard.
+
+**Owner:** Jaskirat Singh Sohal (Jas)
+- Research project with Prof. John Akinyemi, University of Guelph
+- Deadline: April 5-6, 2026
+
+---
+
 ## Progress Tracking
 
-Use this checklist to track completion. Mark with `[x]` when done.
-
 ```
-Phase 1: Environment & 3D Assets (Week 1)
+Phase 1: Project Setup ✅ (Mostly Complete)
 ├── [x] 1.1 - Python Environment Setup
 │   ├── [x] 1.1.1 - Create virtual environment
 │   ├── [x] 1.1.2 - Install core dependencies (requirements.txt)
@@ -44,20 +52,18 @@ Phase 1: Environment & 3D Assets (Week 1)
 │   ├── [x] 1.3.4 - Download pallets and boxes
 │   ├── [x] 1.3.5 - Download debris pack (for obstacles)
 │   └── [x] 1.3.6 - Download human models + PPE (hard hat, vest)
-├── [ ] 1.4 - Scene Assembly
-│   ├── [ ] 1.4.1 - Create base warehouse layout
-│   ├── [ ] 1.4.2 - Set up lighting (industrial overhead)
-│   ├── [ ] 1.4.3 - Configure multiple camera angles
-│   └── [ ] 1.4.4 - Test render a few images
-├── [ ] 1.5 - Git checkpoint: "Phase 1 complete - Blender setup"
+├── [x] 1.4 - HAWKEYE Repository Structure
+│   ├── [x] 1.4.1 - Create hawkeye/ directory structure
+│   ├── [x] 1.4.2 - Update requirements.txt with new dependencies
+│   └── [x] 1.4.3 - Configure Hydra for config management
+├── [ ] 1.5 - Git checkpoint: "Phase 1 complete - HAWKEYE setup"
 
-Phase 2: Synthetic Data Generation (Week 2)
-├── [ ] 2.1 - Blender Rendering Pipeline
-│   ├── [ ] 2.1.1 - Python script for batch rendering
-│   ├── [ ] 2.1.2 - Randomize camera positions
-│   ├── [ ] 2.1.3 - Randomize object placements
-│   ├── [ ] 2.1.4 - Output segmentation masks (for auto-labeling)
-│   └── [ ] 2.1.5 - Render 500+ base images
+Phase 2: Simulation Environment (Blender)
+├── [ ] 2.1 - Scene Assembly (using collected assets)
+│   ├── [ ] 2.1.1 - Create base warehouse layout
+│   ├── [ ] 2.1.2 - Set up industrial lighting
+│   ├── [ ] 2.1.3 - Configure drone camera angles (aerial perspective)
+│   └── [ ] 2.1.4 - Test render from drone viewpoint
 ├── [ ] 2.2 - Hazard Insertion
 │   ├── [ ] 2.2.1 - Spill materials and placement
 │   ├── [ ] 2.2.2 - Obstacle placement (boxes in aisles)
@@ -65,198 +71,175 @@ Phase 2: Synthetic Data Generation (Week 2)
 │   ├── [ ] 2.2.4 - Forklift violation setups
 │   ├── [ ] 2.2.5 - Blocked exit scenarios
 │   └── [ ] 2.2.6 - Damaged racking textures/geometry
-├── [ ] 2.3 - Stable Diffusion Enhancement
-│   ├── [ ] 2.3.1 - Set up diffusers locally (M2 MPS) for testing
-│   ├── [ ] 2.3.2 - ControlNet depth conditioning (test locally)
-│   ├── [ ] 2.3.3 - img2img for realism enhancement (test locally)
-│   ├── [ ] 2.3.4 - Set up cloud GPU (RunPod) for batch generation
-│   ├── [ ] 2.3.5 - Batch processing pipeline (cloud)
-│   └── [ ] 2.3.6 - Generate 2000+ enhanced images (cloud)
-├── [ ] 2.4 - Git checkpoint: "Phase 2 complete - Data generation"
+├── [ ] 2.3 - Drone Camera System
+│   ├── [ ] 2.3.1 - RGB camera setup (1920x1080)
+│   ├── [ ] 2.3.2 - Depth camera setup (EXR output)
+│   ├── [ ] 2.3.3 - Depth noise model implementation
+│   └── [ ] 2.3.4 - Camera pose randomization
+├── [ ] 2.4 - Domain Randomization
+│   ├── [ ] 2.4.1 - Lighting randomization
+│   ├── [ ] 2.4.2 - Texture randomization
+│   ├── [ ] 2.4.3 - Camera jitter
+│   └── [ ] 2.4.4 - Post-render artifacts (noise, blur, compression)
+├── [ ] 2.5 - Flight Path Generation
+│   ├── [ ] 2.5.1 - Full warehouse patrol (serpentine)
+│   ├── [ ] 2.5.2 - Single aisle inspection
+│   └── [ ] 2.5.3 - Targeted hazard inspection
+├── [ ] 2.6 - Batch Rendering Pipeline
+│   ├── [ ] 2.6.1 - Python script for batch rendering
+│   ├── [ ] 2.6.2 - Randomize drone positions along flight paths
+│   ├── [ ] 2.6.3 - Randomize object placements
+│   ├── [ ] 2.6.4 - Output segmentation masks (for auto-labeling)
+│   └── [ ] 2.6.5 - Render 500+ base RGB-D images
+├── [ ] 2.7 - Stable Diffusion Enhancement
+│   ├── [ ] 2.7.1 - Set up diffusers locally (M2 MPS) for testing
+│   ├── [ ] 2.7.2 - ControlNet depth conditioning
+│   ├── [ ] 2.7.3 - img2img for realism enhancement
+│   ├── [ ] 2.7.4 - Set up cloud GPU (RunPod) for batch generation
+│   └── [ ] 2.7.5 - Generate 2000+ enhanced images (cloud)
+├── [ ] 2.8 - Git checkpoint: "Phase 2 complete - Simulation environment"
 
-Phase 3: Labeling & Data Pipeline (Week 3-4)
-├── [ ] 3.1 - CVAT Setup
-│   ├── [ ] 3.1.1 - Install CVAT (Docker or cloud)
-│   ├── [ ] 3.1.2 - Create project with hazard classes
-│   ├── [ ] 3.1.3 - Import images
-│   └── [ ] 3.1.4 - Configure annotation format (YOLO/COCO)
-├── [ ] 3.2 - Auto-Labeling from Blender
-│   ├── [ ] 3.2.1 - Convert segmentation masks to bounding boxes
-│   ├── [ ] 3.2.2 - Map object IDs to hazard classes
-│   └── [ ] 3.2.3 - Import pre-annotations to CVAT
-├── [ ] 3.3 - Manual Annotation
-│   ├── [ ] 3.3.1 - Review and correct auto-labels
-│   ├── [ ] 3.3.2 - Label SD-generated images
-│   └── [ ] 3.3.3 - Quality check (random sample review)
-├── [ ] 3.4 - Dataset Split
-│   ├── [ ] 3.4.1 - Export annotations (YOLO format)
-│   ├── [ ] 3.4.2 - Create train/val/test split (70/20/10)
-│   └── [ ] 3.4.3 - Verify class distribution across splits
-├── [ ] 3.5 - DVC Setup
-│   ├── [ ] 3.5.1 - Initialize DVC
-│   ├── [ ] 3.5.2 - Add data to DVC tracking
-│   ├── [ ] 3.5.3 - Configure remote storage (GDrive/S3)
-│   └── [ ] 3.5.4 - First dvc push
-├── [ ] 3.6 - PyTorch DataLoader
-│   ├── [ ] 3.6.1 - Create custom Dataset class
-│   ├── [ ] 3.6.2 - Implement Albumentations augmentation
-│   └── [ ] 3.6.3 - Test DataLoader iteration
-├── [ ] 3.7 - Git checkpoint: "Phase 3 complete - Data pipeline"
+Phase 3: Perception Model
+├── [ ] 3.1 - Dataset & Dataloader
+│   ├── [ ] 3.1.1 - PyTorch Dataset class for RGB-D
+│   ├── [ ] 3.1.2 - Synchronized augmentations (Albumentations)
+│   └── [ ] 3.1.3 - DataLoader configuration
+├── [ ] 3.2 - Model Architecture
+│   ├── [ ] 3.2.1 - Early Fusion YOLOv8 (4-channel input)
+│   └── [ ] 3.2.2 - (Optional) Late Fusion dual encoder
+├── [ ] 3.3 - Training Pipeline
+│   ├── [ ] 3.3.1 - PyTorch Lightning module
+│   ├── [ ] 3.3.2 - Loss function (CIoU + Focal)
+│   ├── [ ] 3.3.3 - W&B logging integration
+│   └── [ ] 3.3.4 - Checkpointing strategy
+├── [ ] 3.4 - Training Stages
+│   ├── [ ] 3.4.1 - RGB-only baseline
+│   ├── [ ] 3.4.2 - Depth-only baseline
+│   ├── [ ] 3.4.3 - Early fusion training
+│   └── [ ] 3.4.4 - (Optional) Late fusion training
+├── [ ] 3.5 - Evaluation
+│   ├── [ ] 3.5.1 - mAP metrics (0.5, 0.75, 0.5:0.95)
+│   ├── [ ] 3.5.2 - Per-class analysis
+│   ├── [ ] 3.5.3 - Ablation studies
+│   └── [ ] 3.5.4 - Failure case analysis
+├── [ ] 3.6 - Git checkpoint: "Phase 3 complete - Perception model"
 
-Phase 4: Model Training (Week 5-7)
-├── [ ] 4.1 - W&B Setup
-│   ├── [ ] 4.1.1 - Create W&B account/project
-│   ├── [ ] 4.1.2 - Configure API key
-│   └── [ ] 4.1.3 - Test logging
-├── [ ] 4.2 - YOLOv8 Baseline
-│   ├── [ ] 4.2.1 - Create training config (configs/yolov8.yaml)
-│   ├── [ ] 4.2.2 - Implement src/models/yolov8.py
-│   ├── [ ] 4.2.3 - Train on local M2 (small subset test)
-│   ├── [ ] 4.2.4 - Set up cloud GPU (RunPod/Lambda)
-│   ├── [ ] 4.2.5 - Full training run
-│   └── [ ] 4.2.6 - Log metrics to W&B
-├── [ ] 4.3 - RT-DETR Training
-│   ├── [ ] 4.3.1 - Create training config (configs/rtdetr.yaml)
-│   ├── [ ] 4.3.2 - Implement src/models/rtdetr.py
-│   ├── [ ] 4.3.3 - Train on cloud GPU
-│   └── [ ] 4.3.4 - Compare with YOLOv8 in W&B
-├── [ ] 4.4 - Hyperparameter Tuning
-│   ├── [ ] 4.4.1 - Learning rate sweep
-│   ├── [ ] 4.4.2 - Augmentation strength tuning
-│   ├── [ ] 4.4.3 - Image size experiments
-│   └── [ ] 4.4.4 - Select best model
-├── [ ] 4.5 - Advanced Training
-│   ├── [ ] 4.5.1 - Mixed precision (FP16) training
-│   ├── [ ] 4.5.2 - Multi-GPU training (PyTorch DDP)
-│   └── [ ] 4.5.3 - Final training run with best config
-├── [ ] 4.6 - Git checkpoint: "Phase 4 complete - Training"
+Phase 4: Drone Integration
+├── [ ] 4.1 - Path Planning Module
+│   ├── [ ] 4.1.1 - Warehouse map representation
+│   ├── [ ] 4.1.2 - Coverage path planning (Boustrophedon)
+│   └── [ ] 4.1.3 - Reactive inspection paths
+├── [ ] 4.2 - Real-Time Inference
+│   ├── [ ] 4.2.1 - Model export (TorchScript/ONNX)
+│   ├── [ ] 4.2.2 - Inference pipeline optimization
+│   └── [ ] 4.2.3 - Multi-object tracker (IoU-based)
+├── [ ] 4.3 - Simulation Integration
+│   ├── [ ] 4.3.1 - Blender simulation runner
+│   └── [ ] 4.3.2 - Detection overlay visualization
+├── [ ] 4.4 - Git checkpoint: "Phase 4 complete - Drone integration"
 
-Phase 5: Evaluation (Week 8)
-├── [ ] 5.1 - Metrics Implementation
-│   ├── [ ] 5.1.1 - Implement mAP calculation
-│   ├── [ ] 5.1.2 - Per-class precision/recall
-│   ├── [ ] 5.1.3 - Confusion matrix
-│   └── [ ] 5.1.4 - Inference speed benchmarking
-├── [ ] 5.2 - Error Analysis
-│   ├── [ ] 5.2.1 - Identify failure cases
-│   ├── [ ] 5.2.2 - Per-hazard-class analysis
-│   ├── [ ] 5.2.3 - False positive analysis
-│   └── [ ] 5.2.4 - Edge case identification
-├── [ ] 5.3 - Model Comparison
-│   ├── [ ] 5.3.1 - YOLOv8 vs RT-DETR analysis
-│   ├── [ ] 5.3.2 - Speed vs accuracy tradeoff
-│   └── [ ] 5.3.3 - Select production model
-├── [ ] 5.4 - Git checkpoint: "Phase 5 complete - Evaluation"
+Phase 5: Alert System
+├── [ ] 5.1 - Backend API (FastAPI)
+│   ├── [ ] 5.1.1 - Alert CRUD endpoints
+│   ├── [ ] 5.1.2 - WebSocket for real-time updates
+│   ├── [ ] 5.1.3 - Drone status endpoint
+│   └── [ ] 5.1.4 - Statistics endpoint
+├── [ ] 5.2 - Dashboard Frontend (React)
+│   ├── [ ] 5.2.1 - Video feed component with overlays
+│   ├── [ ] 5.2.2 - Warehouse map component
+│   ├── [ ] 5.2.3 - Alert list with filtering
+│   └── [ ] 5.2.4 - Statistics panel
+├── [ ] 5.3 - Git checkpoint: "Phase 5 complete - Alert system"
 
-Phase 6: Optimization (Week 9)
-├── [ ] 6.1 - ONNX Export
-│   ├── [ ] 6.1.1 - Export best model to ONNX
-│   ├── [ ] 6.1.2 - Verify ONNX inference
-│   └── [ ] 6.1.3 - Benchmark ONNX vs PyTorch
-├── [ ] 6.2 - Quantization
-│   ├── [ ] 6.2.1 - INT8 quantization
-│   ├── [ ] 6.2.2 - Accuracy vs speed comparison
-│   └── [ ] 6.2.3 - Select deployment format
-├── [ ] 6.3 - TensorRT (Optional - for NVIDIA deployment)
-│   ├── [ ] 6.3.1 - TensorRT conversion
-│   └── [ ] 6.3.2 - Benchmark TensorRT
-├── [ ] 6.4 - Git checkpoint: "Phase 6 complete - Optimization"
-
-Phase 7: API & Deployment (Week 10)
-├── [ ] 7.1 - FastAPI Development
-│   ├── [ ] 7.1.1 - Create inference endpoint
-│   ├── [ ] 7.1.2 - Add image upload handling
-│   ├── [ ] 7.1.3 - Return detection results (JSON)
-│   ├── [ ] 7.1.4 - Add batch inference endpoint
-│   └── [ ] 7.1.5 - Add health check endpoint
-├── [ ] 7.2 - Docker Container
-│   ├── [ ] 7.2.1 - Create Dockerfile (GPU-enabled)
-│   ├── [ ] 7.2.2 - Test container locally
-│   └── [ ] 7.2.3 - Optimize container size
-├── [ ] 7.3 - Local Testing
-│   ├── [ ] 7.3.1 - Test with sample images
-│   ├── [ ] 7.3.2 - Load testing
-│   └── [ ] 7.3.3 - Error handling verification
-├── [ ] 7.4 - Git checkpoint: "Phase 7 complete - API ready"
-
-Phase 8: Cloud & MLOps (Week 11)
-├── [ ] 8.1 - Cloud Deployment
-│   ├── [ ] 8.1.1 - Choose platform (SageMaker vs Vertex)
-│   ├── [ ] 8.1.2 - Deploy model endpoint
-│   ├── [ ] 8.1.3 - Configure auto-scaling
-│   └── [ ] 8.1.4 - Set up monitoring
-├── [ ] 8.2 - MLflow Registry
-│   ├── [ ] 8.2.1 - Set up MLflow server
-│   ├── [ ] 8.2.2 - Register model versions
-│   └── [ ] 8.2.3 - Model staging workflow
-├── [ ] 8.3 - CI/CD Pipeline
-│   ├── [ ] 8.3.1 - GitHub Actions for testing
-│   ├── [ ] 8.3.2 - Automated retraining trigger
-│   └── [ ] 8.3.3 - Deployment automation
-├── [ ] 8.4 - Documentation
-│   ├── [ ] 8.4.1 - API documentation
-│   ├── [ ] 8.4.2 - Model card
-│   └── [ ] 8.4.3 - Research paper draft
-├── [ ] 8.5 - Git checkpoint: "v1.0 Release"
+Phase 6: Evaluation & Documentation
+├── [ ] 6.1 - Comprehensive Evaluation
+│   ├── [ ] 6.1.1 - Full benchmark script
+│   ├── [ ] 6.1.2 - Speed vs accuracy tradeoffs
+│   └── [ ] 6.1.3 - Visualization report
+├── [ ] 6.2 - Demo Materials
+│   ├── [ ] 6.2.1 - Demo video (2-3 min)
+│   └── [ ] 6.2.2 - Sample detection images
+├── [ ] 6.3 - Documentation
+│   ├── [ ] 6.3.1 - README and installation guide
+│   ├── [ ] 6.3.2 - Technical documentation
+│   └── [ ] 6.3.3 - Research paper draft
+├── [ ] 6.4 - Git checkpoint: "v1.0 Release"
 ```
 
 ---
 
-## 1. Architectural Overview
-
-### System Pipeline
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        DATA GENERATION PIPELINE                              │
+│                     DATA GENERATION PIPELINE (Blender + SD)                  │
 └─────────────────────────────────────────────────────────────────────────────┘
 
   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-  │   Blender    │─────►│    Stable    │─────►│    CVAT      │
-  │  3D Renders  │      │  Diffusion   │      │  Labeling    │
+  │  Warehouse   │─────►│    Hazard    │─────►│   Domain     │
+  │  + Drone Cam │      │  Spawner     │      │  Randomizer  │
   └──────────────┘      └──────────────┘      └──────────────┘
-        │                      │                     │
-        ▼                      ▼                     ▼
-   Base Images +         Enhanced          Bounding Box
-   Segmentation          Realistic         Annotations
-   Masks                 Images            (YOLO format)
+         │                                           │
+         ▼                                           ▼
+  ┌─────────────────────────────────┐    ┌─────────────────────┐
+  │     Drone Flight Simulator      │    │   Batch Renderer    │
+  │  ┌─────────┐    ┌───────────┐  │    │  RGB + Depth + Mask │
+  │  │  RGB    │    │   Depth   │  │    └─────────────────────┘
+  │  │ Camera  │    │  Camera   │  │              │
+  │  └─────────┘    └───────────┘  │              ▼
+  └─────────────────────────────────┘    ┌─────────────────────┐
+                                         │  Stable Diffusion   │
+                                         │  + ControlNet       │
+                                         │  (Realism Enhance)  │
+                                         └─────────────────────┘
+                                                   │
+                                                   ▼
+                               ┌─────────────────────────────────┐
+                               │   RGB-D Frames + Annotations    │
+                               │        (COCO Format)            │
+                               └─────────────────────────────────┘
 
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         TRAINING PIPELINE                                    │
+│                         PERCEPTION PIPELINE                                  │
 └─────────────────────────────────────────────────────────────────────────────┘
 
   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-  │     DVC      │─────►│   PyTorch    │─────►│    W&B       │
-  │  Versioning  │      │  DataLoader  │      │  Tracking    │
+  │   RGB-D      │─────►│   Fusion     │─────►│  Detection   │
+  │  DataLoader  │      │   Model      │      │    Head      │
   └──────────────┘      └──────────────┘      └──────────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Model Training    │
-                    │  ┌───────┬───────┐  │
-                    │  │YOLOv8 │RT-DETR│  │
-                    │  └───────┴───────┘  │
-                    └─────────────────────┘
+        │                      │                      │
+        ▼                      ▼                      ▼
+   Synchronized          4-Channel            Boxes + Classes
+   Augmentations         YOLOv8 or            + Confidence
+                         Dual Encoder
 
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        DEPLOYMENT PIPELINE                                   │
+│                         DEPLOYMENT PIPELINE                                  │
 └─────────────────────────────────────────────────────────────────────────────┘
 
   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-  │    ONNX      │─────►│   FastAPI    │─────►│   Docker     │
-  │  Optimized   │      │   Serving    │      │  Container   │
+  │    Drone     │─────►│   Real-Time  │─────►│   Tracker    │
+  │  Simulation  │      │  Inference   │      │  (IoU-based) │
   └──────────────┘      └──────────────┘      └──────────────┘
                                                     │
                                                     ▼
-                                          ┌──────────────────┐
-                                          │  Cloud Deploy    │
-                                          │ (SageMaker/GCP)  │
-                                          └──────────────────┘
+  ┌──────────────────────────────────────────────────────────────┐
+  │                      ALERT SYSTEM                             │
+  │  ┌─────────────┐         ┌──────────────────────────────┐   │
+  │  │  FastAPI    │◄───────►│     React Dashboard          │   │
+  │  │  Backend    │   WS    │  ┌────────┐ ┌────────────┐  │   │
+  │  └─────────────┘         │  │ Video  │ │ Map View   │  │   │
+  │                          │  │ Feed   │ │ + Alerts   │  │   │
+  │                          │  └────────┘ └────────────┘  │   │
+  │                          └──────────────────────────────┘   │
+  └──────────────────────────────────────────────────────────────┘
 ```
 
-### Hazard Classes
+---
+
+## Hazard Classes
 
 | Class ID | Hazard Type | Description | Detection Difficulty |
 |----------|-------------|-------------|---------------------|
@@ -267,280 +250,247 @@ Phase 8: Cloud & MLOps (Week 11)
 | 4 | `blocked_exit` | Exit door obstructed | Medium - requires scene understanding |
 | 5 | `damaged_rack` | Bent/broken racking | Hard - subtle visual defects |
 
-### Tech Stack Summary
+---
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| 3D Rendering | Blender 4.x | Base image generation |
-| Image Enhancement | Stable Diffusion + ControlNet | Photorealism |
-| Labeling | CVAT | Bounding box annotation |
-| Data Versioning | DVC | Dataset tracking |
-| Augmentation | Albumentations | Training augmentation |
-| Training | Ultralytics (YOLOv8), RT-DETR | Object detection |
-| Experiment Tracking | Weights & Biases | Metrics logging |
-| Optimization | ONNX, TensorRT | Inference speed |
-| Serving | FastAPI + Uvicorn | REST API |
-| Containerization | Docker + nvidia-docker | Deployment |
-| Cloud | AWS SageMaker / GCP Vertex | Production hosting |
-| CI/CD | GitHub Actions | Automation |
-| Model Registry | MLflow | Version management |
+## Tech Stack
 
-### Compute Strategy (Hybrid: Local + Cloud)
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| **Simulation** | Blender 4.0+ (Python API) | 3D scene generation, RGB-D rendering |
+| **Simulation** | OpenEXR | Depth map storage |
+| **Image Gen** | Stable Diffusion + ControlNet | Realism enhancement |
+| **Image Gen** | diffusers (HuggingFace) | SD pipeline |
+| **Perception** | PyTorch 2.0+ | Deep learning framework |
+| **Perception** | Ultralytics (YOLOv8) | Object detection backbone |
+| **Perception** | PyTorch Lightning | Training framework |
+| **Perception** | Albumentations | Augmentation |
+| **Perception** | timm | Backbone models (for late fusion) |
+| **Tracking** | Custom IoU tracker | Multi-object tracking |
+| **Config** | Hydra | Configuration management |
+| **Logging** | Weights & Biases | Experiment tracking |
+| **Backend** | FastAPI + Uvicorn | Alert API |
+| **Backend** | WebSockets | Real-time updates |
+| **Frontend** | React + Tailwind CSS | Dashboard |
+| **Evaluation** | pycocotools | mAP metrics |
 
-**Why hybrid?** Your M2 Mac handles development and Blender well, but lacks CUDA for heavy ML workloads.
+---
+
+## Directory Structure
+
+```
+hawkeye/
+├── simulation/
+│   ├── blender/
+│   │   ├── assets/
+│   │   │   ├── warehouse/       # Floor, walls, racks
+│   │   │   ├── hazards/         # Hazard object prefabs
+│   │   │   └── props/           # Boxes, pallets, equipment
+│   │   ├── scripts/             # Blender Python scripts
+│   │   │   ├── warehouse_generator.py
+│   │   │   ├── hazard_spawner.py
+│   │   │   ├── domain_randomizer.py
+│   │   │   └── render_pipeline.py
+│   │   └── scenes/              # Saved .blend files
+│   └── generation/
+│       ├── flight_paths.py      # Path planning
+│       └── annotation_exporter.py
+├── perception/
+│   ├── models/
+│   │   ├── fusion_yolo.py       # 4-channel YOLOv8
+│   │   └── dual_encoder.py      # Late fusion (optional)
+│   ├── datasets/
+│   │   └── rgbd_dataset.py
+│   ├── training/
+│   │   ├── train.py
+│   │   └── lightning_module.py
+│   └── evaluation/
+│       └── metrics.py
+├── drone/
+│   ├── planning/
+│   │   └── path_planner.py
+│   ├── inference/
+│   │   └── realtime_detector.py
+│   └── control/
+│       └── tracker.py           # IoU-based MOT
+├── alert_system/
+│   ├── backend/
+│   │   ├── main.py              # FastAPI app
+│   │   ├── models.py            # Pydantic models
+│   │   └── database.py          # Alert storage
+│   └── dashboard/
+│       ├── src/
+│       │   ├── components/
+│       │   └── App.jsx
+│       └── package.json
+├── configs/
+│   ├── config.yaml              # Main Hydra config
+│   ├── simulation/
+│   ├── model/
+│   └── training/
+├── scripts/
+│   ├── generate_dataset.py
+│   ├── train_model.py
+│   └── run_demo.py
+├── tests/
+├── outputs/
+│   ├── datasets/
+│   │   └── hawkeye_v1/
+│   │       ├── train/
+│   │       │   ├── rgb/
+│   │       │   ├── depth/
+│   │       │   └── annotations.json
+│   │       ├── val/
+│   │       └── test/
+│   ├── checkpoints/
+│   └── results/
+└── docs/
+```
+
+---
+
+## Configuration (Hydra)
+
+### Main Config Structure
+
+```yaml
+# configs/config.yaml
+defaults:
+  - simulation: warehouse
+  - model: fusion_yolo
+  - training: default
+
+simulation:
+  warehouse:
+    dimensions: [50, 30]  # meters
+    rack_height_levels: 4
+    aisle_width: 3.5
+
+  hazards:
+    types: [aisle_obstruction, fallen_items, unstable_stacking, person_restricted_zone]
+    per_scene_range: [0, 5]
+
+  camera:
+    rgb_resolution: [1920, 1080]
+    depth_resolution: [1280, 720]
+    fov: 84
+    height: 2.5
+    pitch_range: [45, 60]
+
+  domain_randomization:
+    lighting_intensity_range: [500, 2000]
+    color_temp_range: [3500, 6500]
+    texture_variations: 6
+
+dataset:
+  train_scenes: 1500
+  val_scenes: 200
+  test_scenes: 300
+  output_resolution: [640, 640]
+
+model:
+  architecture: fusion_yolo  # or dual_encoder
+  backbone: yolov8m
+  input_channels: 4  # RGB + Depth
+  num_classes: 6     # spill, obstacle, missing_ppe, forklift_violation, blocked_exit, damaged_rack
+
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 1e-4
+  optimizer: adamw
+  scheduler: cosine
+  early_stopping_patience: 20
+  mixed_precision: true
+
+evaluation:
+  iou_thresholds: [0.5, 0.75]
+  confidence_threshold: 0.5
+```
+
+---
+
+## Success Criteria
+
+### Minimum Viable (Must Have)
+- [ ] Working data generation pipeline producing RGB-D + COCO annotations
+- [ ] Trained fusion model achieving **>80% mAP@50** on synthetic test set
+- [ ] Simulated drone demo showing detection working
+- [ ] Basic alert logging to console/file
+
+### Target (Should Have)
+- [ ] **>85% mAP@50** on synthetic data
+- [ ] Ablation study showing fusion improvement **>5%** over RGB-only
+- [ ] Real-time inference **>15 FPS** on laptop GPU
+- [ ] Full React dashboard with live visualization
+- [ ] Comprehensive evaluation report
+
+### Stretch (Nice to Have)
+- [ ] **>90% mAP@50** on synthetic data
+- [ ] Testing on real RGB-D data
+- [ ] Late fusion architecture comparison
+- [ ] Published paper or technical report
+
+---
+
+## Timeline (8 Weeks)
+
+| Week | Phase | Deliverables |
+|------|-------|--------------|
+| 1-2 | Simulation Foundation | Blender warehouse generator, RGB-D rendering, basic hazard spawning |
+| 3 | Data Pipeline | Domain randomization, flight paths, annotations, initial dataset (5000 frames) |
+| 4-5 | Perception Model | Dataset/dataloader, RGB baseline, fusion model trained |
+| 6 | Integration | Inference pipeline, tracking, simulation integration |
+| 7 | Alert System | FastAPI backend, React dashboard |
+| 8 | Polish & Evaluation | Full evaluation, demo materials, documentation |
+
+---
+
+## Compute Strategy
 
 | Task | Where | Why |
 |------|-------|-----|
-| Blender scene building | **Local (M2)** | GUI-based, M2 GPU works great |
-| Blender batch rendering | **Local (M2)** | Metal acceleration, no upload needed |
-| Code development | **Local (M2)** | Fast iteration, IDE access |
-| SD testing (small batches) | **Local (M2)** | MPS backend works, ~30s/image |
-| SD production (2000+ images) | **Cloud GPU** | 10x faster with CUDA |
-| Model training (test runs) | **Local (M2)** | Quick validation on small subset |
-| Model training (full) | **Cloud GPU** | CUDA required, multi-GPU support |
-| CVAT labeling | **Local (Docker)** | Browser-based, runs anywhere |
-| API development | **Local (M2)** | Fast iteration |
-| Final deployment | **Cloud** | Production hosting |
-
-**Cloud GPU Options:**
-- **RunPod:** Pay-per-hour, RTX 4090 (~$0.44/hr), good for training
-- **Lambda Labs:** Similar pricing, reliable
-- **Google Colab Pro:** $10/mo, good for experiments (not production)
-
-**When to use cloud:** Phase 2 (heavy SD generation) and Phase 4+ (training)
+| Blender scene building | **Local (M2)** | GUI-based, Metal acceleration |
+| Blender batch rendering | **Local (M2)** | No upload needed, GPU works well |
+| Code development | **Local (M2)** | Fast iteration |
+| Model training (test) | **Local (M2)** | Quick validation on small subset |
+| Model training (full) | **Cloud GPU** | CUDA required for speed |
+| Dashboard development | **Local (M2)** | Fast iteration |
 
 ---
 
-## 2. Data Schema
+## Current Status
 
-### Directory Structure
+**Current Phase:** Phase 1 - Project Setup (Week 1-2)
+**Completed:** Python environment, Blender setup, asset collection
+**Current Task:** Restructure repository for HAWKEYE drone-based approach
 
-```
-data/
-├── raw/                          # Blender outputs
-│   ├── images/                   # Rendered RGB images
-│   │   ├── scene_001_cam_01.png
-│   │   └── ...
-│   ├── masks/                    # Segmentation masks
-│   │   ├── scene_001_cam_01_mask.png
-│   │   └── ...
-│   └── metadata.json             # Scene configurations
-│
-├── synthetic/                    # Stable Diffusion outputs
-│   ├── images/
-│   │   ├── sd_001.png
-│   │   └── ...
-│   └── generation_log.json       # SD parameters used
-│
-├── labeled/                      # CVAT exports
-│   ├── annotations/
-│   │   ├── scene_001_cam_01.txt  # YOLO format
-│   │   └── ...
-│   └── classes.txt               # Class definitions
-│
-└── processed/                    # Final dataset
-    ├── train/
-    │   ├── images/
-    │   └── labels/
-    ├── val/
-    │   ├── images/
-    │   └── labels/
-    ├── test/
-    │   ├── images/
-    │   └── labels/
-    └── data.yaml                 # Dataset config for YOLO
-```
-
-### Annotation Format (YOLO)
-
-```
-# Each .txt file: one line per object
-# Format: class_id center_x center_y width height (normalized 0-1)
-
-# Example: scene_001_cam_01.txt
-0 0.453 0.672 0.124 0.089   # spill
-1 0.234 0.445 0.056 0.123   # obstacle
-2 0.678 0.334 0.089 0.234   # missing_ppe
-```
-
-### data.yaml Structure
-
-```yaml
-# data/processed/data.yaml
-path: /path/to/data/processed
-train: train/images
-val: val/images
-test: test/images
-
-nc: 6  # number of classes
-names:
-  0: spill
-  1: obstacle
-  2: missing_ppe
-  3: forklift_violation
-  4: blocked_exit
-  5: damaged_rack
-```
-
----
-
-## 3. Configuration Files
-
-### YOLOv8 Training Config
-
-```yaml
-# configs/yolov8.yaml
-model: yolov8m.pt          # Medium model (good balance)
-data: data/processed/data.yaml
-epochs: 100
-imgsz: 640
-batch: 16
-device: 0                   # GPU index
-workers: 8
-patience: 20                # Early stopping
-save_period: 10             # Checkpoint frequency
-
-# Augmentation
-augment: true
-hsv_h: 0.015
-hsv_s: 0.7
-hsv_v: 0.4
-degrees: 10
-translate: 0.1
-scale: 0.5
-flipud: 0.5
-fliplr: 0.5
-mosaic: 1.0
-mixup: 0.1
-
-# W&B
-project: warehouse-safety
-name: yolov8m-baseline
-```
-
-### RT-DETR Training Config
-
-```yaml
-# configs/rtdetr.yaml
-model: rtdetr-l.pt          # Large RT-DETR
-data: data/processed/data.yaml
-epochs: 100
-imgsz: 640
-batch: 8                    # Lower due to memory
-device: 0
-workers: 8
-patience: 20
-
-# W&B
-project: warehouse-safety
-name: rtdetr-l-baseline
-```
-
----
-
-## 4. API Specification
-
-### Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/health` | Health check |
-| POST | `/detect` | Single image detection |
-| POST | `/detect/batch` | Batch detection |
-| GET | `/model/info` | Model metadata |
-
-### Request/Response Examples
-
-**POST /detect**
-
-Request:
-```bash
-curl -X POST "http://localhost:8000/detect" \
-  -F "file=@warehouse_image.jpg" \
-  -F "confidence=0.5"
-```
-
-Response:
-```json
-{
-  "success": true,
-  "inference_time_ms": 45.2,
-  "detections": [
-    {
-      "class_id": 0,
-      "class_name": "spill",
-      "confidence": 0.92,
-      "bbox": {
-        "x1": 234,
-        "y1": 456,
-        "x2": 389,
-        "y2": 521
-      }
-    },
-    {
-      "class_id": 1,
-      "class_name": "obstacle",
-      "confidence": 0.87,
-      "bbox": {
-        "x1": 100,
-        "y1": 200,
-        "x2": 180,
-        "y2": 340
-      }
-    }
-  ],
-  "image_size": {
-    "width": 1920,
-    "height": 1080
-  }
-}
-```
-
----
-
-## 5. Success Metrics
-
-| Metric | Target | Priority |
-|--------|--------|----------|
-| mAP@50 | > 0.80 | Critical |
-| mAP@50:95 | > 0.60 | High |
-| Inference time | < 50ms/image | Critical |
-| Per-class AP (all classes) | > 0.70 | High |
-| False positive rate | < 10% | Medium |
-| API latency (p99) | < 100ms | Medium |
-
----
-
-## 6. Current Status
-
-**Current Phase:** Phase 1 - Environment & 3D Assets
-**Current Week:** Week 1 (Jan 19-25)
-**Current Task:** Asset collection and Blender setup
-
-**Blockers:** None
+**Key Change from Original:**
+- Same hazard classes (spill, obstacle, missing_ppe, forklift_violation, blocked_exit, damaged_rack)
+- **Drone perspective** instead of fixed security cameras
+- **RGB-D fusion** (depth camera added)
+- **Real-time tracking** across frames
+- **Alert dashboard** for monitoring
 
 **Next Steps:**
-1. Set up Python environment
-2. Install Blender
-3. Download warehouse 3D assets from Sketchfab/BlenderKit
+1. Create hawkeye/ directory structure
+2. Set up Hydra config
+3. Assemble warehouse scene with drone camera viewpoint
+4. Begin hazard insertion scripting
 
 ---
 
-## 7. Resources & Links
+## Resources
 
-### 3D Asset Sources
-- [Sketchfab Warehouse Models](https://sketchfab.com/tags/warehouse)
+### Blender Assets
 - [BlenderKit Free Assets](https://www.blenderkit.com/)
-- [CGTrader Free Models](https://www.cgtrader.com/free-3d-models)
-- [TurboSquid Free](https://www.turbosquid.com/Search/3D-Models/free/warehouse)
+- [Sketchfab Warehouse Models](https://sketchfab.com/tags/warehouse)
 
 ### Documentation
 - [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/)
-- [RT-DETR Paper](https://arxiv.org/abs/2304.08069)
-- [Stable Diffusion + ControlNet](https://huggingface.co/docs/diffusers/using-diffusers/controlnet)
-- [CVAT Documentation](https://opencv.github.io/cvat/docs/)
-- [DVC Documentation](https://dvc.org/doc)
+- [PyTorch Lightning Docs](https://lightning.ai/docs/pytorch/stable/)
+- [Hydra Docs](https://hydra.cc/docs/intro/)
+- [Albumentations Docs](https://albumentations.ai/docs/)
 
-### Cloud GPU
-- [RunPod](https://www.runpod.io/)
-- [Lambda Labs](https://lambdalabs.com/)
+### Papers
+- [Domain Randomization for Sim-to-Real Transfer](https://arxiv.org/abs/1703.06907)
+- [RGB-D Fusion for Object Detection](https://arxiv.org/abs/2012.12089)
