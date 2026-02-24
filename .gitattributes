@@ -1,0 +1,2 @@
+outputs/renders/base/*.png filter=lfs diff=lfs merge=lfs -text
+realistic/*.png filter=lfs diff=lfs merge=lfs -text
