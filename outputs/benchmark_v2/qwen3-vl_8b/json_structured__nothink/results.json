@@ -1,0 +1,60 @@
+{
+  "model": "qwen3-vl:8b",
+  "prompt": "json_structured",
+  "mode": "nothink",
+  "temperature": 0.0,
+  "n_images": 150,
+  "accuracy": 0.5933,
+  "correct": 89,
+  "total": 150,
+  "avg_time_s": 18.68,
+  "total_time_min": 46.7,
+  "category_metrics": {
+    "spill": {
+      "precision": 0.9062,
+      "recall": 0.9667,
+      "f1": 0.9355,
+      "tp": 29,
+      "fp": 3,
+      "fn": 1,
+      "support": 30
+    },
+    "forklift_violation": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 10,
+      "fp": 0,
+      "fn": 20,
+      "support": 30
+    },
+    "improper_stacking": {
+      "precision": 1.0,
+      "recall": 0.0667,
+      "f1": 0.125,
+      "tp": 2,
+      "fp": 0,
+      "fn": 28,
+      "support": 30
+    },
+    "obstacle": {
+      "precision": 0.9583,
+      "recall": 0.7667,
+      "f1": 0.8519,
+      "tp": 23,
+      "fp": 1,
+      "fn": 7,
+      "support": 30
+    },
+    "safe": {
+      "precision": 0.4808,
+      "recall": 0.8333,
+      "f1": 0.6098,
+      "tp": 25,
+      "fp": 27,
+      "fn": 5,
+      "support": 30
+    }
+  },
+  "timestamp": "2026-03-18T10:04:51.854930"
+}

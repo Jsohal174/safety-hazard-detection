@@ -1,50 +1,59 @@
 # HAWKEYE Main Configuration
-# Uses Hydra for config management: https://hydra.cc/
+# VLM Benchmarking for Warehouse Safety Hazard Detection
 
 defaults:
-  - simulation: warehouse
-  - model: fusion_yolo
-  - training: default
   - _self_
 
-# Project paths
 paths:
   root: ${hydra:runtime.cwd}
   assets: ${paths.root}/hawkeye/simulation/blender/assets
   scenes: ${paths.root}/hawkeye/simulation/blender/scenes
   outputs: ${paths.root}/outputs
-  datasets: ${paths.outputs}/datasets
-  checkpoints: ${paths.outputs}/checkpoints
-  results: ${paths.outputs}/results
   renders: ${paths.outputs}/renders
+  datasets: ${paths.outputs}/datasets
+  results: ${paths.outputs}/results
+  checkpoints: ${paths.outputs}/checkpoints
 
-# Dataset generation settings
-dataset:
-  name: hawkeye_v1
-  train_scenes: 1500
-  val_scenes: 200
-  test_scenes: 300
-  frames_per_scene: 10
-  output_resolution: [640, 640]
-  negative_sample_ratio: 0.2  # 20% scenes with no hazards
-
-# Hazard classes
+# Hazard categories (4 + safe)
 hazards:
-  classes:
-    0: spill
-    1: obstacle
-    2: missing_ppe
-    3: forklift_violation
-    4: blocked_exit
-    5: damaged_rack
-  num_classes: 6
-  per_scene_range: [0, 5]  # min, max hazards per scene
+  categories:
+    - spill
+    - missing_ppe
+    - forklift_violation
+    - improper_stacking
+    - safe
+  num_categories: 5
+  images_per_category: 60
+  total_images: 300
+
+# Dataset splits
+dataset:
+  name: hawkeye_vlm_v1
+  train_ratio: 0.8
+  test_ratio: 0.2
+  image_resolution: [1920, 1080]
+
+# VLMs to benchmark
+vlms:
+  - qwen2_5_vl_7b
+  - llama3_2_vision_11b
+  - internvl2_5
+  - gemma3_12b
+
+# Prompt strategies
+prompt_strategies:
+  - direct
+  - descriptive
+  - chain_of_thought
+
+# Evaluation
+evaluation:
+  bert_score_model: "microsoft/deberta-xlarge-mnli"
 
 # Experiment tracking
 wandb:
-  project: hawkeye
-  entity: null  # Set your W&B username
-  enabled: true
+  project: hawkeye-vlm
+  entity: null
+  enabled: false
 
-# Random seed for reproducibility
 seed: 42

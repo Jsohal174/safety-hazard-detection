@@ -1,0 +1,267 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+
+\title{\textbf{HAWKEYE: Drone-Based Warehouse Safety Hazard Detection} \\ \large Progress Report}
+\author{Jaskirat Singh Sohal \\ CIS*4900, University of Guelph \\ Supervisor: Prof.\ John Akinyemi}
+\date{February 23, 2026}
+
+\begin{document}
+\maketitle
+
+% ============================================================
+\section{Project Overview}
+% ============================================================
+
+Warehouse environments present significant safety risks: liquid spills, missing personal protective equipment (PPE), unsafe forklift operations, and improperly stacked goods contribute to thousands of workplace injuries annually. The goal of \textbf{HAWKEYE} is to build an automated safety hazard detection system that can identify these hazards from a drone's aerial perspective inside a warehouse.
+
+This report documents the evolution of our approach from early semester to the current methodology, the data generation pipeline we have built, and the remaining work planned for the final deliverable.
+
+% ============================================================
+\section{Initial Approach: CNN-Based Object Detection (Weeks 1--3)}
+% ============================================================
+
+\subsection{Original Plan}
+
+Our initial approach was to train a \textbf{YOLOv8} (You Only Look Once) convolutional neural network to detect warehouse hazards from overhead camera footage. The planned pipeline was:
+
+\begin{enumerate}
+    \item Collect or generate a labeled dataset of warehouse images containing hazards.
+    \item Train a YOLOv8 model with RGB-D (colour + depth) fusion for improved spatial understanding.
+    \item Deploy the model on a simulated drone flying through a warehouse.
+    \item Build a real-time alert dashboard (FastAPI backend + React frontend).
+\end{enumerate}
+
+We also planned to use \textbf{ControlNet} with Stable Diffusion to enhance raw Blender renders into photorealistic training images, and \textbf{depth maps} (OpenEXR) as an additional input channel.
+
+\subsection{Problems Identified}
+
+As we progressed, two fundamental issues became clear:
+
+\begin{enumerate}
+    \item \textbf{Warehouse variability.} Real warehouses differ dramatically in layout, rack types, aisle widths, lighting, and inventory. A YOLOv8 model trained on one warehouse's synthetic data would not generalize to another facility. Building a ``universal'' hazard detector would require an impractically large and diverse dataset.
+
+    \item \textbf{CNN limitations for contextual reasoning.} Many warehouse hazards require \textit{contextual understanding} rather than pure pattern matching. For example, detecting ``missing PPE'' requires understanding that a person \textit{should} be wearing a hard hatnot just recognizing a person. Similarly, ``improper stacking'' requires reasoning about physical stability. CNNs struggle with this kind of semantic reasoning.
+\end{enumerate}
+
+These insights motivated a fundamental pivot in our approach.
+
+% ============================================================
+\section{Pivot: Vision Language Models for Hazard Detection}
+% ============================================================
+
+\subsection{Key Insight}
+
+Modern \textbf{Vision Language Models} (VLMs)transformer-based models that jointly process images and textcan perform zero-shot visual reasoning. Given an image and a natural language prompt (e.g., ``Identify any safety hazards in this warehouse image''), a VLM can describe what it sees, reason about context, and classify hazards \textit{without any task-specific training}.
+
+This led to our revised research question:
+
+\begin{quote}
+    \textit{How well do open-source Vision Language Models detect warehouse safety hazards in a zero-shot setting, and does LoRA fine-tuning on synthetic warehouse images improve their performance?}
+\end{quote}
+
+\subsection{Why VLMs Over YOLOv8}
+
+\begin{itemize}
+    \item \textbf{Contextual reasoning:} VLMs understand ``a worker without a hard hat near heavy machinery is unsafe''they reason about the scene, not just detect objects.
+    \item \textbf{Zero-shot capability:} No task-specific training data is required for the baseline evaluation.
+    \item \textbf{Per-warehouse adaptability:} Instead of retraining a full detector, a VLM can be adapted with a small set of facility-specific examples via lightweight fine-tuning (LoRA).
+    \item \textbf{Natural language output:} VLMs can explain \textit{why} something is hazardous, which is more useful for safety officers than a bounding box.
+\end{itemize}
+
+\subsection{Selected Models}
+
+We selected four state-of-the-art open-source VLMs for benchmarking:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llr}
+\toprule
+\textbf{Model} & \textbf{Developer} & \textbf{Parameters} \\
+\midrule
+Qwen 2.5 VL & Alibaba & 7B \\
+LLaMA 3.2 Vision & Meta & 11B \\
+InternVL 2.5 & Shanghai AI Lab & 8B \\
+Gemma 3 & Google & 12B \\
+\bottomrule
+\end{tabular}
+\caption{Vision Language Models selected for benchmarking.}
+\end{table}
+
+% ============================================================
+\section{Synthetic Data Generation Pipeline}
+% ============================================================
+
+Since real warehouse hazard data is scarce, sensitive, and difficult to collect at scale, we built a fully synthetic data generation pipeline using 3D modelling and AI image generation.
+
+\subsection{Step 1: 3D Warehouse Construction (Blender)}
+
+We manually constructed a detailed warehouse environment in \textbf{Blender 5.0.1}, including:
+
+\begin{itemize}
+    \item An arched-roof warehouse building shell (imported from a realistic FBX asset).
+    \item Multiple rows of tall \textbf{pallet racking} (forklift aisles, $\sim$4m wide).
+    \item Multiple rows of medium-height \textbf{shelving units} (picking aisles, $\sim$2m wide) stocked with boxes.
+    \item A \textbf{forklift} model positioned in the main aisle.
+    \item A \textbf{human worker} model.
+    \item Cardboard boxes, wooden crates, and pallet loads distributed across shelves.
+\end{itemize}
+
+The final scene contains over \textbf{3,300 objects} spanning approximately 100m $\times$ 60m of warehouse floor space.
+
+\subsection{Step 2: Drone-Perspective Rendering}
+
+We wrote a custom Blender Python script that moves a virtual camera along each aisle at drone height ($\sim$3.5m), pitched 55\textdegree{} downward, capturing frames every 2 metres. The camera traversed all 9 aisles in a snake pattern, producing \textbf{191 base renders} at 1920$\times$1080 resolution.
+
+\subsection{Step 3: Photorealistic Enhancement (Gemini)}
+
+The raw Blender viewport renders lack photorealistic textures and lighting. We use \textbf{Google Gemini 2.5 Flash} (image generation mode) to transform each base render into a photorealistic warehouse photograph while preserving the exact camera angle, layout, and object positions.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{base_render.png}
+        \caption{Raw Blender viewport render}
+        \label{fig:base}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{realistic_render.png}
+        \caption{Photorealistic version (Gemini)}
+        \label{fig:realistic}
+    \end{subfigure}
+    \caption{The same drone-perspective frame before and after photorealistic enhancement. The 3D layout, camera angle, and object positions are preserved while textures, lighting, and materials are made realistic.}
+    \label{fig:comparison}
+\end{figure}
+
+\subsection{Step 4: Hazard Injection (Planned)}
+
+Once all 191 base images are converted to photorealistic versions, we will use Gemini to generate \textbf{four hazard variants} of each image:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Category} & \textbf{Description} & \textbf{Example} \\
+\midrule
+\texttt{spill} & Liquid puddle on floor & Oil/water spill in aisle \\
+\texttt{missing\_ppe} & Worker without hard hat/vest & Person near forklift without PPE \\
+\texttt{forklift\_violation} & Unsafe forklift operation & Elevated load while driving \\
+\texttt{improper\_stacking} & Unstable boxes or pallets & Leaning/overloaded pallet stack \\
+\texttt{safe} & No hazards present & Clean warehouse (base images) \\
+\bottomrule
+\end{tabular}
+\caption{Five hazard categories for the benchmark dataset.}
+\end{table}
+
+The target dataset size is \textbf{$\sim$955 images}: 191 safe + 764 hazard variants (4 per image).
+
+% ============================================================
+\section{Evaluation Methodology (Planned)}
+% ============================================================
+
+\subsection{Zero-Shot Benchmarking}
+
+Each of the 4 VLMs will be evaluated using 3 prompting strategies:
+
+\begin{enumerate}
+    \item \textbf{Direct:} ``Classify this warehouse image into one of: spill, missing\_ppe, forklift\_violation, improper\_stacking, safe.''
+    \item \textbf{Descriptive:} ``Describe any safety hazards you observe in this warehouse image, then classify it.''
+    \item \textbf{Chain-of-Thought:} ``Analyze this warehouse image step by step for safety violations, then provide a final classification.''
+\end{enumerate}
+
+This produces \textbf{12 experiment configurations} (4 models $\times$ 3 strategies).
+
+\subsection{Metrics}
+
+\begin{itemize}
+    \item Per-class \textbf{Precision, Recall, F1-score}
+    \item \textbf{Macro F1} across all categories
+    \item \textbf{BERTScore} (for descriptive/CoT responses)
+    \item \textbf{Confusion matrices} per model-strategy pair
+\end{itemize}
+
+\subsection{LoRA Fine-Tuning}
+
+The best-performing VLM from zero-shot evaluation will be fine-tuned using \textbf{Low-Rank Adaptation (LoRA)} on our synthetic dataset:
+
+\begin{itemize}
+    \item Train/test split: 80\%/20\% (240 train / 60 test)
+    \item LoRA rank: $r = 16$, $\alpha = 32$
+    \item Target modules: \texttt{q\_proj}, \texttt{v\_proj}
+    \item 4-bit quantization via \texttt{bitsandbytes}
+    \item Training on Google Colab Pro (T4/A100 GPU)
+\end{itemize}
+
+The key comparison: \textbf{zero-shot vs.\ fine-tuned performance} on the same test set.
+
+% ============================================================
+\section{Current Progress}
+% ============================================================
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Task} & \textbf{Status} & \textbf{Notes} \\
+\midrule
+Repository restructure & Complete & Removed old YOLOv8 stubs, created new modules \\
+3D warehouse scene & Complete & 3,300+ objects, 9 aisles, Blender 5.0.1 \\
+Drone flight rendering & Complete & 191 frames across all aisles \\
+Photorealistic conversion & Complete & 191 frames converted via Gemini \\
+Hazard injection & In progress & Generating 764 hazard variants via Gemini API \\
+VLM evaluation framework & Not started & Code structure created \\
+Zero-shot benchmarking & Not started & Requires dataset completion \\
+LoRA fine-tuning & Not started & Requires benchmark results \\
+Thesis writing & Not started &\\
+\bottomrule
+\end{tabular}
+\caption{Current project status as of February 23, 2026.}
+\end{table}
+
+% ============================================================
+\section{Remaining Timeline}
+% ============================================================
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Week} & \textbf{Dates} & \textbf{Deliverable} \\
+\midrule
+Week 1 & Feb 23--Mar 1 & Generate hazard variants ($\sim$764 images) \\
+Week 2 & Mar 2--8 & Build VLM evaluation pipeline, test on subset \\
+Week 3 & Mar 9--15 & Run full zero-shot benchmark (Colab Pro) \\
+Week 4 & Mar 16--22 & Analysis + LoRA fine-tuning \\
+Week 5 & Mar 23--29 & Fine-tuned evaluation + comparison \\
+Week 6--7 & Mar 30--Apr 10 & Thesis writing and submission \\
+\bottomrule
+\end{tabular}
+\caption{Remaining project timeline.}
+\end{table}
+
+% ============================================================
+\section{Expected Deliverables}
+% ============================================================
+
+\begin{enumerate}
+    \item A synthetic warehouse hazard dataset ($\sim$955 images across 5 categories).
+    \item A comprehensive zero-shot VLM benchmark (4 models, 3 prompt strategies, full metrics).
+    \item A LoRA fine-tuned model demonstrating improvement over zero-shot baseline.
+    \item A research paper documenting methodology, results, and analysis.
+\end{enumerate}
+
+\end{document}

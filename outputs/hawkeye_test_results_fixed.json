@@ -1,0 +1,1426 @@
+{
+  "accuracy": 0.8978494623655914,
+  "total_evaluated": 186,
+  "results": [
+    {
+      "image": "forklift_0215.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift has its forks raised high carrying an unsecured load of boxes. Multiple workers in high-visibility vests are standing in dangerously close p",
+      "gt_desc": "Forklift with forks raised very high carrying a pallet with boxes that appear to be falling off the "
+    },
+    {
+      "image": "safe_0133.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility vest walks throug",
+      "gt_desc": "Drone view of a warehouse with parallel rows of metal shelving holding cardboard boxes. A worker in "
+    },
+    {
+      "image": "spill_0178.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse aisle with a worker in a high-visibility vest standing near the back wall. On the floor between the shelving rows, there is a dark liquid puddl",
+      "gt_desc": "Wet area with slight green tint suggesting chemical or cleaning fluid. Worker in hi-vis near the bac"
+    },
+    {
+      "image": "stacking_0086.png",
+      "gt": "safe",
+      "pred": "improper_stacking",
+      "ok": false,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with multiple rows of metal shelving. The left-side foreground shelving shows boxes stacked with inconsistent sizes and uneven alignm",
+      "gt_desc": "Wide drone perspective of warehouse interior. Boxes on shelves appear generally stable and safe. Som"
+    },
+    {
+      "image": "safe_0057.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A wide elevated drone view of a well-organized warehouse with symmetrical rows of metal shelving racks holding neatly stacked cardboard boxes. A worker in a high-visibility",
+      "gt_desc": "Elevated drone view looking down a warehouse aisle flanked by metal shelving racks filled with cardb"
+    },
+    {
+      "image": "spill_0154.png",
+      "gt": "obstacle",
+      "pred": "spill",
+      "ok": false,
+      "model": "category: spill\ndescription: A large dark fluid spill dominates the center of the warehouse aisle floor. A tipped-over white container lies on its side near the spill origin point. The dark liquid has",
+      "gt_desc": "Very large dark oil/fluid pool with a white container or jug tipped and partially submerged in the l"
+    },
+    {
+      "image": "forklift_0017.png",
+      "gt": "safe",
+      "pred": "forklift_violation",
+      "ok": false,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between orange pallet racks while two pedestrian workers in hi-vis vests stand dangerously close to the ve",
+      "gt_desc": "Forklift stationary in the center aisle with forks lowered near the ground. Workers in hard hats and"
+    },
+    {
+      "image": "stacking_0033.png",
+      "gt": "safe",
+      "pred": "obstacle",
+      "ok": false,
+      "model": "category: obstacle\ndescription: A pallet loaded with cardboard boxes is sitting in the center of the main warehouse aisle between two rows of blue-and-orange pallet racking. The boxes are loosely pile",
+      "gt_desc": "Aisle view showing a pallet with boxes sitting on the warehouse floor in the center of the aisle. Th"
+    },
+    {
+      "image": "obstacle_0181.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several cardboard boxes have fallen and are scattered across the warehouse floor in the open area between shelving rows. The boxes block a significant portion of the wa",
+      "gt_desc": "Several cardboard boxes have fallen from shelving and are scattered on the warehouse floor in a clus"
+    },
+    {
+      "image": "forklift_0062.png",
+      "gt": "improper_stacking",
+      "pred": "forklift_violation",
+      "ok": false,
+      "model": "category: forklift_violation\ndescription: A yellow forklift in the center aisle has its forks raised high carrying a tall stack of cardboard boxes. The load is visibly unbalanced with boxes leaning an",
+      "gt_desc": "Forklift carrying three stacked pallets with the forks inserted into the bottom pallet. The top pall"
+    },
+    {
+      "image": "stacking_0089.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: A drone view of a warehouse aisle where the left-side shelving has boxes stacked above the top shelf rail. The boxes are visibly overhanging the edge and leani",
+      "gt_desc": "Elevated perspective down warehouse aisle. Left-side shelving has boxes leaning and tilted at angles"
+    },
+    {
+      "image": "forklift_0007.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks, and a worker in an orange high-visibility vest is crouched on the floor in the immed",
+      "gt_desc": "A worker in orange hi-vis is crouching on the warehouse floor directly in the forklift's travel path"
+    },
+    {
+      "image": "spill_0170.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark liquid spill dominates the center of the warehouse aisle floor. The spill is highly reflective, indicating a wet, slick surface. A worker in an orange high-vi",
+      "gt_desc": "Large very dark oil/fluid pool with mirror-quality reflections. Ceiling and lights reflected in the "
+    },
+    {
+      "image": "stacking_0096.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with boxes improperly stacked on shelving racks. On the left side, boxes on the upper shelves are tilted and leaning at angles,",
+      "gt_desc": "Drone view showing right-side foreground shelving with a damaged, partially crushed box on the upper"
+    },
+    {
+      "image": "spill_0062.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large clear liquid puddle is pooled on the concrete floor in the center of the warehouse aisle between two rows of metal shelving. The puddle has a reflective, wet surfa",
+      "gt_desc": "Multiple wet spots and small puddles trailing down the aisle center. Yellowish-clear appearance sugg"
+    },
+    {
+      "image": "safe_0144.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone-perspective view of a warehouse section showing a worker in a hi-vis vest walking along the left wall near shelving. The concrete floor is clean and dry, the aisles",
+      "gt_desc": "Drone view down a long warehouse aisle with shelving rows extending into the distance, stocked with "
+    },
+    {
+      "image": "forklift_0019.png",
+      "gt": "forklift_violation",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A drone view of a warehouse with a yellow forklift carrying a pallet load with forks raised high. The operator is wearing an orange jumpsuit and is seated properly. The loa",
+      "gt_desc": "Forklift with forks raised very high, reaching toward the upper levels of the shelving racking. The "
+    },
+    {
+      "image": "forklift_0226.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A forklift is operating in a narrow aisle between pallet racks, and a pedestrian worker in a grey shirt is standing in the same aisle in dangerously close pro",
+      "gt_desc": "Forklift operator in an orange jumpsuit driving without a seatbelt with a pedestrian worker standing"
+    },
+    {
+      "image": "spill_0193.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark liquid spill dominates the center of the warehouse aisle floor. The fluid has spread into an irregular shape with visible splatter trails extending outward. A",
+      "gt_desc": "Dark fluid spill with cardboard boxes that have fallen or been displaced into the liquid. The boxes "
+    },
+    {
+      "image": "forklift_0216.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a narrow aisle between pallet racks, and a pedestrian worker in a hi-vis vest is standing immediately behind the forklift in",
+      "gt_desc": "Forklift operator in dark clothing driving while a pedestrian worker in hi-vis vest stands immediate"
+    },
+    {
+      "image": "obstacle_0010.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet debris and splintered planks is scattered across the center of the warehouse aisle floor. The debris field spans much of the aisle ",
+      "gt_desc": "A broken wooden pallet with scattered planks and wood fragments spread across the aisle floor, block"
+    },
+    {
+      "image": "safe_0152.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse with an arched corrugated metal roof. Metal shelving racks on both sides hold neatly organized cardboard boxes and blue plastic bins. A work",
+      "gt_desc": "Drone perspective of a warehouse with arched metal roof showing shelving rows stocked with boxes and"
+    },
+    {
+      "image": "spill_0117.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large amber-colored liquid spill covers a significant portion of the warehouse aisle floor in the center-foreground area. The fluid has pooled and spread across the conc",
+      "gt_desc": "Beige/skin-colored liquid puddle visible on the aisle floor. Unusual color compared to typical oil o"
+    },
+    {
+      "image": "stacking_0051.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: A drone view of a warehouse aisle between two rows of pallet racking. The right-side shelving has boxes stacked above the top beam of the racking, with some bo",
+      "gt_desc": "Elevated drone view of racking from above showing three rows of shelving. The right rack top shelf h"
+    },
+    {
+      "image": "forklift_0043.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks, carrying an excessively tall stack of boxes on its forks. The load extends well abov",
+      "gt_desc": "Forklift in the aisle with its front two wheels lifted off the ground, indicating the vehicle is abo"
+    },
+    {
+      "image": "safe_0106.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with multiple rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in an orange high-visibility vest stands ",
+      "gt_desc": "Elevated perspective of a warehouse interior with a worker in an orange vest walking down the centra"
+    },
+    {
+      "image": "obstacle_0007.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large wooden shipping crate has broken open on the warehouse floor on the left side of the aisle, spilling metal parts, mechanical components, and scattered debris ac",
+      "gt_desc": "A damaged wooden crate with spilled contents and scattered metal parts on the warehouse floor near t"
+    },
+    {
+      "image": "forklift_0189.png",
+      "gt": "safe",
+      "pred": "forklift_violation",
+      "ok": false,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a narrow aisle between pallet racks, and a worker in a hi-vis vest is crouched or kneeling on the floor directly in front of",
+      "gt_desc": "Forklift operating with headlights on in aisle, operator wearing hi-vis vest. Forks only very slight"
+    },
+    {
+      "image": "stacking_0181.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: A drone view of a warehouse aisle with a worker in an orange vest and hard hat standing near the shelving. The right-side shelving racks show boxes of mixed si",
+      "gt_desc": "Drone view of warehouse with most shelving on the right side. Left side shows dark wall and mostly e"
+    },
+    {
+      "image": "obstacle_0043.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large cardboard box has fallen onto the warehouse aisle floor, and scattered small items including what appear to be nuts or seeds and loose debris are spread across ",
+      "gt_desc": "A few fallen boxes and crumpled packing material are scattered on the warehouse aisle floor near the"
+    },
+    {
+      "image": "spill_0065.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: An amber-colored liquid has spilled from a tipped-over white container on the warehouse floor. The spill has pooled into an irregular puddle with smaller satellite droplet",
+      "gt_desc": "Amber oil/chemical puddle with a tipped cylindrical container lying on its side next to the spill. C"
+    },
+    {
+      "image": "forklift_0120.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle while a pedestrian worker in a hi-vis vest and hard hat walks in the same aisle in close proximity. The wo",
+      "gt_desc": "Drone view of warehouse aisle with a pedestrian worker in hi-vis vest walking directly in front of a"
+    },
+    {
+      "image": "forklift_0081.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift in the center of a warehouse aisle has its forks raised high carrying a large pallet load. The operator is wearing a hi-vis vest. The load i",
+      "gt_desc": "Forklift carrying large heavy load of stacked boxes on forks in center aisle. Load appears oversized"
+    },
+    {
+      "image": "obstacle_0029.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A wide overhead view of a warehouse aisle between tall pallet racks. The floor is covered with scattered debris including crushed cardboard, broken packing material, fa",
+      "gt_desc": "A pallet jack surrounded by scattered debris, crushed cardboard, and broken material on the warehous"
+    },
+    {
+      "image": "spill_0202.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark fluid spill is visible on the warehouse floor in the center-left area near the left shelving row. The main puddle is dark and glossy, with smaller satellite puddles",
+      "gt_desc": "Dark fluid puddle with scattered droplet splatter extending outward. Located in a wider aisle area n"
+    },
+    {
+      "image": "forklift_0126.png",
+      "gt": "spill",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between tall orange pallet racks, carrying a shrink-wrapped pallet of boxes on its forks. The operator is wearing an ora",
+      "gt_desc": "Forklift operating in center aisle between pallet racks. Visible spill or liquid on the warehouse fl"
+    },
+    {
+      "image": "stacking_0080.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with multiple rows of metal shelving. On the left foreground shelves, cardboard boxes labeled FRAGILE and THIS SIDE UP are placed ups",
+      "gt_desc": "Wide drone view of densely packed warehouse, boxes on both sides show overloaded shelves with boxes "
+    },
+    {
+      "image": "obstacle_0008.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle between orange-and-blue pallet racks. A yellow forklift is parked in the center of the aisle. The floor is littered with broken wooden",
+      "gt_desc": "Broken wooden pallet smashed into multiple planks and scattered across the warehouse aisle floor in "
+    },
+    {
+      "image": "forklift_0024.png",
+      "gt": "safe",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse aisle with a yellow forklift operating in the center. On the concrete floor near the bottom-right of the image, there is a small dark liquid sp",
+      "gt_desc": "Forklift operator driving through a narrow aisle between tall racking. The operator is seated and th"
+    },
+    {
+      "image": "safe_0155.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse interior showing a long central aisle between two rows of metal shelving racks loaded with cardboard boxes. The concrete floor is clea",
+      "gt_desc": "Elevated view down a warehouse aisle flanked by shelving rows fully stocked with cardboard boxes. A "
+    },
+    {
+      "image": "stacking_0173.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with a dark wall on the left and shelving on the right. The right-side shelving racks show boxes of mixed sizes with some crushed and",
+      "gt_desc": "Drone view down a long warehouse aisle from an elevated angle. On the right side, several boxes are "
+    },
+    {
+      "image": "spill_0123.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large, dark, elongated liquid spill dominates the center of the warehouse aisle floor. The spill has a highly reflective, mirror-like surface and stretches from the fore",
+      "gt_desc": "Large very dark oil/fluid pool with near-perfect mirror reflections. The shape is somewhat elongated"
+    },
+    {
+      "image": "obstacle_0101.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large collection of overturned blue plastic bins, grey storage totes, and scattered small tools and debris cover a significant portion of the warehouse aisle floor. T",
+      "gt_desc": "Several overturned blue plastic bins and scattered small items are spread across the warehouse aisle"
+    },
+    {
+      "image": "safe_0187.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse aisle with a yellow forklift parked in the center. Metal pallet racking on both sides holds neatly organized cardboard boxes and wrapped pallets",
+      "gt_desc": "3D render. Both left and right racking are loaded with palletized goods that appear mostly stable an"
+    },
+    {
+      "image": "safe_0137.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse with an arched metal roof. On the right-side foreground shelving, a cardboard box and some loose debris sit on the floor near the base of th",
+      "gt_desc": "Drone overhead of a long warehouse with arched metal roof and multiple rows of shelving stocked with"
+    },
+    {
+      "image": "forklift_0107.png",
+      "gt": "forklift_violation",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A yellow forklift has its forks raised and is actively dropping cardboard boxes from a pallet onto the warehouse floor. The boxes have already scattered across the aisl",
+      "gt_desc": "Forklift in center aisle with boxes and broken pallet debris scattered across the floor. The pallet "
+    },
+    {
+      "image": "obstacle_0069.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet planks and slats is scattered across the center of the warehouse aisle floor. The splintered wood debris creates a major obstructio",
+      "gt_desc": "A large pile of broken and smashed wooden pallets is heaped in the center of the warehouse aisle, co"
+    },
+    {
+      "image": "spill_0030.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large amber-brown oil or hydraulic fluid puddle is pooled on the concrete floor in the center-left of the main warehouse aisle. The spill has an irregular shape with vis",
+      "gt_desc": "Amber spill pooling near left shelving base. Worker visible in background. Good position variety."
+    },
+    {
+      "image": "safe_0091.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse end section showing a worker in a yellow hard hat and hi-vis vest walking between shelving rows toward the back wall. Metal shelving racks o",
+      "gt_desc": "Elevated drone perspective of a warehouse section near loading bay doors with shelving rows holding "
+    },
+    {
+      "image": "safe_0064.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in an orange hard hat and yellow-green",
+      "gt_desc": "Drone-perspective shot of a warehouse with orderly metal shelving racks loaded with boxes, a worker "
+    },
+    {
+      "image": "spill_0090.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A tipped-over white cylindrical container lies on its side in the center of a warehouse aisle near the back wall. A clear liquid has spilled from the container, creating a",
+      "gt_desc": "Clear/light blue spill from a tipped white cylindrical container. The container provides an obvious "
+    },
+    {
+      "image": "obstacle_0102.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle where several plastic storage bins and containers have been overturned and scattered across the floor in the center of the walkway. Th",
+      "gt_desc": "Overturned blue plastic storage bins and fallen cardboard boxes are scattered on the warehouse floor"
+    },
+    {
+      "image": "safe_0146.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with a dark wall on the left and rows of metal shelving racks on the right, all loaded with neatly arranged cardboard boxes. A worker ",
+      "gt_desc": "Drone overhead of a warehouse with rows of metal shelving holding cardboard boxes viewed at an angle"
+    },
+    {
+      "image": "spill_0033.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark amber liquid pool dominates the center of the warehouse aisle floor. A long trail of smaller dark droplets and splatter marks extends from the main pool towar",
+      "gt_desc": "Massive dark oil spill covering most of the aisle width. Drip trail leads from foreground to main po"
+    },
+    {
+      "image": "obstacle_0073.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A yellow pallet jack has been left abandoned in the center of the warehouse aisle. Multiple cardboard boxes have fallen and are scattered across the floor around it, wi",
+      "gt_desc": "Fallen cardboard boxes, packing material debris, and a pallet jack are scattered across the warehous"
+    },
+    {
+      "image": "forklift_0042.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift in the center of the aisle is carrying an excessively large load of cardboard boxes that extends far above the operator's head and exceeds t",
+      "gt_desc": "Forklift carrying a very large, tilted and unstable load of oversized boxes that appears to be falli"
+    },
+    {
+      "image": "forklift_0198.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between tall pallet racks, carrying a tall stack of cardboard boxes on its forks. The operator is wearing a yellow hard ",
+      "gt_desc": "Forklift operator driving through the warehouse aisle carrying a balanced stack of boxes on a pallet"
+    },
+    {
+      "image": "forklift_0098.png",
+      "gt": "obstacle",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A yellow forklift is operating in the center aisle between tall pallet racks, carrying a load of boxes on its forks. The operator is seated and driving normally. The floor ",
+      "gt_desc": "Forklift operating at the end of the aisle with some debris and scattered items visible on the wareh"
+    },
+    {
+      "image": "spill_0011.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: An amber-brown liquid puddle is visible on the concrete floor in the lower-left area of the aisle between pallet racking. The spill has a glossy, reflective surface and ap",
+      "gt_desc": "Amber liquid puddle on concrete. Forklift visible in background. Compact spill, clearly identifiable"
+    },
+    {
+      "image": "obstacle_0096.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large collection of overturned grey and blue plastic storage bins and totes are scattered across the center of the warehouse aisle floor. Small metal parts and hardwa",
+      "gt_desc": "A large pile of overturned grey and blue plastic storage bins and totes scattered across the center "
+    },
+    {
+      "image": "safe_0127.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with multiple rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a yellow high-visibility vest and hard",
+      "gt_desc": "Elevated perspective of a spacious warehouse with a worker in a yellow-green vest standing among sho"
+    },
+    {
+      "image": "obstacle_0121.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large black plastic bin has been overturned on the warehouse floor in the center of the main aisle, spilling small mechanical parts, a coiled cable or hose, and scatt",
+      "gt_desc": "A dark plastic crate and scattered small debris items sit on the warehouse floor in the center aisle"
+    },
+    {
+      "image": "safe_0166.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse with a worker in an orange high-visibility vest standing at a work table near the back wall. Metal shelving racks on both sides hold neatly arra",
+      "gt_desc": "Drone view looking down a warehouse aisle between two rows of metal shelving with boxes and a worker"
+    },
+    {
+      "image": "stacking_0020.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: A drone view of a warehouse aisle with pallet racking on both sides. On the left rack's upper shelf, a pallet of boxes has a collapsed and crushed top section ",
+      "gt_desc": "3D render. Left racking top tier near the back has a clearly collapsed pile of crushed and jumbled b"
+    },
+    {
+      "image": "safe_0115.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse with a worker in a hi-vis vest and hard hat walking on the left side. Shelving racks hold neatly arranged cardboard boxes and blue bins. The con",
+      "gt_desc": "Drone-perspective shot of a warehouse with a worker in a yellow-green vest walking along the left ai"
+    },
+    {
+      "image": "safe_0124.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a well-organized warehouse with symmetrical rows of metal shelving racks holding neatly stacked cardboard boxes. A worker in a high-visibility vest and hard",
+      "gt_desc": "Overhead view of a warehouse with a worker in a yellow-green vest near the center shelves. Boxes are"
+    },
+    {
+      "image": "forklift_0125.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a narrow aisle between pallet racks. The operator is seated in the cab, but a second person is clinging to the rear frame of",
+      "gt_desc": "Forklift carrying a crate on its forks with a person hanging onto or riding on the forks of the movi"
+    },
+    {
+      "image": "obstacle_0032.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several containers including blue plastic bins, a red bin, a wooden crate, and what appears to be a metal drum are scattered across the center of the aisle floor betwee",
+      "gt_desc": "Multiple storage bins (blue and red), a wooden crate, and debris are scattered across the aisle floo"
+    },
+    {
+      "image": "forklift_0145.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a narrow aisle between tall pallet racks, and a worker is standing on the upper shelf of the left rack at height. The pedest",
+      "gt_desc": "Forklift with forks raised high where a worker is standing on top of the elevated rack shelf, attemp"
+    },
+    {
+      "image": "stacking_0164.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with a worker in a hi-vis vest standing in the aisle. The left-side shelving racks show boxes stacked unevenly with some tilted and o",
+      "gt_desc": "Drone view of warehouse showing boxes on upper shelves leaning and tilted on the left side. Several "
+    },
+    {
+      "image": "forklift_0143.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A drone view of a narrow warehouse aisle between tall pallet racks. A yellow forklift in the foreground has its forks raised high carrying a load, while a sec",
+      "gt_desc": "Drone view showing two forklifts in the warehouse aisle. One forklift in the foreground has an opera"
+    },
+    {
+      "image": "spill_0006.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark amber-colored liquid spill is visible on the warehouse floor in the center-right area near the right shelving row. The spill has an irregular shape and appears to b",
+      "gt_desc": "Dark oil puddle near forklift base. Compact shape, looks like a forklift leak. Fallen box nearby add"
+    },
+    {
+      "image": "obstacle_0006.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large debris field covers the warehouse aisle floor with broken cardboard, crushed packaging, scattered small items, and a displaced pallet jack. The debris spans muc",
+      "gt_desc": "Broken pallet, crushed cardboard, scattered debris, and miscellaneous waste spread across the aisle "
+    },
+    {
+      "image": "forklift_0218.png",
+      "gt": "safe",
+      "pred": "forklift_violation",
+      "ok": false,
+      "model": "category: forklift_violation\ndescription: A forklift is operating in a narrow aisle between pallet racks while a second worker crouches on the floor nearby, creating a dangerous pedestrian proximity h",
+      "gt_desc": "Forklift with forks lowered near another worker in yellow hard hat who is crouching on the floor nea"
+    },
+    {
+      "image": "spill_0055.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark liquid spill dominates the center of the warehouse aisle floor. A tipped-over white container lies beside the puddle, likely the source of the fluid. The glos",
+      "gt_desc": "Dark black oil puddle with a grey cylindrical container tipped on its side next to it. Clear cause-a"
+    },
+    {
+      "image": "safe_0148.png",
+      "gt": "safe",
+      "pred": "obstacle",
+      "ok": false,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle with a worker in an orange vest walking near the right shelving. On the right foreground floor, broken cardboard pieces and small debr",
+      "gt_desc": "Drone perspective of a wide warehouse section with shelving along the left wall and freestanding rac"
+    },
+    {
+      "image": "stacking_0044.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with pallet racking on both sides. The right-side upper shelves have boxes that are not properly aligned and appear to overhang",
+      "gt_desc": "Similar angle to frame_0017 base. Right rack top shelf shows boxes that are slightly uneven but the "
+    },
+    {
+      "image": "spill_0021.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large liquid spill covers a significant area of the warehouse aisle floor between shelving rows. A tipped-over grey container lies on its side near the spill, likely the",
+      "gt_desc": "Grey/silver container tipped on its side with liquid spreading from it. Clear source + spill combina"
+    },
+    {
+      "image": "spill_0072.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark fluid spill is visible on the warehouse floor in the center of the aisle between two rows of metal shelving. The spill has an irregular shape with a concentra",
+      "gt_desc": "Dark brown-amber oil puddle with glossy surface. Well-defined edges against dry concrete. Classic oi"
+    },
+    {
+      "image": "obstacle_0097.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet debris is scattered across the center of the warehouse aisle floor. Splintered planks, broken pallet fragments, and wood pieces cov",
+      "gt_desc": "Broken wooden pallet pieces and splintered lumber are strewn across the warehouse floor on the left "
+    },
+    {
+      "image": "obstacle_0120.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet debris is scattered across the center of the warehouse aisle floor. Splintered planks, crushed boards, and wood fragments cover a w",
+      "gt_desc": "A large pile of broken and splintered wooden pallet pieces covers a significant area of the warehous"
+    },
+    {
+      "image": "spill_0140.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large reflective liquid puddle is visible on the warehouse floor in the center-foreground of the main aisle. The wet area is clearly distinguishable from the dry concret",
+      "gt_desc": "Small water puddle in the aisle center. Subtle but identifiable from the reflective wet surface. Use"
+    },
+    {
+      "image": "spill_0014.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large amber-colored liquid pool is present on the concrete floor in the center of the warehouse aisle between two rows of pallet racking. The spill has a glossy, reflect",
+      "gt_desc": "Large amber spill prominently visible on the aisle floor. High contrast, unmistakable hazard. Excell"
+    },
+    {
+      "image": "stacking_0084.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone-perspective view of a warehouse with multiple rows of metal shelving racks. Boxes on several shelves are stacked above the top rail and tilted at angles,",
+      "gt_desc": "Overhead drone view looking down the central aisle. Right-side shelving shows boxes stacked with som"
+    },
+    {
+      "image": "spill_0108.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large, highly reflective black liquid pool is visible on the concrete floor in the center of the warehouse aisle. The spill has a glossy, mirror-like surface that reflec",
+      "gt_desc": "Remarkably photorealistic dark oil pool with near-perfect mirror reflections of the ceiling and ligh"
+    },
+    {
+      "image": "forklift_0066.png",
+      "gt": "spill",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A yellow forklift is operating in the center aisle between pallet racks, carrying a loaded pallet at a low, stable height. The operator is wearing a hi-vis vest. The floor ",
+      "gt_desc": "Forklift operating normally in center aisle with operator in high-vis vest. Two pedestrian workers a"
+    },
+    {
+      "image": "safe_0138.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse section showing multiple rows of metal shelving stocked with cardboard boxes and blue plastic bins. A worker in a hi-vis vest stands near th",
+      "gt_desc": "Elevated view of a well-lit warehouse section with metal shelving rows holding boxes and blue storag"
+    },
+    {
+      "image": "spill_0047.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark amber-brown liquid spill is visible on the warehouse floor in the center of the main aisle. The spill has a distinctive branching pattern with dark cracks radiating",
+      "gt_desc": "Dark brown organic-shaped puddle with tendril-like edges spreading outward. Natural-looking pooling "
+    },
+    {
+      "image": "forklift_0109.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is traveling through the center aisle with its forks raised to an upper shelf level. A worker in a hi-vis vest is standing on the left side ",
+      "gt_desc": "Forklift operating in center aisle with a worker standing very close to the left side of the moving "
+    },
+    {
+      "image": "spill_0058.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark fluid streak runs along the center of the warehouse aisle floor between two rows of metal shelving. The streak is elongated and trails away from a main concentrated",
+      "gt_desc": "Dark linear oil trail running along the base of the right shelving. Suggests a slow ongoing leak fro"
+    },
+    {
+      "image": "forklift_0094.png",
+      "gt": "forklift_violation",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between tall pallet racks, carrying a load of boxes on its forks. The operator is seated and driving normally. The boxes",
+      "gt_desc": "Overhead warehouse view showing a yellow forklift carrying an oversized and improperly stacked load "
+    },
+    {
+      "image": "safe_0029.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a well-organized warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility ve",
+      "gt_desc": "Overhead drone shot showing warehouse shelving aisles converging toward the far wall. Boxes are prop"
+    },
+    {
+      "image": "safe_0098.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A wide elevated drone view of a large warehouse with multiple rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility vest stand",
+      "gt_desc": "Drone view of a warehouse interior showing wide aisles between metal shelving rows with neatly arran"
+    },
+    {
+      "image": "safe_0140.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse end-of-aisle area where the shelving racks terminate. A worker in an orange high-visibility vest walks along the right side of the aisle. The co",
+      "gt_desc": "Close-angle drone view between two tall shelving rows stocked with wooden crates and blue bins. A wo"
+    },
+    {
+      "image": "safe_0150.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse with an arched metal roof. A worker in an orange high-visibility vest stands near the left wall between shelving rows. The concrete floor is",
+      "gt_desc": "Drone view of a warehouse interior with arched roof and a worker in an orange vest standing between "
+    },
+    {
+      "image": "spill_0040.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large clear liquid spill dominates the center of the warehouse aisle floor. The liquid has a reflective, wet surface with visible tire or track marks through and around ",
+      "gt_desc": "Wide wet floor area with multiple scattered puddles, wet patches, and some debris or wet marks acros"
+    },
+    {
+      "image": "spill_0008.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark amber-brown liquid spill is visible on the concrete floor in the center-right area of the warehouse aisle. A displaced cardboard box sits near the spill, and a yell",
+      "gt_desc": "Dark spill pooling near the shelf base with fallen boxes nearby. Realistic scene that looks like pro"
+    },
+    {
+      "image": "stacking_0014.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with orange pallet racking. The left-side upper shelves have boxes stacked above the top beam with torn and broken shrink wrap.",
+      "gt_desc": "3D render. Both left and right racking top tiers are heavily loaded with boxes stacked well above th"
+    },
+    {
+      "image": "forklift_0088.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between tall orange pallet racks. A second worker is clinging to the rear frame of the forklift, riding on",
+      "gt_desc": "Forklift operating in center aisle with a person hanging onto the frame of the moving forklift. This"
+    },
+    {
+      "image": "spill_0067.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse with an arched ceiling. A large liquid puddle is visible on the concrete floor in the center-foreground of the main aisle. A displaced cardboar",
+      "gt_desc": "Small dark grey-green puddle. Smaller than typical spills but clearly a different color/texture from"
+    },
+    {
+      "image": "obstacle_0086.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet debris is scattered across the center of the main warehouse aisle. Splintered planks, boards, and wood fragments cover a wide area ",
+      "gt_desc": "A large pile of broken wooden planks and pallet debris is scattered across the center of the warehou"
+    },
+    {
+      "image": "safe_0024.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a well-organized warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility ve",
+      "gt_desc": "Drone-angle shot of a spacious warehouse with grey metal racking and neatly organized cardboard boxe"
+    },
+    {
+      "image": "spill_0013.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse aisle between pallet racks. A clear liquid puddle with a reflective surface is visible on the concrete floor in the center of the aisle. The sp",
+      "gt_desc": "Small clear water puddle with some white residue or splatter visible in the center of the aisle. Sma"
+    },
+    {
+      "image": "spill_0122.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A blue container has tipped over in the center of the warehouse aisle, spilling a dark fluid that has pooled into an irregular puddle on the concrete floor. The liquid has",
+      "gt_desc": "Dark fluid spill with a blue container tipped on its side. Tire/track marks visible on the floor aro"
+    },
+    {
+      "image": "safe_0135.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse interior with a worker in an orange high-visibility vest walking down the center aisle toward the back wall. Metal shelving racks on both si",
+      "gt_desc": "Drone perspective of a warehouse with closed roller-shutter doors at the far wall and neatly stocked"
+    },
+    {
+      "image": "spill_0035.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large amber-colored liquid spill dominates the center of the warehouse aisle floor. The spill has a distinctive starburst pattern with radiating splatter lines extending",
+      "gt_desc": "Amber oil pool on floor with visible drip line coming from above (possibly leaking from shelf or pip"
+    },
+    {
+      "image": "forklift_0111.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift operated by a worker in orange coveralls is traveling through a warehouse aisle with forks lowered and carrying a balanced load of boxes. The operator is ",
+      "gt_desc": "Drone perspective of warehouse intersection showing a yellow forklift with operator in orange high-v"
+    },
+    {
+      "image": "spill_0064.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A long, dark, wet streak runs down the center of the warehouse aisle floor between metal shelving racks. The streak extends from the foreground deep into the background, c",
+      "gt_desc": "Dark reflective puddle in aisle center. Strong overhead light reflections make it clearly identifiab"
+    },
+    {
+      "image": "forklift_0182.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between tall orange pallet racks. The operator is wearing a hard hat and is seated properly. The forks are lowered to pr",
+      "gt_desc": "Forklift operator carrying barrel drums on a pallet through a narrow aisle. The operator is seated a"
+    },
+    {
+      "image": "obstacle_0148.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several cardboard boxes have fallen and are scattered across the center of the warehouse aisle floor. The boxes are spread out between the shelving rows, partially bloc",
+      "gt_desc": "Multiple cardboard boxes of various sizes have fallen and are scattered across the warehouse floor i"
+    },
+    {
+      "image": "obstacle_0155.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A cluster of overturned plastic storage bins and cardboard boxes is scattered across the center of a warehouse aisle floor. The debris field spans a significant portion",
+      "gt_desc": "A heap of fallen boxes and overturned dark grey plastic bins are piled on the floor at the end of a "
+    },
+    {
+      "image": "forklift_0207.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a narrow aisle between pallet racks while a pedestrian worker in a dark suit runs dangerously close to the vehicle on the le",
+      "gt_desc": "Forklift in narrow aisle with a pedestrian worker on the left side reaching toward shelving, dangero"
+    },
+    {
+      "image": "forklift_0220.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks, carrying a load at a low, stable height. The operator is seated properly and wearing a high-visibi",
+      "gt_desc": "Forklift operating in a warehouse aisle near an 8 KM/H MAX speed sign. The forks are visible but at "
+    },
+    {
+      "image": "safe_0130.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility vest walks throug",
+      "gt_desc": "Drone-perspective view of a well-lit warehouse with a worker in a yellow-green vest walking down the"
+    },
+    {
+      "image": "safe_0009.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse aisle between tall pallet racking with orange beams and blue uprights. A yellow forklift is parked in the center of the aisle with its",
+      "gt_desc": "Drone-angle shot looking down a warehouse aisle with tall pallet racking filled with cardboard boxes"
+    },
+    {
+      "image": "safe_0128.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in an orange high-visibility vest stan",
+      "gt_desc": "Drone view of a warehouse with a worker in an orange vest walking between rows of lower-profile shel"
+    },
+    {
+      "image": "stacking_0062.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: A drone view of a warehouse aisle where the right-side shelving has boxes stacked above the top shelf rail. The boxes are visibly overhanging the edge and tilt",
+      "gt_desc": "Overhead view with FRAGILE-labeled boxes on right-side shelves stacked with mixed orientations, some"
+    },
+    {
+      "image": "spill_0110.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark liquid puddle is visible on the warehouse floor in the center of the aisle between shelving rows. A tipped-over container or piece of equipment lies near the spill,",
+      "gt_desc": "A water puddle on the warehouse floor. The gray coloring is from the concrete floor showing through "
+    },
+    {
+      "image": "safe_0100.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a well-organized warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in an orange high-visib"
+    },
+    {
+      "image": "stacking_0106.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with shelving on both sides. The right-side shelving racks have boxes that are leaning, tilted, and stacked unevenly, with some"
+    },
+    {
+      "image": "forklift_0135.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A worker in an orange high-visibility suit is standing on the forks of a forklift, reaching up to the upper shelf of the left-side shelving to place or retrie"
+    },
+    {
+      "image": "forklift_0077.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in the center aisle between tall orange pallet racks, carrying a loaded pallet. A worker in a yellow hard hat and hi-vis vest i"
+    },
+    {
+      "image": "obstacle_0123.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet pieces and splintered lumber is scattered across the center of the main warehouse aisle. The debris field covers a wide area betwee"
+    },
+    {
+      "image": "obstacle_0002.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle where several cardboard boxes have fallen and are scattered across the floor in the center of the walkway between pallet racks. The bo"
+    },
+    {
+      "image": "spill_0148.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark amber liquid pool is visible on the warehouse floor in the center-right area of the aisle. The spill has a distinctive dark center with lighter edges and appe"
+    },
+    {
+      "image": "forklift_0041.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks, and a worker in a yellow hard hat and hi-vis vest is standing dangerously close to t"
+    },
+    {
+      "image": "obstacle_0176.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large grey plastic tote filled with tools, equipment, and debris including an orange hard hat is sitting in the center of the warehouse aisle. Scattered around it are"
+    },
+    {
+      "image": "obstacle_0087.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large number of cardboard boxes have fallen and are scattered across the center of the warehouse aisle floor. The boxes are piled in a disorganized heap, partially bl"
+    },
+    {
+      "image": "forklift_0045.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks. A worker is standing on the back of the forklift frame, riding on the exterior of th"
+    },
+    {
+      "image": "obstacle_0046.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A broken wooden pallet with scattered planks and splintered boards lies on the warehouse floor in the center of the main aisle. The debris partially blocks the walkway "
+    },
+    {
+      "image": "obstacle_0150.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large cardboard box has fallen from the shelving and is lying on the warehouse floor in the center of the main aisle. Broken cardboard pieces and packaging fragments "
+    },
+    {
+      "image": "safe_0014.png",
+      "gt": "safe",
+      "pred": "spill",
+      "ok": false,
+      "model": "category: spill\ndescription: A drone view of a warehouse aisle with orange and blue pallet racking. The concrete floor shows tire marks and scuff marks from forklift traffic. Near the bottom-right of "
+    },
+    {
+      "image": "forklift_0026.png",
+      "gt": "safe",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark fluid puddle is visible on the concrete floor in the lower-right area of the aisle near the right-side shelving. The spill is relatively small but present. A forkli"
+    },
+    {
+      "image": "forklift_0004.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in the warehouse aisle between pallet racks, but a second person is riding on the back of the forklift frame, hanging onto the "
+    },
+    {
+      "image": "stacking_0185.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse corner with a worker in a hi-vis vest standing near shelving. The concrete floor is clean and dry, the aisles are clear, and the shelving holds "
+    },
+    {
+      "image": "stacking_0046.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with orange-and-blue pallet racking. The right-side upper shelves have boxes placed at uneven heights with torn shrink wrap vis"
+    },
+    {
+      "image": "obstacle_0169.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several cardboard boxes have fallen and are piled on the warehouse floor in the center of the main aisle between two rows of metal shelving. The boxes are clustered tog"
+    },
+    {
+      "image": "obstacle_0088.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large cardboard box is sitting on the warehouse floor in the center of the main aisle between shelving rows. The box partially blocks the walkway, creating a tripping"
+    },
+    {
+      "image": "safe_0044.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse aisle between two rows of metal shelving racks loaded with cardboard boxes. The concrete floor is clean and dry, the aisle is completely clear, "
+    },
+    {
+      "image": "safe_0047.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A wide elevated drone view of a large warehouse with multiple rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a high-visibility vest walks"
+    },
+    {
+      "image": "forklift_0155.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift is operating in a warehouse aisle between tall pallet racks loaded with shrink-wrapped pallets. The operator is seated and driving normally. The forks are"
+    },
+    {
+      "image": "stacking_0115.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse aisle with a worker in an orange vest. The right-side shelving has boxes stacked above the top rail with mixed orientations and torn "
+    },
+    {
+      "image": "spill_0084.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse with an arched ceiling. A worker in a hi-vis vest walks down the central aisle. On the left-side foreground floor, a pale liquid puddle is visi"
+    },
+    {
+      "image": "stacking_0108.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with multiple rows of metal shelving. On the right side foreground, boxes on the top shelf level are stacked above the top rail of th"
+    },
+    {
+      "image": "forklift_0074.png",
+      "gt": "improper_stacking",
+      "pred": "forklift_violation",
+      "ok": false,
+      "model": "category: forklift_violation\ndescription: A yellow forklift in the center of the aisle has its forks raised high carrying a large load of boxes. The operator is seated but the vehicle is in an unsafe "
+    },
+    {
+      "image": "obstacle_0025.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several cardboard boxes have fallen and are piled on the warehouse floor in the center of the aisle between two rows of pallet racking. The boxes are scattered and part"
+    },
+    {
+      "image": "obstacle_0018.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle where broken wooden pallets and scattered planks are strewn across the floor between two yellow forklifts. The debris field covers a l"
+    },
+    {
+      "image": "spill_0200.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark fluid spill with splatter marks is visible on the warehouse floor in the lower-left area near the left shelving row. The dark liquid has pooled on the concrete with"
+    },
+    {
+      "image": "forklift_0010.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle with its mast fully extended upward, carrying a load at maximum height. A worker in a white hard hat and y"
+    },
+    {
+      "image": "obstacle_0163.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A blue plastic storage bin has tipped over onto its side in the center of the warehouse aisle, spilling mechanical parts, cables, and cardboard debris across the floor."
+    },
+    {
+      "image": "stacking_0139.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with a severely disorganized left-side shelving row. Boxes are stacked haphazardly with mixed sizes, tilted at angles, and some overh"
+    },
+    {
+      "image": "spill_0052.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large clear liquid spill dominates the center of the warehouse aisle floor. The water-like fluid creates a highly reflective surface that mirrors the overhead ceiling st"
+    },
+    {
+      "image": "obstacle_0031.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A hand truck has tipped over in the center of the aisle between pallet racks, scattering several cardboard boxes across the concrete floor. The fallen boxes and the ove"
+    },
+    {
+      "image": "stacking_0127.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with a worker in an orange vest walking down the center aisle. On the left-side shelving racks, boxes are stacked unevenly with mixed"
+    },
+    {
+      "image": "spill_0018.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A drone view of a warehouse aisle between pallet racks shows a large amber-brown oil or hydraulic fluid streak on the concrete floor. The streak has a wet, glossy appearan"
+    },
+    {
+      "image": "safe_0168.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A drone view of a warehouse interior with metal shelving racks on both sides of a wide central aisle. The shelves hold cardboard boxes and palletized goods in an orderly ar"
+    },
+    {
+      "image": "spill_0022.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large, dark, highly reflective liquid pool is present on the warehouse floor in the center of the main aisle. The spill has an irregular shape and appears to be a dark f"
+    },
+    {
+      "image": "safe_0184.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse corner showing metal shelving racks with neatly organized cardboard boxes and blue plastic bins. The concrete floor is clean and dry with ye"
+    },
+    {
+      "image": "forklift_0172.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks, but two pedestrian workers are standing in the same aisle in close proximity. One wo"
+    },
+    {
+      "image": "spill_0098.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A long, thin wet trail runs down the center of the warehouse aisle floor between shelving rows. The trail consists of a thin line of clear or light-colored liquid stretchi"
+    },
+    {
+      "image": "obstacle_0093.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: Several cardboard boxes have fallen from the shelving and are piled on the warehouse floor in the center of the main aisle. Small pieces of debris and packaging materia"
+    },
+    {
+      "image": "obstacle_0168.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A yellow pallet jack has been left abandoned in the center of the warehouse aisle with several cardboard boxes scattered around it on the floor. The equipment and falle"
+    },
+    {
+      "image": "obstacle_0151.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large grey plastic bin has tipped over in the center of the warehouse aisle, spilling white packing material and scattered debris across the floor. Multiple fallen ca"
+    },
+    {
+      "image": "forklift_0122.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A forklift has dropped its load and debris is scattered across the warehouse aisle floor. Broken wooden pallet pieces, fallen cardboard boxes, and scattered materials c"
+    },
+    {
+      "image": "forklift_0072.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: Drone-perspective view of a warehouse aisle with two yellow forklifts operating in parallel. The foreground forklift has an operator in blue clothing seated at the controls"
+    },
+    {
+      "image": "forklift_0037.png",
+      "gt": "forklift_violation",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A drone view of a warehouse aisle with a yellow forklift carrying metal drums on a pallet in the foreground. A second forklift is visible further back in the aisle. Both op"
+    },
+    {
+      "image": "safe_0032.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with symmetrical rows of metal shelving racks holding neatly arranged cardboard boxes. A worker in a yellow high-visibility vest and h"
+    },
+    {
+      "image": "stacking_0104.png",
+      "gt": "safe",
+      "pred": "improper_stacking",
+      "ok": false,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with multiple rows of metal shelving racks. On the right-side racks, boxes are stacked unevenly with mixed sizes and inconsistent ori"
+    },
+    {
+      "image": "spill_0165.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark fluid spill dominates the center of the warehouse aisle floor. The spill is highly reflective with bright specular highlights, indicating a viscous liquid suc"
+    },
+    {
+      "image": "spill_0087.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark, elongated fluid streak runs along the floor between two rows of metal shelving in a warehouse aisle. The streak extends from the center of the frame toward the bot"
+    },
+    {
+      "image": "obstacle_0054.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A large pile of broken wooden pallet debris and splintered lumber is scattered across the center of the warehouse aisle floor. The broken wood fragments create a signif"
+    },
+    {
+      "image": "forklift_0044.png",
+      "gt": "forklift_violation",
+      "pred": "safe",
+      "ok": false,
+      "model": "category: safe\ndescription: A yellow forklift is operating in the center aisle with an operator in blue coveralls. A worker in a yellow hi-vis vest and hard hat stands in the background near the right"
+    },
+    {
+      "image": "safe_0139.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated view of a warehouse interior showing rows of metal shelving racks with neatly stacked cardboard boxes. A worker in a high-visibility vest stands near the back w"
+    },
+    {
+      "image": "forklift_0051.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is operating in a warehouse aisle between pallet racks while a pedestrian worker in a grey jacket walks in close proximity on the left side "
+    },
+    {
+      "image": "safe_0145.png",
+      "gt": "safe",
+      "pred": "obstacle",
+      "ok": false,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse corner where a cluster of items including plastic storage bins, cardboard boxes, and wrapped pallets are piled on the floor against the left"
+    },
+    {
+      "image": "forklift_0213.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: A yellow forklift operated by a worker in blue coveralls is driving through a narrow warehouse aisle between tall pallet racks. The forks are lowered to proper travel heigh"
+    },
+    {
+      "image": "spill_0172.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark liquid puddle is visible on the concrete floor in the lower-left foreground of the warehouse aisle. The spill has a reflective surface and sits near the base of the"
+    },
+    {
+      "image": "stacking_0148.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: Drone view of a warehouse with a worker in an orange vest operating a pallet jack. The left-side shelving racks show significant stacking problems: boxes are c"
+    },
+    {
+      "image": "obstacle_0091.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: An orange hand truck has tipped over in the center of the main warehouse aisle, spilling several cardboard boxes and debris across the floor. A worker in a hi-vis vest "
+    },
+    {
+      "image": "forklift_0106.png",
+      "gt": "forklift_violation",
+      "pred": "forklift_violation",
+      "ok": true,
+      "model": "category: forklift_violation\ndescription: A yellow forklift is traveling through the center aisle with its forks raised to an upper shelf level. A pedestrian worker in a white shirt is walking in the "
+    },
+    {
+      "image": "safe_0007.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse aisle between two rows of tall orange pallet racking. A yellow forklift is parked in the center of the aisle with its forks lowered. T"
+    },
+    {
+      "image": "stacking_0045.png",
+      "gt": "improper_stacking",
+      "pred": "improper_stacking",
+      "ok": true,
+      "model": "category: improper_stacking\ndescription: The left pallet rack's top shelf has a disorganized pile of cardboard boxes with mixed sizes and uneven alignment. Some boxes are tilted and appear to overhang"
+    },
+    {
+      "image": "forklift_0158.png",
+      "gt": "obstacle",
+      "pred": "obstacle",
+      "ok": true,
+      "model": "category: obstacle\ndescription: A drone view of a warehouse aisle where a yellow forklift is parked on the right side and a worker in a red jacket walks through the aisle. The floor is littered with b"
+    },
+    {
+      "image": "safe_0095.png",
+      "gt": "safe",
+      "pred": "safe",
+      "ok": true,
+      "model": "category: safe\ndescription: An elevated drone view of a warehouse with a worker in an orange high-visibility vest walking down the center of a clean, dry, and unobstructed aisle. Metal shelving racks "
+    },
+    {
+      "image": "spill_0005.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A dark fluid spill is visible on the warehouse floor in the center of the aisle between two rows of pallet racking. The spill appears as a dark, wet patch on the concrete "
+    },
+    {
+      "image": "spill_0119.png",
+      "gt": "spill",
+      "pred": "spill",
+      "ok": true,
+      "model": "category: spill\ndescription: A large dark liquid spill dominates the center of the warehouse aisle floor. A tipped-over blue container is the apparent source of the spill. The dark fluid has pooled an"
+    }
+  ]
+}

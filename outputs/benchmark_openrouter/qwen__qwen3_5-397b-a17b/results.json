@@ -1,0 +1,13 @@
+{
+  "model": "qwen/qwen3.5-397b-a17b",
+  "n_images": 12,
+  "correct": 9,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.75,
+  "accuracy_completed": 0.75,
+  "avg_time_s": 16.9,
+  "avg_prompt_tokens": 718,
+  "avg_completion_tokens": 773,
+  "timestamp": "2026-05-02T19:29:16.134498"
+}

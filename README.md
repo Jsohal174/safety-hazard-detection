@@ -1,182 +1,171 @@
-# Warehouse Safety Hazard Detection
+# Synthetic Specialization for Warehouse Safety Hazard Detection
 
-An end-to-end ML system for detecting safety hazards in warehouse environments using synthetic data and modern object detection architectures.
+A 1.8 GB vision-language model, trained on AI-generated synthetic warehouse data, that runs offline on a Mac Mini and matches GPT-5.5 and Gemini 3.1 Pro on the hardest forklift-violation cases.
 
-## Overview
+Research project at the University of Guelph supervised by Dr. John Akinyemi. The contribution is the pipeline (Blender, photorealistic enhancement, hazard injection, LoRA, quantization), not the warehouse model itself. The same approach generalizes to any domain where real data is scarce but the deployment context is known.
 
-This project builds a computer vision pipeline that:
-1. Generates synthetic warehouse images using 3D rendering + Stable Diffusion/ControlNet
-2. Trains and compares CNN (YOLOv8) vs Transformer (RT-DETR) object detection models
-3. Optimizes for production with quantization (ONNX, TensorRT)
-4. Deploys as a production-ready API with MLOps pipeline
+## Headline Numbers
 
-**Research Project** - University of Guelph, supervised by Prof. John Akinyemi
+Held-out test set, n=186 images across five hazard categories. Inference on a Mac Mini M4 via Ollama.
 
-## Hazard Classes
+| Model                                       | Accuracy | Size    | Latency  |
+| ------------------------------------------- | -------- | ------- | -------- |
+| Trained 2B, Q4 no-think (deployed)          | 91.9%    | 1.8 GB  | ~3 s     |
+| Trained 2B, Q4 think                        | 92.5%    | 1.8 GB  | ~4.2 s   |
+| Trained 2B, F32 no-think (full precision)   | 94.1%    | 8.3 GB  | n/a      |
+| Qwen3.5-VL-2B base (zero-shot, same arch)   | 65.3%    | 3.78 GB | ~3.1 s   |
 
-| Class | Description |
-|-------|-------------|
-| Spill | Liquid on floor |
-| Obstacle | Boxes, debris in aisles |
-| No PPE | Missing hard hat or vest |
-| Forklift Violation | Unsafe forklift operation |
-| Blocked Exit | Exit path obstructed |
-| Damaged Racking | Structural damage to shelving |
+Training delta on the deployed model: **+26.6 percentage points**, same base, same prompt, same hardware.
 
-## Results
+## Frontier Comparison on the Hard Set
 
-| Model | mAP@50 | mAP@50:95 | FPS | Size |
-|-------|--------|-----------|-----|------|
-| YOLOv8 | - | - | - | - |
-| RT-DETR | - | - | - | - |
-| YOLOv8 (INT8) | - | - | - | - |
+12 forklift-violation images where workers stand inside the operating zone of an active forklift. Same direct-classification prompt sent through OpenRouter, May 2026.
 
-*Results will be updated as training completes*
+| Model                              | Accuracy | Notes                          |
+| ---------------------------------- | -------- | ------------------------------ |
+| **Trained 2B (this repo)**         | **12/12** | 1.8 GB, runs offline           |
+| GPT-5.5                            | 12/12    | Frontier, hosted               |
+| GPT-5.4 / GPT-5.4-mini             | 12/12    | Frontier, hosted               |
+| Gemini 3.1 Pro                     | 12/12    | Frontier, hosted               |
+| Qwen3.6-plus                       | 12/12    | Frontier-tier, hosted          |
+| Grok-4.20                          | 11/12    | Frontier-tier, hosted          |
+| Qwen3.5-397B-a17b                  | 9/12     | Open-source flagship           |
+| Qwen3-VL-235B (thinking)           | 8/12     | Open-source reasoning, 235B    |
+| Pixtral-Large                      | 8/12     | Open-source                    |
+| GLM-4.6v                           | 6/12     | Open-source                    |
+| Llama-4-Maverick                   | 4/12     | Open-source                    |
+| Kimi-k2.6                          | 4/12     | Open-source                    |
+| Llama-4-Scout                      | 2/12     | Open-source                    |
 
-## Installation
+Full leaderboard with per-image responses: [`outputs/benchmark_openrouter/LEADERBOARD.md`](outputs/benchmark_openrouter/LEADERBOARD.md).
 
-```bash
-# Clone repository
-git clone https://github.com/Jsohal174/warehouse-safety-detection.git
-cd warehouse-safety-detection
+## Pipeline
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# or
-.\venv\Scripts\activate  # Windows
+1. **3D environment.** A warehouse scene in Blender 5.0.1 with ~3,300 objects across roughly 100 by 60 metres, including pallet racking, shelving, a forklift, worker models, boxes, crates, and bins.
+2. **Drone-perspective rendering.** A Python script flies a virtual camera through nine aisles at ~3.5 m, pitched 55 degrees down, capturing frames every 2 m in a serpentine path. 184 base renders.
+3. **Photorealism (Nano Banana Pro / Gemini).** Each raw render is rewritten into a photorealistic image while preserving camera angle, layout, and object positions.
+4. **Hazard injection.** Prompted image editing injects realistic hazards (spills, forklift violations, improper stacking, aisle obstructions) into clean photoreal frames. 999 generated, 913 retained after manual review.
+5. **LoRA fine-tuning.** Qwen3.5-VL-2B base, trained on 2,521 multi-style conversations from 727 images. 3.5 hours on a free Kaggle T4 GPU.
+6. **Quantization.** Merge LoRA into base, then quantize language weights to 4-bit (Q4_K_M) via llama.cpp. Vision encoder kept at F16. Result: 1.8 GB GGUF, runs in Ollama.
 
-# Install dependencies
-pip install -r requirements.txt
-```
+Total project cost: ~$25.
 
-## Project Structure
+## Quick Start
 
-```
-warehouse-safety-detection/
-├── data/
-│   ├── raw/                  # 3D rendered base images
-│   ├── synthetic/            # Stable Diffusion outputs
-│   ├── labeled/              # CVAT annotations
-│   └── processed/            # Final train/val/test splits
-├── notebooks/                # Exploration, experiments
-├── src/
-│   ├── data/                 # Data generation & loading
-│   ├── models/               # YOLOv8, RT-DETR training
-│   ├── evaluation/           # Metrics & analysis
-│   ├── optimization/         # Quantization, benchmarking
-│   └── serving/              # FastAPI endpoint
-├── configs/                  # Training configs
-├── docker/                   # Deployment containers
-└── .github/workflows/        # CI/CD pipelines
-```
-
-## Usage
-
-### Generate Synthetic Data
+Run the trained model in Ollama:
 
 ```bash
-# Generate images with Stable Diffusion + ControlNet
-python src/data/generate.py --input data/raw --output data/synthetic --num_images 2000
+# Install Ollama: https://ollama.com
+# Pull the GGUF straight from HuggingFace
+ollama pull hf.co/Jsohal174/hawkeye-warehouse-safety-gguf
+
+# Classify an image
+ollama run hf.co/Jsohal174/hawkeye-warehouse-safety-gguf \
+  "Classify this warehouse image into exactly one of: spill, forklift_violation, improper_stacking, obstacle, safe. Respond with the category and a one-line description." \
+  /path/to/image.jpg
 ```
 
-### Train Models
+For the ~3 s no-think configuration, prefix the prompt with `/no_think`.
+
+## Dataset
+
+913 labeled images across five hazard categories, post-review.
+
+| Category            | Images |
+| ------------------- | ------ |
+| safe                | 256    |
+| spill               | 214    |
+| obstacle            | 200    |
+| forklift_violation  | 137    |
+| improper_stacking   | 106    |
+
+Each image carries structured metadata (category, subtype, severity, location, free-text description, multi-label tags). Forklift violations include 10 OSHA-derived subtypes such as `pedestrian_proximity`, `unauthorized_rider`, `forks_raised_traveling`. Every image was reviewed by hand using a custom voice-to-text labeling tool.
+
+Dataset metadata and the splits (`train.jsonl`, `test.jsonl`) live in [`dataset/`](dataset/). The full image files are hosted on HuggingFace.
+
+## Released Artifacts
+
+- **Model (Q4, Ollama-ready, 1.8 GB):** https://huggingface.co/Jsohal174/hawkeye-warehouse-safety-gguf
+- **Dataset (913 labeled images):** https://huggingface.co/datasets/Jsohal174/warehouse-safety-hazard-dataset
+- **GitHub (this repo):** https://github.com/Jsohal174/safety-hazard-detection
+
+## Reproducing the Benchmarks
+
+### Trained model evaluation
 
 ```bash
-# Train YOLOv8
-python src/models/yolov8.py --config configs/yolov8.yaml
-
-# Train RT-DETR
-python src/models/rtdetr.py --config configs/rtdetr.yaml
+# Inference on the held-out test set, scored against ground truth
+python scripts/benchmark_v2.py --model trained-2b-q4 --prompt direct
 ```
 
-### Evaluate
+### Frontier benchmark via OpenRouter
 
 ```bash
-python src/evaluation/metrics.py --model runs/best.pt --data data/test
+export OPENROUTER_API_KEY=sk-or-v1-...
+python scripts/benchmark_openrouter.py
+# Resume mid-run from per-image logs:
+python scripts/benchmark_openrouter.py --resume
 ```
 
-### Export & Optimize
+The 12 hard-set images are listed in [`scripts/benchmark_openrouter.py`](scripts/benchmark_openrouter.py). Per-image logs and per-model results land in `outputs/benchmark_openrouter/<model>/`.
 
-```bash
-# Export to ONNX
-python src/optimization/quantize.py --model runs/best.pt --format onnx
+### Training
 
-# Quantize to INT8
-python src/optimization/quantize.py --model runs/best.onnx --format int8
+LoRA training scripts and the prepared conversation dataset are under [`autoresearch/`](autoresearch/). The training config is in [`configs/lora/`](configs/lora/). The notebook target is a free Kaggle T4 GPU.
 
-# Benchmark
-python src/optimization/benchmark.py --models runs/best.pt runs/best.onnx runs/best_int8.onnx
+## Repository Structure
+
+```
+.
+├── README.md
+├── requirements.txt
+├── scripts/                  # Benchmarking, dataset prep, generation tools
+│   ├── benchmark_v2.py             # Trained model + zero-shot Ollama benchmark
+│   ├── benchmark_openrouter.py     # 13-model OpenRouter frontier benchmark
+│   ├── organize_dataset.py
+│   ├── gemini_automate.py          # Photorealistic enhancement automation
+│   ├── gemini_hazard_inject.py     # Prompted hazard injection
+│   ├── review_tool.html            # Voice-to-text labeling tool
+│   └── ...
+├── autoresearch/             # LoRA training (Kaggle T4)
+│   ├── prepare.py
+│   ├── train.py
+│   └── program.md
+├── cluster_scripts/          # Cluster job helpers
+├── configs/
+│   └── lora/                       # LoRA hyperparameters
+├── dataset/
+│   ├── metadata.jsonl              # Per-image labels and metadata
+│   ├── train.jsonl / test.jsonl    # Splits
+│   ├── training_conversations.jsonl  # 2,521 conversations from 727 images
+│   ├── image_mapping.json
+│   └── review_results_final.json
+├── outputs/
+│   ├── benchmark_openrouter/       # Frontier benchmark results
+│   ├── benchmark_v2/               # Trained-model benchmark results
+│   └── hawkeye_test_results_fixed.json
+├── hawkeye/
+│   └── simulation/blender/scripts/ # Render pipeline
+└── docs/
+    ├── paper.tex                   # Research paper source
+    └── PROGRESS_LOG.md             # Build log
 ```
 
-### Run API
+## Citation
 
-```bash
-# Local
-uvicorn src.serving.api:app --host 0.0.0.0 --port 8000
-
-# Docker
-docker build -t warehouse-detector -f docker/Dockerfile .
-docker run --gpus all -p 8000:8000 warehouse-detector
+```bibtex
+@misc{sohal2026synthetic,
+  author = {Sohal, Jaskirat Singh},
+  title  = {Synthetic Specialization: Fine-Tuning and Compressing Foundation Models for Domain-Specific Tasks. A Case Study in Warehouse Safety Hazard Detection},
+  year   = {2026},
+  howpublished = {University of Guelph},
+  note   = {Supervisor: Dr. John Akinyemi},
+  url    = {https://github.com/Jsohal174/safety-hazard-detection}
+}
 ```
-
-### API Endpoints
-
-```bash
-# Single image prediction
-curl -X POST "http://localhost:8000/predict" \
-  -F "file=@test_image.jpg"
-
-# Batch prediction
-curl -X POST "http://localhost:8000/predict/batch" \
-  -F "files=@image1.jpg" \
-  -F "files=@image2.jpg"
-
-# Health check
-curl "http://localhost:8000/health"
-```
-
-## Tech Stack
-
-| Category | Tool |
-|----------|------|
-| 3D Modeling | Blender |
-| Image Generation | Stable Diffusion, ControlNet |
-| Labeling | CVAT |
-| Data Versioning | DVC |
-| Augmentation | Albumentations |
-| Training | PyTorch, Ultralytics, RT-DETR |
-| Experiment Tracking | Weights & Biases |
-| Optimization | ONNX, TensorRT |
-| Serving | FastAPI |
-| Containers | Docker |
-| Cloud | AWS SageMaker / GCP Vertex AI |
-| MLOps | MLflow, GitHub Actions |
-
-## Experiment Tracking
-
-All experiments are logged to [Weights & Biases](https://wandb.ai/).
-
-View runs: `wandb login` then check your W&B dashboard.
-
-## Timeline
-
-- **Month 1 (Jan-Feb):** Data generation, labeling, pipeline setup
-- **Month 2 (Feb-Mar):** Model training, evaluation, comparison
-- **Month 3 (Mar-Apr):** Optimization, deployment, MLOps
-
-## License
-
-MIT
-
-## Author
-
-**Jaskirat Singh Sohal**
-- GitHub: [@Jsohal174](https://github.com/Jsohal174)
-- LinkedIn: [jaskiratsohal](https://linkedin.com/in/jaskiratsohal)
-- Email: jsohal03@uoguelph.ca
 
 ## Acknowledgments
 
-- Prof. John Akinyemi (University of Guelph) - Research Supervision
-- DeepLearning.AI - Deep Learning & PyTorch Certifications
+Supervised by Dr. John Akinyemi, University of Guelph.
+
+Inference on consumer hardware is enabled by [llama.cpp](https://github.com/ggerganov/llama.cpp), [Ollama](https://ollama.com), and [Unsloth](https://github.com/unslothai/unsloth). The frontier benchmark uses [OpenRouter](https://openrouter.ai).

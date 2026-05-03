@@ -1,0 +1,13 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "n_images": 12,
+  "correct": 8,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.6667,
+  "accuracy_completed": 0.6667,
+  "avg_time_s": 1.65,
+  "avg_prompt_tokens": 2490,
+  "avg_completion_tokens": 31,
+  "timestamp": "2026-05-02T19:40:52.184526"
+}

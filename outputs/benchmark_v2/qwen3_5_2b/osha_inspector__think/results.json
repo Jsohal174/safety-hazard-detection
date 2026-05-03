@@ -1,0 +1,11 @@
+{
+  "model": "qwen3.5:2b",
+  "prompt": "osha_inspector",
+  "mode": "think",
+  "accuracy": 0.2051,
+  "correct": 24,
+  "total": 117,
+  "n_images": 117,
+  "note": "PARTIAL \u2014 aborted due to excessive timeouts (65 errors in 117 images)",
+  "timestamp": "2026-03-20"
+}

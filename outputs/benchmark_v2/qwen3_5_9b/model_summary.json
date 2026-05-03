@@ -1,0 +1,8 @@
+{
+  "model": "qwen3.5:9b",
+  "best_prompt": "osha_inspector",
+  "best_accuracy": 0.7467,
+  "all_prompts": {
+    "osha_inspector": 0.7467
+  }
+}

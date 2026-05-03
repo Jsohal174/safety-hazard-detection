@@ -1,0 +1,13 @@
+{
+  "model": "google/gemini-3.1-pro-preview",
+  "n_images": 12,
+  "correct": 12,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 1.0,
+  "accuracy_completed": 1.0,
+  "avg_time_s": 8.09,
+  "avg_prompt_tokens": 1181,
+  "avg_completion_tokens": 595,
+  "timestamp": "2026-05-02T19:25:17.576394"
+}

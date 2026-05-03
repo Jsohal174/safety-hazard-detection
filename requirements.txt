@@ -1,56 +1,42 @@
 # Core ML
 torch>=2.0.0
 torchvision>=0.15.0
-pytorch-lightning>=2.1.0
-timm>=0.9.0  # Backbone models
 
-# Object Detection
-ultralytics>=8.0.0  # YOLOv8 + RT-DETR
+# VLMs & Transformers
+transformers>=4.45.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+
+# LoRA Fine-tuning
+peft>=0.7.0
+
+# Image Generation (hazard injection)
+diffusers>=0.25.0
+google-generativeai>=0.3.0
+
+# Evaluation
+bert-score>=0.3.13
+evaluate>=0.4.0
+scikit-learn>=1.3.0
 
 # Data Processing
 numpy>=1.24.0
 pandas>=2.0.0
-opencv-python>=4.8.0
 Pillow>=10.0.0
-albumentations>=1.3.0
-pycocotools>=2.0.0  # COCO evaluation
+opencv-python>=4.8.0
 
-# Image Generation (for M2 Mac via MPS)
-diffusers>=0.25.0
-transformers>=4.36.0
-accelerate>=0.25.0
-controlnet-aux>=0.0.7
-
-# Depth Maps
-OpenEXR>=3.2.0
-Imath>=3.1.0
-
-# Configuration Management
+# Configuration
 hydra-core>=1.3.0
 omegaconf>=2.3.0
 
 # Experiment Tracking
 wandb>=0.16.0
 
-# Data Versioning
-dvc>=3.30.0
-dvc-s3>=3.0.0  # or dvc-gdrive for Google Drive
-
-# API Serving
-fastapi>=0.108.0
-uvicorn>=0.25.0
-python-multipart>=0.0.6
-websockets>=12.0  # Real-time dashboard
-
-# Optimization
-onnx>=1.15.0
-onnxruntime>=1.16.0
-
-# MLOps
-mlflow>=2.9.0
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
 # Utilities
 python-dotenv>=1.0.0
 tqdm>=4.66.0
 pyyaml>=6.0.0
-scipy>=1.11.0  # Path planning

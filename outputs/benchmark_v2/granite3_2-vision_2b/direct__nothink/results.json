@@ -1,0 +1,60 @@
+{
+  "model": "granite3.2-vision:2b",
+  "prompt": "direct",
+  "mode": "nothink",
+  "temperature": 0.0,
+  "n_images": 150,
+  "accuracy": 0.3133,
+  "correct": 47,
+  "total": 150,
+  "avg_time_s": 17.52,
+  "total_time_min": 43.8,
+  "category_metrics": {
+    "spill": {
+      "precision": 0.3253,
+      "recall": 0.9,
+      "f1": 0.4779,
+      "tp": 27,
+      "fp": 56,
+      "fn": 3,
+      "support": 30
+    },
+    "forklift_violation": {
+      "precision": 0.5882,
+      "recall": 0.3333,
+      "f1": 0.4255,
+      "tp": 10,
+      "fp": 7,
+      "fn": 20,
+      "support": 30
+    },
+    "improper_stacking": {
+      "precision": 0.1081,
+      "recall": 0.1333,
+      "f1": 0.1194,
+      "tp": 4,
+      "fp": 33,
+      "fn": 26,
+      "support": 30
+    },
+    "obstacle": {
+      "precision": 0.1429,
+      "recall": 0.0333,
+      "f1": 0.0541,
+      "tp": 1,
+      "fp": 6,
+      "fn": 29,
+      "support": 30
+    },
+    "safe": {
+      "precision": 0.8333,
+      "recall": 0.1667,
+      "f1": 0.2778,
+      "tp": 5,
+      "fp": 1,
+      "fn": 25,
+      "support": 30
+    }
+  },
+  "timestamp": "2026-03-18T20:25:19.642236"
+}

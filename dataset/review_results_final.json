@@ -1,0 +1,5640 @@
+{
+  "spill_0001.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:55:22.026Z"
+  },
+  "spill_0002.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:55:31.476Z"
+  },
+  "spill_0003.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:56:42.964Z"
+  },
+  "spill_0004.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:56:53.346Z"
+  },
+  "spill_0005.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "so this one severity is high, the liquid is black and is towrds the end of the aisle and at almost upper middle part in the image, puddle is big but from camera perspective is small because it is far way",
+    "timestamp": "2026-03-16T18:58:49.116Z"
+  },
+  "spill_0006.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:59:07.091Z"
+  },
+  "spill_0007.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:59:13.941Z"
+  },
+  "spill_0008.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this could be spill and obstacle",
+    "timestamp": "2026-03-16T18:59:44.894Z"
+  },
+  "spill_0009.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T18:59:57.361Z"
+  },
+  "spill_0010.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:01:02.778Z"
+  },
+  "spill_0011.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:01:11.977Z"
+  },
+  "spill_0012.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:01:18.852Z"
+  },
+  "spill_0013.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "I think severity should be medium",
+    "timestamp": "2026-03-16T19:02:01.889Z"
+  },
+  "spill_0014.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:02:13.623Z"
+  },
+  "spill_0015.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:02:28.702Z"
+  },
+  "spill_0016.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:02:39.385Z"
+  },
+  "spill_0017.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:02:51.634Z"
+  },
+  "spill_0018.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:03:09.918Z"
+  },
+  "spill_0019.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this could be obstacle too, because there is a box",
+    "timestamp": "2026-03-16T19:03:40.916Z"
+  },
+  "spill_0020.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:04:58.156Z"
+  },
+  "spill_0021.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:05:03.022Z"
+  },
+  "spill_0022.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:05:06.380Z"
+  },
+  "spill_0023.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:05:10.480Z"
+  },
+  "spill_0024.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:05:26.842Z"
+  },
+  "spill_0025.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:06:12.063Z"
+  },
+  "spill_0026.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:06:20.805Z"
+  },
+  "spill_0027.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:07:02.192Z"
+  },
+  "spill_0028.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:07:18.184Z"
+  },
+  "spill_0029.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is both obstacle and spill",
+    "timestamp": "2026-03-16T19:07:55.145Z"
+  },
+  "spill_0030.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:08:04.279Z"
+  },
+  "spill_0031.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is not in center and there is no overturned container, it is a long strip along along the left aisle seems like leekage from a bix which spread along the aisle in parallel",
+    "timestamp": "2026-03-16T19:09:05.315Z"
+  },
+  "spill_0032.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:09:13.157Z"
+  },
+  "spill_0033.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:09:20.916Z"
+  },
+  "spill_0034.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:09:29.224Z"
+  },
+  "spill_0035.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:09:46.958Z"
+  },
+  "spill_0036.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "there is no debris, just a almost dry mark of spill with mark of someone walking thrpugh it",
+    "timestamp": "2026-03-16T19:10:49.169Z"
+  },
+  "spill_0037.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:10:52.990Z"
+  },
+  "spill_0038.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:10:57.357Z"
+  },
+  "spill_0039.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:01.357Z"
+  },
+  "spill_0040.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:07.582Z"
+  },
+  "spill_0041.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:11.491Z"
+  },
+  "spill_0042.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:15.966Z"
+  },
+  "spill_0043.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:25.265Z"
+  },
+  "spill_0044.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:29.007Z"
+  },
+  "spill_0045.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:32.431Z"
+  },
+  "spill_0046.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:38.282Z"
+  },
+  "spill_0047.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:45.789Z"
+  },
+  "spill_0048.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:11:57.382Z"
+  },
+  "spill_0049.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:12:16.406Z"
+  },
+  "spill_0050.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:12:35.597Z"
+  },
+  "spill_0051.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:13:14.711Z"
+  },
+  "spill_0052.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:13:29.364Z"
+  },
+  "spill_0053.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:13:43.656Z"
+  },
+  "spill_0054.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is centre left not right",
+    "timestamp": "2026-03-16T19:15:40.408Z"
+  },
+  "spill_0055.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:15:46.742Z"
+  },
+  "spill_0056.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:15:53.125Z"
+  },
+  "spill_0057.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:16:03.392Z"
+  },
+  "spill_0058.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:16:18.775Z"
+  },
+  "spill_0059.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this could be tagged both obstacle nd spill by model",
+    "timestamp": "2026-03-16T19:16:46.378Z"
+  },
+  "spill_0060.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:17:31.520Z"
+  },
+  "spill_0061.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:17:41.329Z"
+  },
+  "spill_0062.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:18:44.920Z"
+  },
+  "spill_0063.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:18:51.907Z"
+  },
+  "spill_0064.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:18:58.165Z"
+  },
+  "spill_0065.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:19:02.507Z"
+  },
+  "spill_0066.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:19:20.290Z"
+  },
+  "spill_0067.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:19:30.116Z"
+  },
+  "spill_0068.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this could be both spill and obstacle.",
+    "timestamp": "2026-03-16T19:20:03.323Z"
+  },
+  "spill_0069.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:20:15.232Z"
+  },
+  "spill_0070.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:20:27.757Z"
+  },
+  "spill_0071.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T19:47:27.821Z"
+  },
+  "spill_0072.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:05:44.981Z"
+  },
+  "spill_0073.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:05:50.348Z"
+  },
+  "spill_0074.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:07:32.480Z"
+  },
+  "spill_0075.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:07:39.764Z"
+  },
+  "spill_0076.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:07:43.385Z"
+  },
+  "spill_0077.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:07:47.318Z"
+  },
+  "spill_0078.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:07:57.477Z"
+  },
+  "spill_0079.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:08:05.926Z"
+  },
+  "spill_0080.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:08:11.406Z"
+  },
+  "spill_0081.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:08:21.097Z"
+  },
+  "spill_0082.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:08:30.089Z"
+  },
+  "spill_0083.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:08:34.921Z"
+  },
+  "spill_0084.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "there is a clear puddle with light brown stone towards the left side bottom of the screen",
+    "timestamp": "2026-03-16T23:09:26.809Z"
+  },
+  "spill_0085.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is a big puddle of water I don't know how you find it small but it is very big and in the middle bottom of the image",
+    "timestamp": "2026-03-16T23:09:54.055Z"
+  },
+  "spill_0086.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is more like a spell that has almost dried out plus it has the marks off somebody driving through it",
+    "timestamp": "2026-03-16T23:10:20.976Z"
+  },
+  "spill_0087.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:10:23.984Z"
+  },
+  "spill_0088.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:10:28.517Z"
+  },
+  "spill_0089.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this can be considered an obstacle or a spill because there's a box on the floor as well",
+    "timestamp": "2026-03-16T23:10:45.492Z"
+  },
+  "spill_0090.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:10:56.625Z"
+  },
+  "spill_0091.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:11:15.525Z"
+  },
+  "spill_0092.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:11:28.800Z"
+  },
+  "spill_0093.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:11:33.508Z"
+  },
+  "spill_0094.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:11:40.758Z"
+  },
+  "spill_0095.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:11:47.991Z"
+  },
+  "spill_0096.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:12:00.175Z"
+  },
+  "spill_0097.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:12:11.916Z"
+  },
+  "spill_0098.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is not in the center it is rather at the center but bottom of the image",
+    "timestamp": "2026-03-16T23:12:31.491Z"
+  },
+  "spill_0099.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:12:38.408Z"
+  },
+  "spill_0100.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this could be both an obstacle or a spill",
+    "timestamp": "2026-03-16T23:12:52.437Z"
+  },
+  "spill_0101.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:12:58.879Z"
+  },
+  "spill_0102.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:13:04.354Z"
+  },
+  "spill_0103.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:13:07.901Z"
+  },
+  "spill_0104.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:13:10.409Z"
+  },
+  "spill_0105.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:13:31.870Z"
+  },
+  "spill_0106.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "could be obstacle to or spell",
+    "timestamp": "2026-03-16T23:14:11.816Z"
+  },
+  "spill_0107.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:14:22.732Z"
+  },
+  "spill_0108.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:15:03.307Z"
+  },
+  "spill_0109.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:15:09.082Z"
+  },
+  "spill_0110.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "the description is incorrect it seems like water and the gray color is from the concrete floor",
+    "timestamp": "2026-03-16T23:15:44.449Z"
+  },
+  "spill_0111.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "the location is incorrect it is basically at the bottom of the image",
+    "timestamp": "2026-03-16T23:16:00.915Z"
+  },
+  "spill_0112.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again the location is incorrect it is not in the center of file it is actually at one of the ends of the aisle which seems to be in the middle of the image",
+    "timestamp": "2026-03-16T23:16:42.065Z"
+  },
+  "spill_0113.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again it is not in the center of the aisle it is almost in the middle of oil but to the left aisle I should say",
+    "timestamp": "2026-03-16T23:17:03.147Z"
+  },
+  "spill_0114.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:17:07.669Z"
+  },
+  "spill_0115.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this could be a spell and it could be obstacle",
+    "timestamp": "2026-03-16T23:17:21.268Z"
+  },
+  "spill_0116.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:17:37.927Z"
+  },
+  "spill_0117.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:17:42.168Z"
+  },
+  "spill_0118.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:17:48.560Z"
+  },
+  "spill_0119.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this could be again a spell and it could be obst",
+    "timestamp": "2026-03-16T23:18:02.843Z"
+  },
+  "spill_0120.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this could be a spill or it could be obstacle",
+    "timestamp": "2026-03-16T23:18:14.364Z"
+  },
+  "spill_0121.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "could be a spell and it could be a obstacle",
+    "timestamp": "2026-03-16T23:18:33.314Z"
+  },
+  "spill_0122.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is again spell and it is a obstacle wherever there's a container with spill on the ground it is both",
+    "timestamp": "2026-03-16T23:18:53.938Z"
+  },
+  "spill_0123.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:05.963Z"
+  },
+  "spill_0124.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:12.038Z"
+  },
+  "spill_0125.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:22.965Z"
+  },
+  "spill_0126.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:39.763Z"
+  },
+  "spill_0127.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:54.105Z"
+  },
+  "spill_0128.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:19:59.938Z"
+  },
+  "spill_0129.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:20:12.555Z"
+  },
+  "spill_0130.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is both spill and it is a obstacle",
+    "timestamp": "2026-03-16T23:20:26.222Z"
+  },
+  "spill_0131.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:20:33.988Z"
+  },
+  "spill_0132.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:20:39.055Z"
+  },
+  "spill_0133.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:20:41.238Z"
+  },
+  "spill_0134.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:20:45.330Z"
+  },
+  "spill_0135.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is a spell and it is a obstacle",
+    "timestamp": "2026-03-16T23:21:03.808Z"
+  },
+  "spill_0136.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "okay I think this is a very small spell and it is almost dried out so I don't know why you have given it severity of medium high",
+    "timestamp": "2026-03-16T23:21:33.425Z"
+  },
+  "spill_0137.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is almost towards the bottom of the screen to the right side to the right aisle",
+    "timestamp": "2026-03-16T23:21:52.296Z"
+  },
+  "spill_0138.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is again obstacle and both spill",
+    "timestamp": "2026-03-16T23:22:07.133Z"
+  },
+  "spill_0139.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is not lower right it is the lower left",
+    "timestamp": "2026-03-16T23:22:20.909Z"
+  },
+  "spill_0140.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:22:27.188Z"
+  },
+  "spill_0141.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:22:30.788Z"
+  },
+  "spill_0142.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:22:33.972Z"
+  },
+  "spill_0143.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is again a spill and it is a obstacle",
+    "timestamp": "2026-03-16T23:22:44.671Z"
+  },
+  "spill_0144.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:22:56.854Z"
+  },
+  "spill_0145.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "this is again a spell and it is a obstacle",
+    "timestamp": "2026-03-16T23:23:09.008Z"
+  },
+  "spill_0146.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "this is a spell and it is obstacle",
+    "timestamp": "2026-03-16T23:23:25.333Z"
+  },
+  "spill_0147.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:23:34.800Z"
+  },
+  "spill_0148.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this pill is not between shelving rows it is exactly at the corner of one of the rows",
+    "timestamp": "2026-03-16T23:23:51.733Z"
+  },
+  "spill_0149.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "display is not in the middle of the aisle it is towards one of the ends of the aisle towards the upper half of the screen",
+    "timestamp": "2026-03-16T23:24:11.775Z"
+  },
+  "spill_0150.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:24:17.100Z"
+  },
+  "spill_0151.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is again a spill and it is also a obstacle",
+    "timestamp": "2026-03-16T23:24:29.929Z"
+  },
+  "spill_0152.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "it is not in the center of the aisle it is towards the left eye I should say",
+    "timestamp": "2026-03-16T23:25:00.959Z"
+  },
+  "spill_0153.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:25:05.983Z"
+  },
+  "spill_0154.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "this is against the land obstacle",
+    "timestamp": "2026-03-16T23:25:21.295Z"
+  },
+  "spill_0155.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "the worker is actually moving away from the pool",
+    "timestamp": "2026-03-16T23:25:45.345Z"
+  },
+  "spill_0156.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "there is no tip to dark container it is literally just a dark pool but there is no container also there seems to be a bit of obstacles like debris on the floor",
+    "timestamp": "2026-03-16T23:26:19.500Z"
+  },
+  "spill_0157.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this could be a spill and it could be obstacle",
+    "timestamp": "2026-03-16T23:26:34.307Z"
+  },
+  "spill_0158.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "there are no tipped containers in this there's just a puddle of clear water your description is correct but there is no container",
+    "timestamp": "2026-03-16T23:26:58.016Z"
+  },
+  "spill_0159.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:27:01.004Z"
+  },
+  "spill_0160.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is both a spill and it is obstacle",
+    "timestamp": "2026-03-16T23:27:21.428Z"
+  },
+  "spill_0161.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "okay the spell is not covering most of the eye it is rather in between the area where people walk of the Isles and it is very huge so you are correct about that",
+    "timestamp": "2026-03-16T23:27:57.853Z"
+  },
+  "spill_0162.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:28:03.453Z"
+  },
+  "spill_0163.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:28:06.362Z"
+  },
+  "spill_0164.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "again this is both obstacle and spell",
+    "timestamp": "2026-03-16T23:28:14.511Z"
+  },
+  "spill_0165.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:28:22.761Z"
+  },
+  "spill_0166.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:28:25.486Z"
+  },
+  "spill_0167.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again it seems to be you your location is incorrect you always say Center this is not in the center of the aisle it is actually towards the right aisle of the row in the middle",
+    "timestamp": "2026-03-16T23:28:44.811Z"
+  },
+  "spill_0168.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "description is incorrect this is actually a box that has leaked and it has clear liquid the location is towards the bottom the bottom row",
+    "timestamp": "2026-03-16T23:29:15.485Z"
+  },
+  "spill_0169.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:29:19.886Z"
+  },
+  "spill_0170.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:29:23.665Z"
+  },
+  "spill_0171.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:29:28.207Z"
+  },
+  "spill_0172.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is not at the center of the eye it is at one of the corners of one of the Isles",
+    "timestamp": "2026-03-16T23:29:40.235Z"
+  },
+  "spill_0173.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "you can say that it is a bit in the center but leakage is from one of the rows I should say of one of the eyes and the leakages to close to the right side of it",
+    "timestamp": "2026-03-16T23:30:07.668Z"
+  },
+  "spill_0174.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:30:14.144Z"
+  },
+  "spill_0175.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:30:17.336Z"
+  },
+  "spill_0176.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:30:20.819Z"
+  },
+  "spill_0177.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "again this is both spell and obstacle",
+    "timestamp": "2026-03-16T23:30:31.089Z"
+  },
+  "spill_0178.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:30:45.122Z"
+  },
+  "spill_0179.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:30:49.206Z"
+  },
+  "spill_0180.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:31:05.414Z"
+  },
+  "spill_0181.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:31:12.382Z"
+  },
+  "spill_0182.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:31:22.281Z"
+  },
+  "spill_0183.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "this is not small this is severity high and it is pretty big compared to the aisle",
+    "timestamp": "2026-03-16T23:32:00.447Z"
+  },
+  "spill_0184.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:05.556Z"
+  },
+  "spill_0185.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:14.289Z"
+  },
+  "spill_0186.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:17.556Z"
+  },
+  "spill_0187.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:22.023Z"
+  },
+  "spill_0188.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:25.156Z"
+  },
+  "spill_0189.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:34.281Z"
+  },
+  "spill_0190.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:51.906Z"
+  },
+  "spill_0191.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:32:58.256Z"
+  },
+  "spill_0192.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "obstacle",
+    "notes": "again this is a spill and it is also an obstacle there is also some debris towards the lower end left of the aisle",
+    "timestamp": "2026-03-16T23:33:33.955Z"
+  },
+  "spill_0193.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is also obstacle and it is also a spill",
+    "timestamp": "2026-03-16T23:33:50.355Z"
+  },
+  "spill_0194.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:07.509Z"
+  },
+  "spill_0195.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:13.018Z"
+  },
+  "spill_0196.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:16.993Z"
+  },
+  "spill_0197.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:22.651Z"
+  },
+  "spill_0198.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:31.134Z"
+  },
+  "spill_0199.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:44.034Z"
+  },
+  "spill_0200.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:34:49.718Z"
+  },
+  "spill_0201.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is a store obstacle and a spill",
+    "timestamp": "2026-03-16T23:35:14.634Z"
+  },
+  "spill_0202.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:35:23.342Z"
+  },
+  "spill_0203.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again obstacle and spill",
+    "timestamp": "2026-03-16T23:35:48.625Z"
+  },
+  "spill_0204.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:35:58.917Z"
+  },
+  "spill_0205.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again obstacle and spill",
+    "timestamp": "2026-03-16T23:36:26.587Z"
+  },
+  "spill_0206.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:36:34.221Z"
+  },
+  "spill_0207.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:37:35.721Z"
+  },
+  "spill_0208.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:37:44.520Z"
+  },
+  "spill_0209.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-16T23:37:52.271Z"
+  },
+  "spill_0210.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "again this is Spill and also it is obstacle",
+    "timestamp": "2026-03-16T23:38:03.914Z"
+  },
+  "forklift_0001.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "so this is very severe because the person is actually one is driving and the other one is very close to it actually holding one of the folks of working forklift",
+    "timestamp": "2026-03-16T23:38:37.076Z"
+  },
+  "forklift_0002.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "forklift_violation",
+    "notes": "so this is both forklift Hazard and it is a obstacle or debris that are boxes lying around the person has a folks High and and there is debris all around the folks",
+    "timestamp": "2026-03-16T23:39:07.651Z"
+  },
+  "forklift_0003.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a forklift of violation and the person's the front wheels of the forklift on the air",
+    "timestamp": "2026-03-16T23:39:27.513Z"
+  },
+  "forklift_0004.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is severe forklift Hazard one person is hanging to the front side in front of the driving Forklift",
+    "timestamp": "2026-03-16T23:39:47.496Z"
+  },
+  "forklift_0005.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is completely save the person is simply driving and the folks are at fine angle",
+    "timestamp": "2026-03-16T23:40:00.604Z"
+  },
+  "forklift_0006.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe again we didn't train on on belts so this is fine",
+    "timestamp": "2026-03-16T23:40:18.880Z"
+  },
+  "forklift_0007.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:40:27.138Z"
+  },
+  "forklift_0008.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe again the person is taking the the containers and they have been strapped together",
+    "timestamp": "2026-03-16T23:40:47.184Z"
+  },
+  "forklift_0009.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:40:54.834Z"
+  },
+  "forklift_0010.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:41:05.309Z"
+  },
+  "forklift_0011.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this image is safe so if you look carefully the person the person is reading some sort of a rapport meaning the forklift is at Stone and yes the boxes are unsafe but that's fine",
+    "timestamp": "2026-03-16T23:41:37.309Z"
+  },
+  "forklift_0012.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is again a severe forklift Hazard the person is driving the forklift while one of them is sitting on the skids on the folks",
+    "timestamp": "2026-03-16T23:41:53.721Z"
+  },
+  "forklift_0013.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again we don't have to worry about the seat belts because it is very difficult to find out from the camera perspective so don't worry about it",
+    "timestamp": "2026-03-16T23:42:14.146Z"
+  },
+  "forklift_0014.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "yes this is correct this is a very huge load so it is definitely a safety hazard and if yes it if it is a big load we need to make sure that it is considered a safety hazard",
+    "timestamp": "2026-03-16T23:42:35.183Z"
+  },
+  "forklift_0015.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a severe forklift Hazard first of all one of the the boxes on the folks is almost unbalanced and is Falling Towards the left and one person is hanging on to the right side of the forklift frame",
+    "timestamp": "2026-03-16T23:43:10.212Z"
+  },
+  "forklift_0016.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe again we don't have to worry about the seat belts",
+    "timestamp": "2026-03-16T23:43:23.712Z"
+  },
+  "forklift_0017.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is actually a safe image first of all there's no nothing fallen on the ground the folks are at the bottom and towards the ground the person the forklift seems to be at stall and the people are in the background they are very far away from the forklift",
+    "timestamp": "2026-03-16T23:44:02.812Z"
+  },
+  "forklift_0018.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:44:09.954Z"
+  },
+  "forklift_0019.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:44:19.529Z"
+  },
+  "forklift_0020.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again we don't have to worry about the the safety belts but one major problem is that there's a person trying to pick up something from the ground near the working forklift",
+    "timestamp": "2026-03-16T23:44:46.191Z"
+  },
+  "forklift_0021.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "your description is incorrect one person is driving it while the other is hanging at the back of the forklift frame",
+    "timestamp": "2026-03-16T23:45:01.291Z"
+  },
+  "forklift_0022.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again it is The Pedestrian proximity issue but the safety and the safety belts is not the concern here",
+    "timestamp": "2026-03-16T23:45:23.341Z"
+  },
+  "forklift_0023.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:45:38.116Z"
+  },
+  "forklift_0024.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "again we are not worrying about safety belt or not",
+    "timestamp": "2026-03-16T23:45:57.986Z"
+  },
+  "forklift_0025.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "we don't have to worry about safety belt",
+    "timestamp": "2026-03-16T23:46:13.770Z"
+  },
+  "forklift_0026.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is actually save image so The Pedestrian the two people walking in the background are very far away from the forklift but they seem to be closed from the image perspective but from a human perspective it is clear that they are far away in the background towards the other end of the aisle secondly again we don't have to worry about the safety belts",
+    "timestamp": "2026-03-16T23:47:00.632Z"
+  },
+  "forklift_0027.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "forklift_violation",
+    "notes": "this is a spell and both of forklift Hazard but the problem is if you look carefully when the forks say listen there's a person literally sitting on the skid in the air",
+    "timestamp": "2026-03-16T23:47:29.865Z"
+  },
+  "forklift_0028.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-16T23:47:34.445Z"
+  },
+  "forklift_0029.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:47:42.390Z"
+  },
+  "forklift_0030.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not a folks raised the issue this is actually a severe issue because one person is hanging on the back side of the frame of the forklift while the other one is driving it",
+    "timestamp": "2026-03-16T23:48:00.332Z"
+  },
+  "forklift_0031.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:48:06.023Z"
+  },
+  "forklift_0032.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-16T23:48:13.665Z"
+  },
+  "forklift_0033.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is actually save the folks are not very high they're very close to the ground and the this kid is not very far away from the ground and the people are very far away from the forklift",
+    "timestamp": "2026-03-16T23:48:40.977Z"
+  },
+  "forklift_0034.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:48:51.244Z"
+  },
+  "forklift_0035.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-16T23:49:01.604Z"
+  },
+  "forklift_0036.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this can be considered both a forklift problem and also obstacle because there are debris on the floor as well",
+    "timestamp": "2026-03-16T23:49:19.069Z"
+  },
+  "forklift_0037.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "we can say that this is improper load but it is balanced the only problem is it doesn't have the straps",
+    "timestamp": "2026-03-16T23:49:41.173Z"
+  },
+  "forklift_0038.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is totally safe the person is driving and the folks are very low close to the ground so it is fine",
+    "timestamp": "2026-03-16T23:49:57.747Z"
+  },
+  "forklift_0039.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:50:06.043Z"
+  },
+  "forklift_0040.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "forklift_violation",
+    "notes": "this is both obstacle and forklift issue again first of all this debris on for secondly there's a person very close to the forklift",
+    "timestamp": "2026-03-16T23:50:21.589Z"
+  },
+  "forklift_0041.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the petition is not standing close the worker is one worker is driving while the other one is standing literally on the fork so this is serious",
+    "timestamp": "2026-03-16T23:50:42.030Z"
+  },
+  "forklift_0042.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:50:51.265Z"
+  },
+  "forklift_0043.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "your description is incorrect this is this is a forklift violation because the front two wheels of the forklift are in are it's kind of like it is about to tip over",
+    "timestamp": "2026-03-16T23:51:13.305Z"
+  },
+  "forklift_0044.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:51:23.094Z"
+  },
+  "forklift_0045.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is again both of forklift and obstacle issue there is debris on the floor then there's a severe issue that one person is driving the forklift while there's one standing at the back of the forklift hanging on to the to the frame",
+    "timestamp": "2026-03-16T23:51:44.005Z"
+  },
+  "forklift_0046.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:51:52.097Z"
+  },
+  "forklift_0047.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not a fox race issue this is rather that the person is trying to carry a very big load compared to the forklift",
+    "timestamp": "2026-03-16T23:52:06.605Z"
+  },
+  "forklift_0048.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "your description is almost correct but there's one thing to add at the front two wheels are in are",
+    "timestamp": "2026-03-16T23:52:22.143Z"
+  },
+  "forklift_0049.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "so this one has multiple workers towards the left side but there's also one very close to the forklift",
+    "timestamp": "2026-03-16T23:52:37.163Z"
+  },
+  "forklift_0050.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:52:47.997Z"
+  },
+  "forklift_0051.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:52:54.897Z"
+  },
+  "forklift_0052.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the worker is not watching it the worker is literally beneath the folks which is very severe",
+    "timestamp": "2026-03-16T23:53:19.989Z"
+  },
+  "forklift_0053.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:53:32.322Z"
+  },
+  "forklift_0054.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:53:39.548Z"
+  },
+  "forklift_0055.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not Collision it's rather than the front two wheels are very high and the forklift is at a very big 30° angle",
+    "timestamp": "2026-03-16T23:53:54.050Z"
+  },
+  "forklift_0056.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe because the person is driving but you can consider there is a bit of spill on the floor but in terms of forklift there is no issues",
+    "timestamp": "2026-03-16T23:54:15.922Z"
+  },
+  "forklift_0057.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-16T23:54:21.647Z"
+  },
+  "forklift_0058.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is saved there is no problem happening over here",
+    "timestamp": "2026-03-16T23:54:44.321Z"
+  },
+  "forklift_0059.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:54:50.022Z"
+  },
+  "forklift_0060.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "pedestrian is not walking ahead he is literally walking to the left side along the forklift",
+    "timestamp": "2026-03-16T23:55:06.725Z"
+  },
+  "forklift_0061.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "obstacle",
+    "notes": "this is safe but there are obstacles I should say there are skids on the floor which could be considered obstacles but in terms of safety this is save the folks are not raised",
+    "timestamp": "2026-03-16T23:55:28.804Z"
+  },
+  "forklift_0062.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "improper_stacking",
+    "notes": "the skid again be considered as well as well also this is improper load because there are three skid stacked with the folks inside the bottom scale and it is a very unbalanced the top one is very unbalanced so severity is high",
+    "timestamp": "2026-03-16T23:56:01.445Z"
+  },
+  "forklift_0063.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this should be a folks raised by there is also that one person standing literally behind the working forklift",
+    "timestamp": "2026-03-16T23:56:15.263Z"
+  },
+  "forklift_0064.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the issue over here is not the folks raise the folks are very close to the ground it is rather that there is three skid stacked on the forks which is very improper load and it is very seems to be very heavy",
+    "timestamp": "2026-03-16T23:56:36.305Z"
+  },
+  "forklift_0065.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again this is this is an issue because the folks are not raised but rather the problem is that the boxes seem to be very unbalanced and are not Disturbed or raped",
+    "timestamp": "2026-03-16T23:56:57.730Z"
+  },
+  "forklift_0066.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "spill",
+    "notes": "this is safe there are no pedestrians nearby but in a lot of these images from like 50 to 70 there is kind of like a spill on the floor so we need to take care of that it is not a spell but it would be considered a spill probably by our model the pedestrians are very very far away so I don't know how you say it they are very close",
+    "timestamp": "2026-03-16T23:57:35.060Z"
+  },
+  "forklift_0067.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:57:44.210Z"
+  },
+  "forklift_0068.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again you were not able to detect that this is a severe issue the problem is not the seat belt again we are not looking at seatbelts problem is as one person hanging on the frame of the forklift at the back while the forklift is running",
+    "timestamp": "2026-03-16T23:58:08.684Z"
+  },
+  "forklift_0069.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "okay this is an interesting issue this is both obstacle and it is also a forklift issue it seems like boxes have fallen off the skin of a working forklift",
+    "timestamp": "2026-03-16T23:58:24.921Z"
+  },
+  "forklift_0070.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the issue over here is not that the folks are as it's rather than the person has raised the folks Aloft while the boxes have not been stabbed and dragged properly which means that they might fall off",
+    "timestamp": "2026-03-16T23:58:41.213Z"
+  },
+  "forklift_0071.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is again not a folks raised issue there's like a person who is in front of the forklift very far far away but still in the aisle trying to pick up something from the ground but the problem is that I should save pedestrian proximity",
+    "timestamp": "2026-03-16T23:59:06.205Z"
+  },
+  "forklift_0072.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-16T23:59:09.205Z"
+  },
+  "forklift_0073.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-16T23:59:13.438Z"
+  },
+  "forklift_0074.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "improper_stacking",
+    "notes": "dishoom over here is not the improper load the load seems to be properly balanced the problem is that the front forks sorry the front wheels are raised on Saturday 20 to 30 degree angle",
+    "timestamp": "2026-03-16T23:59:31.076Z"
+  },
+  "forklift_0075.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again we are not worrying about seat belts also the person is crouching he's not a father",
+    "timestamp": "2026-03-16T23:59:58.421Z"
+  },
+  "forklift_0076.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "be sure what it is not that the folks are raised it's rather that the folks are raised and also that the boxes on the on the raised folks on the skid are not stopped and wrapped and they seem to be very unbalanced at a very big load",
+    "timestamp": "2026-03-17T00:00:19.688Z"
+  },
+  "forklift_0077.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:00:24.755Z"
+  },
+  "forklift_0078.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:00:41.730Z"
+  },
+  "forklift_0079.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:00:48.256Z"
+  },
+  "forklift_0080.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this can be considered obstacle and also a forklift Hazard the forklift Hazard is that the boxes are falling off the foot seems to be the skid on the folks also it is this kid seems to be a bit unbalanced",
+    "timestamp": "2026-03-17T00:01:10.329Z"
+  },
+  "forklift_0081.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:01:21.955Z"
+  },
+  "forklift_0082.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is again both forklift and it is also obstacle",
+    "timestamp": "2026-03-17T00:01:57.462Z"
+  },
+  "forklift_0083.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "I've noticed that you make a lot of mistakes in the folks raised subtype issue over here the problem is that it is almost safe folks are raised the only problem is that there is probably a small spell on the ground towards the left side and the other issue is that the boxes are not wrapped so it is a chance that they might fall off",
+    "timestamp": "2026-03-17T00:02:25.087Z"
+  },
+  "forklift_0084.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:02:34.341Z"
+  },
+  "forklift_0085.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "if you look properly there is one person that is very close to the forklift and there is also one hanging on one of the apps",
+    "timestamp": "2026-03-17T00:02:55.716Z"
+  },
+  "forklift_0086.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:03:02.467Z"
+  },
+  "forklift_0087.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:03:17.408Z"
+  },
+  "forklift_0088.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "forklift_violation",
+    "notes": "this is again both to spell and it is a forklift Hazard but the severity is that it is majorly a forklift has it because there's a person hanging on the frame of the forklift while the forklift is working",
+    "timestamp": "2026-03-17T00:03:38.257Z"
+  },
+  "forklift_0089.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:03:41.558Z"
+  },
+  "forklift_0090.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "yes this is improper load because it seems to be the skit has broken and there's already debris on the floor it could be considered a obstacle by other model so it is both forklift and obstacle",
+    "timestamp": "2026-03-17T00:03:59.857Z"
+  },
+  "forklift_0091.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "obstacle",
+    "notes": "this is again the boats forklift and obstacle issue there's debris and does debris and it also seems like there are boxes falling off the skin on the folks",
+    "timestamp": "2026-03-17T00:04:32.016Z"
+  },
+  "forklift_0092.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "obstacle",
+    "notes": "this can be again considered a obstacle but it is majorly obstacle",
+    "timestamp": "2026-03-17T00:05:02.562Z"
+  },
+  "forklift_0093.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a wrong image so we can get rid of this image",
+    "timestamp": "2026-03-17T00:05:12.532Z"
+  },
+  "forklift_0094.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:05:20.808Z"
+  },
+  "forklift_0095.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "again we don't have to worry about whether somebody is wearing a safety belt or not",
+    "timestamp": "2026-03-17T00:05:33.296Z"
+  },
+  "forklift_0096.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:05:38.158Z"
+  },
+  "forklift_0097.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-17T00:05:46.086Z"
+  },
+  "forklift_0098.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "obstacle",
+    "notes": "this is pretty much saved but there's debris on the floor so we can say it is obstacle",
+    "timestamp": "2026-03-17T00:05:56.129Z"
+  },
+  "forklift_0099.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe there are no issues but there are tiny patches which might seem like spills but they are not really spills but everything else is fine",
+    "timestamp": "2026-03-17T00:06:19.037Z"
+  },
+  "forklift_0100.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is actually safe because the person is driving forklift to pedestrians are very far away but I think you probably thought that they are very close but actually they are very far away",
+    "timestamp": "2026-03-17T00:06:41.828Z"
+  },
+  "forklift_0101.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again I see you have given it folks raised but this is not a folks raised issue the problem is that the forklift is actually very far away in the background and secondly there's a pedestrian walking very close to the moving forklift",
+    "timestamp": "2026-03-17T00:09:49.497Z"
+  },
+  "forklift_0102.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not an improper load issue the problem is that there is a pedestrian walking very close to the forklift also there's debris on the floor so it might be considered obstacle but it is both forklift and obstacle the main severity is that person walking close to the forklift",
+    "timestamp": "2026-03-17T00:10:14.593Z"
+  },
+  "forklift_0103.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "okay there is no Collision happening this is this is completely safe the person is driving it",
+    "timestamp": "2026-03-17T00:10:32.010Z"
+  },
+  "forklift_0104.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a forklift violation that the problem is the proximity of the person and there's also debris on the floor which might be considered as an obstacle but mainly it is forklift pedestrian proximity",
+    "timestamp": "2026-03-17T00:10:54.681Z"
+  },
+  "forklift_0105.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:10:58.565Z"
+  },
+  "forklift_0106.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:11:03.148Z"
+  },
+  "forklift_0107.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "so the problem over here is that there are skids on the floor but that is fine the problem is that the skin seems to have been broken boxes seem to have fallen off this of the skit so it might be considered both obstacle and forklift",
+    "timestamp": "2026-03-17T00:11:33.277Z"
+  },
+  "forklift_0108.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "it is almost fine there is no improper load issue",
+    "timestamp": "2026-03-17T00:11:48.977Z"
+  },
+  "forklift_0109.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "forklift_violation",
+    "notes": "again this is very little spell and debris on the floor the problem is there's a pedestrian or I should say there's a worker very close to the left side of the moving forklift so this is a pedestrian proximity forklift issue",
+    "timestamp": "2026-03-17T00:12:21.963Z"
+  },
+  "forklift_0110.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:12:31.384Z"
+  },
+  "forklift_0111.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:12:33.152Z"
+  },
+  "forklift_0112.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again this is safe there is no problem over here folks are raised with a person is trying to put so we can't just put folks raised as as a hazard we only do it if we see folks are raised and the stuff is unbalanced and is not stacked properly",
+    "timestamp": "2026-03-17T00:12:57.851Z"
+  },
+  "forklift_0113.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe there is no speeding happening this is completely fine",
+    "timestamp": "2026-03-17T00:13:09.701Z"
+  },
+  "forklift_0114.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again I don't know how you're putting it as a speeding but there are no speeding no marks on the could be from something else",
+    "timestamp": "2026-03-17T00:13:27.242Z"
+  },
+  "forklift_0115.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:13:29.676Z"
+  },
+  "forklift_0116.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "over here the problem seems to be that the person is driving and the boxes are keep keep falling off the forklifts skin so it can be considered both a forklift and a obstacle violation",
+    "timestamp": "2026-03-17T00:13:50.113Z"
+  },
+  "forklift_0117.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again over here it seems to be that the person is driving us a forklift and it seems that the boxes have fallen off this kid which was on the forks of the forklift so it could be both a forklift and obstacle issue but mainly obstacle",
+    "timestamp": "2026-03-17T00:14:10.992Z"
+  },
+  "forklift_0118.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:14:13.417Z"
+  },
+  "forklift_0119.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "over here again it seems to be that the person is driving forklift the folks are in the air with a skid the problem is that the Lord is unbalanced it is not stopped secondly it seems to be that the boxes are falling off of it",
+    "timestamp": "2026-03-17T00:14:30.963Z"
+  },
+  "forklift_0120.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:14:33.875Z"
+  },
+  "forklift_0121.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:14:35.293Z"
+  },
+  "forklift_0122.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this seems to be a issue of obstacle because there are debris on the floor but in terms of forklift there seems to be no problem",
+    "timestamp": "2026-03-17T00:14:50.788Z"
+  },
+  "forklift_0123.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "over here the issue is not pedestrian proximity it seems to be improper load it seems to be that the Lord is unbalanced on the networking forklift and it seems to be boxes are falling off so it could be considered both of forklift and obstacle",
+    "timestamp": "2026-03-17T00:15:22.001Z"
+  },
+  "forklift_0124.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "forklift_violation",
+    "notes": "honestly get rid of this image it has distorted the forklift",
+    "timestamp": "2026-03-17T00:15:32.467Z"
+  },
+  "forklift_0125.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a severe forklift issue because of person is hanging on the folks",
+    "timestamp": "2026-03-17T00:15:45.317Z"
+  },
+  "forklift_0126.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "spill",
+    "notes": "this is not a folks raised issue the problem is that there is still there is spill on the floor",
+    "timestamp": "2026-03-17T00:16:02.975Z"
+  },
+  "forklift_0127.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again you consider a fox raised as a problem which is not a problem rather there's a there's a very small spill on floor but it is mostly safe",
+    "timestamp": "2026-03-17T00:16:24.875Z"
+  },
+  "forklift_0128.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this seems to be fine the only thing is that we can say that Walker in the background is closed for this would be a pedestrian proximity issue also there is again a very small spill on the floor so that might be picked",
+    "timestamp": "2026-03-17T00:16:58.118Z"
+  },
+  "forklift_0129.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:17:14.927Z"
+  },
+  "forklift_0130.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again you have considered it as a folks raised issue this is not a Volkswagen issue the problem is it is severe one person is is standing on the back of the forklift hanging onto the frame",
+    "timestamp": "2026-03-17T00:17:33.226Z"
+  },
+  "forklift_0131.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is safe we are not keep worrying about the about the safety belt",
+    "timestamp": "2026-03-17T00:17:58.150Z"
+  },
+  "forklift_0132.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is again safe a folks being raised a little is not an issue",
+    "timestamp": "2026-03-17T00:18:11.325Z"
+  },
+  "forklift_0133.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "you can say that there is probably a collision happen but the the problem is that the boxes are falling off the skin that is high in the air on the folks",
+    "timestamp": "2026-03-17T00:18:28.075Z"
+  },
+  "forklift_0134.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:18:31.763Z"
+  },
+  "forklift_0135.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:18:40.917Z"
+  },
+  "forklift_0136.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:18:42.126Z"
+  },
+  "forklift_0137.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:18:44.984Z"
+  },
+  "forklift_0138.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:18:47.285Z"
+  },
+  "forklift_0139.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:18:52.184Z"
+  },
+  "forklift_0140.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:18:57.013Z"
+  },
+  "forklift_0141.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this should be a pedestrian proximity issue because that is where the folks are in the are there's a huge load which is pretty much on folks in the air and there are people very nearby",
+    "timestamp": "2026-03-17T00:19:21.859Z"
+  },
+  "forklift_0142.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:19:46.760Z"
+  },
+  "forklift_0143.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "okay so if you look closely there are two forklifts in the in this photo there is one forklift which is driving fine with the user the other one has no person sitting on it but the folks are still in the air with the skid on it which is very severe",
+    "timestamp": "2026-03-17T00:20:31.346Z"
+  },
+  "forklift_0144.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:20:35.896Z"
+  },
+  "forklift_0145.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the problem over here it seems that there's the somebody seems to be on the top of the aisle trying to pick up the box from the folks and put it on there which is severe",
+    "timestamp": "2026-03-17T00:21:11.962Z"
+  },
+  "forklift_0146.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "okay The Pedestrian is not standing close he's actually sitting on the folks",
+    "timestamp": "2026-03-17T00:21:23.370Z"
+  },
+  "forklift_0147.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:21:28.025Z"
+  },
+  "forklift_0148.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:21:33.741Z"
+  },
+  "forklift_0149.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:21:38.775Z"
+  },
+  "forklift_0150.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:21:43.000Z"
+  },
+  "forklift_0151.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-17T00:21:45.750Z"
+  },
+  "forklift_0152.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "so the issue over here is that there are two people in very close proximity to the working forklift",
+    "timestamp": "2026-03-17T00:25:00.407Z"
+  },
+  "forklift_0153.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:25:03.337Z"
+  },
+  "forklift_0154.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:25:19.315Z"
+  },
+  "forklift_0155.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "safe",
+    "notes": "this is actually saved there are no Fallen boxes on the floor that are just kids with stacked boxes on them",
+    "timestamp": "2026-03-17T00:25:32.149Z"
+  },
+  "forklift_0156.png": {
+    "action": "change",
+    "original_category": "obstacle",
+    "new_category": "forklift_violation",
+    "notes": "again there are no Fallen boxes on the floor but the problem is that this is a forklift violation because there's a person walking very close to a working forklift because if you look very carefully",
+    "timestamp": "2026-03-17T00:25:53.041Z"
+  },
+  "forklift_0157.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is the wrong image get rid of it",
+    "timestamp": "2026-03-17T00:26:29.215Z"
+  },
+  "forklift_0158.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not forklift this is rather obstacle issue because of the debris on the floor but the forklift seems to be back but it seems like the folks are in the air so that is a booklet issue so it is both forklift and obstacle issue",
+    "timestamp": "2026-03-17T00:27:00.049Z"
+  },
+  "forklift_0159.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "improper_stacking",
+    "notes": "there is no pedestrian nearby this is not a pedestrian issue the one person is driving it this is a improper load issue because the load doesn't seem to be properly balanced on the folks",
+    "timestamp": "2026-03-17T00:27:16.728Z"
+  },
+  "forklift_0160.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a pedestrian proximity issue there's one person walking very close to a forklift",
+    "timestamp": "2026-03-17T00:27:27.944Z"
+  },
+  "forklift_0161.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:27:32.086Z"
+  },
+  "forklift_0162.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:27:38.694Z"
+  },
+  "forklift_0163.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "diesel Woodhead is not that the folks are raised its rather than the front wheels are in the air and the forklift is at almost a 15 to 20 degree angle which means it is unstable",
+    "timestamp": "2026-03-17T00:27:58.177Z"
+  },
+  "forklift_0164.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:28:48.932Z"
+  },
+  "forklift_0165.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:28:51.248Z"
+  },
+  "forklift_0166.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "is it safe for the folks are in the air but the the person seems to be driving the forklift just fine",
+    "timestamp": "2026-03-17T00:29:04.131Z"
+  },
+  "forklift_0167.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "forklift_violation",
+    "notes": "do seems to be a forklift issue it is not severe but because the forklift seems to be still but the problem is there's a person walking very close proximity to the forklift",
+    "timestamp": "2026-03-17T00:29:43.623Z"
+  },
+  "forklift_0168.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:29:46.973Z"
+  },
+  "forklift_0169.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:29:49.232Z"
+  },
+  "forklift_0170.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again folks being raised as not the issue and this is completely safe",
+    "timestamp": "2026-03-17T00:29:59.656Z"
+  },
+  "forklift_0171.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:30:03.948Z"
+  },
+  "forklift_0172.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:30:10.874Z"
+  },
+  "forklift_0173.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "improper_stacking",
+    "notes": "I would say this is not safe this is more likely an improper Lord because the the the the the skid with the boxes on it on the is very unbalanced like the top boxes are unbalanced the bottom boxes are wrapped",
+    "timestamp": "2026-03-17T00:30:34.515Z"
+  },
+  "forklift_0174.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this seems to be mixed because the folk the boxes are unbalanced by the load is very small but the main problem is that this is a pedestrian proximity I shouldn't say pedestrian it is a worker proximity issue because there's one person very close proximity to work in forklift",
+    "timestamp": "2026-03-17T00:31:05.681Z"
+  },
+  "forklift_0175.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "improper_stacking",
+    "notes": "this is not a fox says to issue it is rather improper load because the load seems to be very unbalanced on the folks and there are also kids all around it which might be considered as obstacle but they're not debris",
+    "timestamp": "2026-03-17T00:31:27.755Z"
+  },
+  "forklift_0176.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the person is very very close proximity and is just beneath the race folks",
+    "timestamp": "2026-03-17T00:31:40.597Z"
+  },
+  "forklift_0177.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is again a workout proximity that one working seems to be standing on the folks which are raised and trying to put boxes on top of one of the aisles which is severe also there are two workers working very close proximity to the working forklift",
+    "timestamp": "2026-03-17T00:31:59.872Z"
+  },
+  "forklift_0178.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not an improper load issue it is rather an unbalanced situation and also there are there are broken skills on the floor and there's debris plus the front two wheels are in the are almost at like a 5° angle which seems to be like unbalanced",
+    "timestamp": "2026-03-17T00:32:22.455Z"
+  },
+  "forklift_0179.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:32:24.618Z"
+  },
+  "forklift_0180.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this again is a severe issue on a working forklift there is a person driving and there's another worker which who is hanging on to the frame of the forklift at the back",
+    "timestamp": "2026-03-17T00:32:41.993Z"
+  },
+  "forklift_0181.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not a fox raised issue again this is again a worker proximity that the person is hanging on the back of the forklift frame while somebody else is driving it",
+    "timestamp": "2026-03-17T00:33:00.276Z"
+  },
+  "forklift_0182.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "you're not caring about the safety belt for hair so it's fine",
+    "timestamp": "2026-03-17T00:33:23.584Z"
+  },
+  "forklift_0183.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is actually safe because the folks are raised but if you look carefully the the skin is strapped and wrapped properly with plastic",
+    "timestamp": "2026-03-17T00:33:51.100Z"
+  },
+  "forklift_0184.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "forklift_violation",
+    "notes": "okay this is not safe the forklift is working while there's a pedestrian walking very close to it if you look carefully he's kind of almost behind the aisle but you can see there's a person",
+    "timestamp": "2026-03-17T00:34:09.409Z"
+  },
+  "forklift_0185.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:34:13.176Z"
+  },
+  "forklift_0186.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:34:16.259Z"
+  },
+  "forklift_0187.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is safe even though the folks are raised it is fine but the problem over here is there is a very small spell kind of on the floor and secondly the front two wheels are raised almost at a 3° angle which means the forklift is unbalanced",
+    "timestamp": "2026-03-17T00:34:36.992Z"
+  },
+  "forklift_0188.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "the improper load situation seems like one of the boxes has is almost made in the are falling off from forklift",
+    "timestamp": "2026-03-17T00:34:50.013Z"
+  },
+  "forklift_0189.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:34:52.447Z"
+  },
+  "forklift_0190.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:34:56.837Z"
+  },
+  "forklift_0191.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is a folks are raised but the stack is balance on the skid on the folks and also it is wrapped with plastic wrap",
+    "timestamp": "2026-03-17T00:35:09.717Z"
+  },
+  "forklift_0192.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a improper load issue situation over here the boxes seems to be falling off the scale and also skid is high in the air even though it is not plastic wrapped",
+    "timestamp": "2026-03-17T00:35:35.287Z"
+  },
+  "forklift_0193.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "spill",
+    "notes": "this is safe I don't know how you are able to figure out that speeding we're not considering the marks on the floor but it could be considered as well because there is almost a spell situations a small spill on the bottom right side of the eye",
+    "timestamp": "2026-03-17T00:35:54.754Z"
+  },
+  "forklift_0194.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "improper_stacking",
+    "notes": "this is a very interesting image so the situation is that the three kids are stacked but the person is trying to pick up the top one and trying to load it so it is safe and the person is trying to pick it properly the problem is that the top one is not plastic wrap to the boxes might fall so it is a improper load situation",
+    "timestamp": "2026-03-17T00:36:39.438Z"
+  },
+  "forklift_0195.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-17T00:37:05.554Z"
+  },
+  "forklift_0196.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "so they're not dangerously overloaded I would say the severity is not high but the problem is that it is not stabbed or wrapped with any plastic wrap and so the boxes might fall off",
+    "timestamp": "2026-03-17T00:37:27.466Z"
+  },
+  "forklift_0197.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "you know this one is the correct Fox race issue because there are definitely folks raised there is no one off sitting on the forklift controlling it and secondly there are two workers very in three workers actually in very close proximity to the",
+    "timestamp": "2026-03-17T00:37:47.399Z"
+  },
+  "forklift_0198.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is completely safe image the person is simply driving the forklift the boxes are very balanced and there are skids on the floor with boxes properly stacked on them but they are very very small there",
+    "timestamp": "2026-03-17T00:38:19.624Z"
+  },
+  "forklift_0199.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:38:22.196Z"
+  },
+  "forklift_0200.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "again you have a game a wrong description over here the issue is the play shoes pedestrian proximity the folks are not in the are there is one person walking very close to the forklift where by the person is driving",
+    "timestamp": "2026-03-17T00:38:46.012Z"
+  },
+  "forklift_0201.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:39:01.792Z"
+  },
+  "forklift_0202.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "again this is a safe image the person is driving find the folks are very close to the ground so it is not very high also it seems to be the boxes are balanced",
+    "timestamp": "2026-03-17T00:39:19.920Z"
+  },
+  "forklift_0203.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is wrong image get rid of it",
+    "timestamp": "2026-03-17T00:39:27.403Z"
+  },
+  "forklift_0204.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:39:40.653Z"
+  },
+  "forklift_0205.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:39:42.853Z"
+  },
+  "forklift_0206.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "forklift_violation",
+    "notes": "okay this is not actually safe if this is the folks raised is raised issue with the problem is one person is driving forklift which is fine but the problem is that there's another forklift in the background with folks raised",
+    "timestamp": "2026-03-17T00:40:07.062Z"
+  },
+  "forklift_0207.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:40:09.933Z"
+  },
+  "forklift_0208.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "this is completely save the person has raised the folks and there is no pedestrian nearby",
+    "timestamp": "2026-03-17T00:40:23.607Z"
+  },
+  "forklift_0209.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:40:26.070Z"
+  },
+  "forklift_0210.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is not a improper load issue that there is nothing on there is nothing on the folks the problem is that there is debris and broken skids and stack and boxes close to the forklift and a person walking very close to the forklift while there's somebody driving it",
+    "timestamp": "2026-03-17T00:41:09.233Z"
+  },
+  "forklift_0211.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:41:12.070Z"
+  },
+  "forklift_0212.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:41:13.328Z"
+  },
+  "forklift_0213.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:41:14.912Z"
+  },
+  "forklift_0214.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "obstacle",
+    "notes": "this is a obstacle issue the folks are raised but that's fine because somebody's driving it but the main issue is that there's debris on the floor",
+    "timestamp": "2026-03-17T00:41:27.869Z"
+  },
+  "forklift_0215.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is a severe issue over here because it seems to be that the folks are high in the air there are three people very close by and there are boxes falling off of the skin which is high on folks in the air",
+    "timestamp": "2026-03-17T00:41:48.715Z"
+  },
+  "forklift_0216.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:41:55.624Z"
+  },
+  "forklift_0218.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T00:41:58.391Z"
+  },
+  "forklift_0219.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this seems to be an unbalanced forklift is that is also a worker brought in there is also worker in close proximity to the forklift while the forklift is driving the front two wheels are in the air at a 20 to 3025 degree angle while carrying a load and somebody's driving",
+    "timestamp": "2026-03-17T00:42:26.777Z"
+  },
+  "forklift_0220.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "safe",
+    "notes": "there is no pedestrian nearby but the folks are in there but that's fine",
+    "timestamp": "2026-03-17T00:42:37.944Z"
+  },
+  "forklift_0221.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "okay the folks are actually not in the are the problem over here is that there's a pedestrian again hanging on the frame of the forklift at the back but folks raised issue you raise it again and again but that is not the problem",
+    "timestamp": "2026-03-17T00:43:00.836Z"
+  },
+  "forklift_0222.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "okay this is again this is not a debris there are kids on the floor but they have a balanced start boxes on them the problem is a worker proximity there is one worker again hanging on the frame of the forklift while somebody else is driving it",
+    "timestamp": "2026-03-17T00:43:27.236Z"
+  },
+  "forklift_0223.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:43:34.377Z"
+  },
+  "forklift_0224.png": {
+    "action": "change",
+    "original_category": "forklift_violation",
+    "new_category": "forklift_violation",
+    "notes": "this is actually safe because this is this is not a pedestrian proximity it is rather a fox raised issue because the forklift seems to be on the ground and the folks seem to be raised but it could be that the forklift is broken and somebody's trying to maybe change the folks or trying to look at something so I don't know what to do",
+    "timestamp": "2026-03-17T00:44:09.840Z"
+  },
+  "forklift_0226.png": {
+    "action": "confirm",
+    "original_category": "forklift_violation",
+    "timestamp": "2026-03-17T00:44:12.552Z"
+  },
+  "stacking_0001.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:44:24.685Z"
+  },
+  "stacking_0002.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:44:28.569Z"
+  },
+  "stacking_0003.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:44:39.319Z"
+  },
+  "stacking_0004.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:44:45.969Z"
+  },
+  "stacking_0005.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "okay nothing is collaged in this image there is a small spell on the ground so it could be both stacking stocking and spiritual secondly it seems to be that the straps are broken and the plastic wrap has been removed and this kid is damaged the box is on it are damaged so it is improper stacking and spell issue",
+    "timestamp": "2026-03-17T00:45:20.644Z"
+  },
+  "stacking_0006.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is actually save the skin is on the ground and the boxes are stacked properly",
+    "timestamp": "2026-03-17T00:45:39.919Z"
+  },
+  "stacking_0007.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:45:49.136Z"
+  },
+  "stacking_0008.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "again since the skit is on the ground at the boxes are stacked but yes you can say there is a bit unbalanced",
+    "timestamp": "2026-03-17T00:46:12.626Z"
+  },
+  "stacking_0009.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:46:21.035Z"
+  },
+  "stacking_0010.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:46:27.122Z"
+  },
+  "stacking_0011.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:46:35.531Z"
+  },
+  "stacking_0012.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "the problem over here is that the plastic wrap seems to be loose and broken secondly somebody has started a skid on top of another skid and the bottom skids boxes seem to have been crossed and the upper skids plastic wrap seems to have been broken and it seems like the boxes might fall",
+    "timestamp": "2026-03-17T00:47:17.226Z"
+  },
+  "stacking_0013.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is actually saved there is no problem even though the boxes are not stacked properly but they are plastic wrapped",
+    "timestamp": "2026-03-17T00:47:32.643Z"
+  },
+  "stacking_0014.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:47:50.543Z"
+  },
+  "stacking_0015.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "okay the issue over there is not the left sacking the left side skates boxes are stacked properly balanced but they're not plastic wrap which is the problem is the right side stag the plastic wrap as is broken and the boxes are very unbalanced",
+    "timestamp": "2026-03-17T00:48:20.876Z"
+  },
+  "stacking_0016.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:48:25.464Z"
+  },
+  "stacking_0017.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:48:53.877Z"
+  },
+  "stacking_0018.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:48:56.543Z"
+  },
+  "stacking_0019.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:48:59.243Z"
+  },
+  "stacking_0020.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:49:01.593Z"
+  },
+  "stacking_0021.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:49:03.960Z"
+  },
+  "stacking_0022.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:49:07.195Z"
+  },
+  "stacking_0023.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:49:13.310Z"
+  },
+  "stacking_0024.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:49:46.197Z"
+  },
+  "stacking_0025.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:49:51.321Z"
+  },
+  "stacking_0027.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:49:59.809Z"
+  },
+  "stacking_0028.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T00:50:05.763Z"
+  },
+  "stacking_0029.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:50:11.963Z"
+  },
+  "stacking_0030.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:50:18.255Z"
+  },
+  "stacking_0031.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "get rid of this image",
+    "timestamp": "2026-03-17T00:50:55.659Z"
+  },
+  "stacking_0032.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "not lef, it is right",
+    "timestamp": "2026-03-17T12:42:14.213Z"
+  },
+  "stacking_0033.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is not a hazard it is just a skid with boxes on it",
+    "timestamp": "2026-03-17T12:42:55.425Z"
+  },
+  "stacking_0034.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:43:01.538Z"
+  },
+  "stacking_0035.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this image",
+    "timestamp": "2026-03-17T12:43:09.008Z"
+  },
+  "stacking_0036.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:43:23.046Z"
+  },
+  "stacking_0037.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:43:28.995Z"
+  },
+  "stacking_0038.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "incorrect description, this is wrap being cut isssue, on the right side top skid",
+    "timestamp": "2026-03-17T12:44:06.300Z"
+  },
+  "stacking_0039.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "there is no fallen box, there is a skid on the ground, on the left rack there is a skid with broken straps and wrap",
+    "timestamp": "2026-03-17T12:44:38.757Z"
+  },
+  "stacking_0040.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this image",
+    "timestamp": "2026-03-17T12:44:47.965Z"
+  },
+  "stacking_0041.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:44:57.445Z"
+  },
+  "stacking_0042.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this image",
+    "timestamp": "2026-03-17T12:45:05.120Z"
+  },
+  "stacking_0043.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:45:14.924Z"
+  },
+  "stacking_0044.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:45:18.374Z"
+  },
+  "stacking_0045.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:45:21.549Z"
+  },
+  "stacking_0046.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:45:49.458Z"
+  },
+  "stacking_0047.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:45:52.599Z"
+  },
+  "stacking_0048.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe but tiny patches of spill on the floor",
+    "timestamp": "2026-03-17T12:46:19.702Z"
+  },
+  "stacking_0049.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this image",
+    "timestamp": "2026-03-17T12:46:35.569Z"
+  },
+  "stacking_0050.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:46:46.878Z"
+  },
+  "stacking_0051.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:46:51.890Z"
+  },
+  "stacking_0052.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:46:55.457Z"
+  },
+  "stacking_0053.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "only the left rack has irregularity",
+    "timestamp": "2026-03-17T12:47:19.176Z"
+  },
+  "stacking_0054.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:47:25.176Z"
+  },
+  "stacking_0055.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:49:49.312Z"
+  },
+  "stacking_0056.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:49:56.312Z"
+  },
+  "stacking_0057.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:50:09.630Z"
+  },
+  "stacking_0058.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:50:15.241Z"
+  },
+  "stacking_0059.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "just unbalanced boxes on both sides",
+    "timestamp": "2026-03-17T12:50:59.916Z"
+  },
+  "stacking_0060.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T12:53:43.594Z"
+  },
+  "stacking_0061.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "just unbalanced boxes on both sides",
+    "timestamp": "2026-03-17T12:53:49.440Z"
+  },
+  "stacking_0062.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:53:55.607Z"
+  },
+  "stacking_0063.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "issue is on one of the aisles towards the right of the image",
+    "timestamp": "2026-03-17T12:54:36.115Z"
+  },
+  "stacking_0064.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe",
+    "timestamp": "2026-03-17T12:55:12.456Z"
+  },
+  "stacking_0065.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T12:55:19.585Z"
+  },
+  "stacking_0066.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:55:28.547Z"
+  },
+  "stacking_0067.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "safe because only boxes on bottom are unarranged, the hazard would be if the top ones on ehight are unbalanced",
+    "timestamp": "2026-03-17T12:56:16.476Z"
+  },
+  "stacking_0068.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:56:22.118Z"
+  },
+  "stacking_0069.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "this is not torn wrap, there are squished boxes on the top on right side aisle",
+    "timestamp": "2026-03-17T12:58:36.692Z"
+  },
+  "stacking_0070.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:58:50.109Z"
+  },
+  "stacking_0071.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:59:20.826Z"
+  },
+  "stacking_0072.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T12:59:36.437Z"
+  },
+  "stacking_0073.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "there is no crushed packaging, its jsut boxes are open",
+    "timestamp": "2026-03-17T13:00:01.487Z"
+  },
+  "stacking_0074.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:00:06.238Z"
+  },
+  "stacking_0075.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:00:13.417Z"
+  },
+  "stacking_0076.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this",
+    "timestamp": "2026-03-17T13:00:20.833Z"
+  },
+  "stacking_0077.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:00:47.383Z"
+  },
+  "stacking_0078.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:00:53.375Z"
+  },
+  "stacking_0079.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:01:01.978Z"
+  },
+  "stacking_0080.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:01:07.983Z"
+  },
+  "stacking_0081.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:01:31.790Z"
+  },
+  "stacking_0082.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:01:37.249Z"
+  },
+  "stacking_0083.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:01:45.674Z"
+  },
+  "stacking_0084.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "not left the right side",
+    "timestamp": "2026-03-17T13:01:59.170Z"
+  },
+  "stacking_0085.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe",
+    "timestamp": "2026-03-17T13:02:09.444Z"
+  },
+  "stacking_0086.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe but debris",
+    "timestamp": "2026-03-17T13:02:20.045Z"
+  },
+  "stacking_0087.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:02:26.794Z"
+  },
+  "stacking_0088.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:03:33.227Z"
+  },
+  "stacking_0089.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:03:39.556Z"
+  },
+  "stacking_0090.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:03:46.414Z"
+  },
+  "stacking_0091.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:03:50.149Z"
+  },
+  "stacking_0092.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:03:53.614Z"
+  },
+  "stacking_0093.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:03:59.306Z"
+  },
+  "stacking_0094.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:15:16.410Z"
+  },
+  "stacking_0095.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:15:21.069Z"
+  },
+  "stacking_0096.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:18:38.073Z"
+  },
+  "stacking_0097.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:18:46.080Z"
+  },
+  "stacking_0098.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-17T13:23:33.654Z"
+  },
+  "stacking_0099.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:23:37.990Z"
+  },
+  "stacking_0100.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:23:48.107Z"
+  },
+  "stacking_0101.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "",
+    "timestamp": "2026-03-17T13:23:53.866Z"
+  },
+  "stacking_0102.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:23:58.549Z"
+  },
+  "stacking_0103.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:24:03.669Z"
+  },
+  "stacking_0104.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe, minor unarragement",
+    "timestamp": "2026-03-17T13:24:19.982Z"
+  },
+  "stacking_0105.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete this image",
+    "timestamp": "2026-03-17T13:25:00.944Z"
+  },
+  "stacking_0106.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:25:05.274Z"
+  },
+  "stacking_0107.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete image",
+    "timestamp": "2026-03-17T13:25:10.323Z"
+  },
+  "stacking_0108.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:25:16.349Z"
+  },
+  "stacking_0109.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "deelte image",
+    "timestamp": "2026-03-17T13:26:13.943Z"
+  },
+  "stacking_0110.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:26:57.284Z"
+  },
+  "stacking_0111.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:27:02.864Z"
+  },
+  "stacking_0112.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-17T13:27:07.331Z"
+  },
+  "stacking_0113.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-17T13:30:13.447Z"
+  },
+  "stacking_0114.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "deelte",
+    "timestamp": "2026-03-18T06:15:54.106Z"
+  },
+  "stacking_0115.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:16:04.115Z"
+  },
+  "stacking_0116.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:16:09.915Z"
+  },
+  "stacking_0117.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:16:14.935Z"
+  },
+  "stacking_0118.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:16:21.410Z"
+  },
+  "stacking_0119.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:16:29.335Z"
+  },
+  "stacking_0120.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:16:32.369Z"
+  },
+  "stacking_0121.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:16:39.777Z"
+  },
+  "stacking_0122.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:16:44.885Z"
+  },
+  "stacking_0123.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "thsi is safe, it is just on the left a box is crushed",
+    "timestamp": "2026-03-18T06:17:15.151Z"
+  },
+  "stacking_0124.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:17:27.868Z"
+  },
+  "stacking_0125.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:17:34.460Z"
+  },
+  "stacking_0126.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:17:38.997Z"
+  },
+  "stacking_0127.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:17:51.364Z"
+  },
+  "stacking_0128.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:17:56.555Z"
+  },
+  "stacking_0129.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:18:02.347Z"
+  },
+  "stacking_0130.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:18:07.714Z"
+  },
+  "stacking_0131.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:18:12.014Z"
+  },
+  "stacking_0132.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "connect with the only problem is that boxes are stacked very high on the top level so one box got crushed and there's boxes stacked on top of it",
+    "timestamp": "2026-03-18T06:18:31.535Z"
+  },
+  "stacking_0133.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "O'Hare the problem is that the boxes are crossed but it is actually safe",
+    "timestamp": "2026-03-18T06:18:49.384Z"
+  },
+  "stacking_0134.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:18:55.926Z"
+  },
+  "stacking_0135.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "what did once again it is unsafe because there are a lot of boxes stacked on top of each other and the lower box Cut Across pretty much on one of the aisle ends",
+    "timestamp": "2026-03-18T06:19:24.792Z"
+  },
+  "stacking_0136.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:19:31.484Z"
+  },
+  "stacking_0137.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:19:55.418Z"
+  },
+  "stacking_0138.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:20:00.267Z"
+  },
+  "stacking_0139.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:20:05.743Z"
+  },
+  "stacking_0140.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:20:10.253Z"
+  },
+  "stacking_0141.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "is actually the left side and the boxes are placed unevenly and top of each other pretty much overhang",
+    "timestamp": "2026-03-18T06:20:23.043Z"
+  },
+  "stacking_0142.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:20:28.621Z"
+  },
+  "stacking_0143.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:20:34.380Z"
+  },
+  "stacking_0144.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "does the issue that the boxes are stacked in on properly and also this debris on floor",
+    "timestamp": "2026-03-18T06:20:50.559Z"
+  },
+  "stacking_0145.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:20:56.267Z"
+  },
+  "stacking_0146.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:21:04.071Z"
+  },
+  "stacking_0147.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:21:13.837Z"
+  },
+  "stacking_0148.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "books are not in a pyramid formation is just that they're open",
+    "timestamp": "2026-03-18T06:21:47.804Z"
+  },
+  "stacking_0149.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delte",
+    "timestamp": "2026-03-18T06:21:53.330Z"
+  },
+  "stacking_0150.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:22:19.995Z"
+  },
+  "stacking_0151.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:22:24.170Z"
+  },
+  "stacking_0152.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:23:02.058Z"
+  },
+  "stacking_0153.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:23:05.812Z"
+  },
+  "stacking_0154.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:23:10.578Z"
+  },
+  "stacking_0155.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:23:18.103Z"
+  },
+  "stacking_0156.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "problem is that the boxes are pretty much crushed on top but they are safe actually",
+    "timestamp": "2026-03-18T06:23:37.887Z"
+  },
+  "stacking_0157.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:23:42.241Z"
+  },
+  "stacking_0158.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:24:00.428Z"
+  },
+  "stacking_0159.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:24:06.832Z"
+  },
+  "stacking_0160.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "",
+    "timestamp": "2026-03-18T06:24:13.545Z"
+  },
+  "stacking_0161.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "is incorrect it's just on the left side aisle one of the boxes and two of the boxes are pretty uneven unbalanced",
+    "timestamp": "2026-03-18T06:24:30.974Z"
+  },
+  "stacking_0162.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:25:15.003Z"
+  },
+  "stacking_0163.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:25:23.961Z"
+  },
+  "stacking_0164.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:25:28.370Z"
+  },
+  "stacking_0165.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "it is right side aisle not the rightest one though",
+    "timestamp": "2026-03-18T06:25:54.177Z"
+  },
+  "stacking_0166.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "don't turn on overhanging it's just a problem is that heavy boxes are placed on top of smaller boxes which got crust also it's on both eyes on the right and the left two",
+    "timestamp": "2026-03-18T06:27:03.169Z"
+  },
+  "stacking_0167.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "what is debris on the floor plus there's improper stacking",
+    "timestamp": "2026-03-18T06:27:57.631Z"
+  },
+  "stacking_0168.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "actually one of the left Isles and the problem is a heavy box is placed on a smaller box and it's leaning forward a bit",
+    "timestamp": "2026-03-18T06:28:22.393Z"
+  },
+  "stacking_0169.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "this is safe",
+    "timestamp": "2026-03-18T06:28:37.010Z"
+  },
+  "stacking_0170.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:28:50.343Z"
+  },
+  "stacking_0171.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:28:55.377Z"
+  },
+  "stacking_0172.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:29:01.755Z"
+  },
+  "stacking_0173.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:29:09.022Z"
+  },
+  "stacking_0174.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "deelte",
+    "timestamp": "2026-03-18T06:29:12.380Z"
+  },
+  "stacking_0175.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:29:20.880Z"
+  },
+  "stacking_0176.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "they are all fine",
+    "timestamp": "2026-03-18T06:29:36.088Z"
+  },
+  "stacking_0177.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:29:40.305Z"
+  },
+  "stacking_0178.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:29:45.505Z"
+  },
+  "stacking_0179.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:29:50.538Z"
+  },
+  "stacking_0180.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:29:54.905Z"
+  },
+  "stacking_0181.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:30:02.780Z"
+  },
+  "stacking_0182.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "there is debris on floor too and only right racks have uneven boxes left side is organized",
+    "timestamp": "2026-03-18T06:30:30.629Z"
+  },
+  "stacking_0183.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "not left shelving it is right shelving",
+    "timestamp": "2026-03-18T06:30:54.637Z"
+  },
+  "stacking_0184.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:31:40.622Z"
+  },
+  "stacking_0185.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "no issues here",
+    "timestamp": "2026-03-18T06:31:54.596Z"
+  },
+  "stacking_0186.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:34:03.228Z"
+  },
+  "stacking_0187.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:34:08.295Z"
+  },
+  "stacking_0188.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "safe",
+    "notes": "no issues in this image, all boxes are arranged",
+    "timestamp": "2026-03-18T06:35:04.545Z"
+  },
+  "stacking_0189.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "there are open boxes on right.",
+    "timestamp": "2026-03-18T06:36:03.516Z"
+  },
+  "stacking_0190.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:36:17.666Z"
+  },
+  "stacking_0191.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:37:00.883Z"
+  },
+  "stacking_0192.png": {
+    "action": "confirm",
+    "original_category": "improper_stacking",
+    "timestamp": "2026-03-18T06:37:10.174Z"
+  },
+  "stacking_0193.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:37:16.874Z"
+  },
+  "stacking_0194.png": {
+    "action": "change",
+    "original_category": "improper_stacking",
+    "new_category": "improper_stacking",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:37:21.040Z"
+  },
+  "obstacle_0001.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:26.283Z"
+  },
+  "obstacle_0002.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:28.262Z"
+  },
+  "obstacle_0003.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:30.320Z"
+  },
+  "obstacle_0004.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:31.471Z"
+  },
+  "obstacle_0005.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:33.970Z"
+  },
+  "obstacle_0006.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:36.287Z"
+  },
+  "obstacle_0007.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:37.637Z"
+  },
+  "obstacle_0008.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:39.170Z"
+  },
+  "obstacle_0009.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:40.529Z"
+  },
+  "obstacle_0010.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:41.820Z"
+  },
+  "obstacle_0011.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:43.820Z"
+  },
+  "obstacle_0012.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:45.054Z"
+  },
+  "obstacle_0013.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:46.854Z"
+  },
+  "obstacle_0014.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:48.495Z"
+  },
+  "obstacle_0015.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:51.963Z"
+  },
+  "obstacle_0016.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:54.953Z"
+  },
+  "obstacle_0017.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:57.278Z"
+  },
+  "obstacle_0018.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:37:58.945Z"
+  },
+  "obstacle_0019.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:00.495Z"
+  },
+  "obstacle_0020.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:01.945Z"
+  },
+  "obstacle_0021.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:03.478Z"
+  },
+  "obstacle_0022.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:04.703Z"
+  },
+  "obstacle_0023.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:06.113Z"
+  },
+  "obstacle_0024.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:07.470Z"
+  },
+  "obstacle_0025.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:08.770Z"
+  },
+  "obstacle_0026.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:10.288Z"
+  },
+  "obstacle_0027.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:11.503Z"
+  },
+  "obstacle_0028.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:12.563Z"
+  },
+  "obstacle_0029.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:14.853Z"
+  },
+  "obstacle_0030.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:16.112Z"
+  },
+  "obstacle_0031.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:17.370Z"
+  },
+  "obstacle_0032.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:18.430Z"
+  },
+  "obstacle_0033.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:19.428Z"
+  },
+  "obstacle_0034.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:20.505Z"
+  },
+  "obstacle_0035.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:21.586Z"
+  },
+  "obstacle_0036.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:22.513Z"
+  },
+  "obstacle_0037.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:23.620Z"
+  },
+  "obstacle_0038.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:24.395Z"
+  },
+  "obstacle_0039.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:25.379Z"
+  },
+  "obstacle_0040.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:26.470Z"
+  },
+  "obstacle_0041.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:27.637Z"
+  },
+  "obstacle_0042.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:28.811Z"
+  },
+  "obstacle_0043.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:29.978Z"
+  },
+  "obstacle_0044.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:31.178Z"
+  },
+  "obstacle_0045.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:32.280Z"
+  },
+  "obstacle_0046.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:33.430Z"
+  },
+  "obstacle_0047.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:34.728Z"
+  },
+  "obstacle_0048.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:36.470Z"
+  },
+  "obstacle_0049.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:37.479Z"
+  },
+  "obstacle_0050.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:38.820Z"
+  },
+  "obstacle_0051.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:39.936Z"
+  },
+  "obstacle_0052.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:41.245Z"
+  },
+  "obstacle_0053.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:42.503Z"
+  },
+  "obstacle_0054.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:43.745Z"
+  },
+  "obstacle_0055.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:44.920Z"
+  },
+  "obstacle_0056.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:47.170Z"
+  },
+  "obstacle_0057.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:48.845Z"
+  },
+  "obstacle_0058.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:50.311Z"
+  },
+  "obstacle_0059.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:38:52.053Z"
+  },
+  "obstacle_0060.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:29.319Z"
+  },
+  "obstacle_0061.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:30.936Z"
+  },
+  "obstacle_0062.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:32.128Z"
+  },
+  "obstacle_0063.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:33.444Z"
+  },
+  "obstacle_0064.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:34.619Z"
+  },
+  "obstacle_0065.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:35.621Z"
+  },
+  "obstacle_0066.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:36.627Z"
+  },
+  "obstacle_0067.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:37.602Z"
+  },
+  "obstacle_0068.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:38.469Z"
+  },
+  "obstacle_0069.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:39.903Z"
+  },
+  "obstacle_0070.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:41.094Z"
+  },
+  "obstacle_0071.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:42.069Z"
+  },
+  "obstacle_0072.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:43.403Z"
+  },
+  "obstacle_0073.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:44.369Z"
+  },
+  "obstacle_0074.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:45.186Z"
+  },
+  "obstacle_0075.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:46.069Z"
+  },
+  "obstacle_0076.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:46.811Z"
+  },
+  "obstacle_0077.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:47.553Z"
+  },
+  "obstacle_0078.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:48.311Z"
+  },
+  "obstacle_0079.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:49.094Z"
+  },
+  "obstacle_0080.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:49.911Z"
+  },
+  "obstacle_0081.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:50.738Z"
+  },
+  "obstacle_0082.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:51.578Z"
+  },
+  "obstacle_0083.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:52.345Z"
+  },
+  "obstacle_0084.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:53.178Z"
+  },
+  "obstacle_0085.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:53.978Z"
+  },
+  "obstacle_0086.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:54.753Z"
+  },
+  "obstacle_0087.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:55.487Z"
+  },
+  "obstacle_0088.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:56.460Z"
+  },
+  "obstacle_0089.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:57.302Z"
+  },
+  "obstacle_0090.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:58.119Z"
+  },
+  "obstacle_0091.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:59.044Z"
+  },
+  "obstacle_0092.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:39:59.969Z"
+  },
+  "obstacle_0093.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:00.594Z"
+  },
+  "obstacle_0094.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:01.379Z"
+  },
+  "obstacle_0095.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:02.094Z"
+  },
+  "obstacle_0096.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:02.919Z"
+  },
+  "obstacle_0097.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:03.752Z"
+  },
+  "obstacle_0098.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:04.744Z"
+  },
+  "obstacle_0099.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:06.169Z"
+  },
+  "obstacle_0100.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:07.402Z"
+  },
+  "obstacle_0101.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:08.377Z"
+  },
+  "obstacle_0102.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:09.194Z"
+  },
+  "obstacle_0103.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:10.177Z"
+  },
+  "obstacle_0104.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:10.894Z"
+  },
+  "obstacle_0105.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:11.736Z"
+  },
+  "obstacle_0106.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:12.487Z"
+  },
+  "obstacle_0107.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:13.319Z"
+  },
+  "obstacle_0108.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:14.186Z"
+  },
+  "obstacle_0109.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:15.152Z"
+  },
+  "obstacle_0110.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:16.079Z"
+  },
+  "obstacle_0111.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:17.077Z"
+  },
+  "obstacle_0112.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:18.911Z"
+  },
+  "obstacle_0113.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:20.202Z"
+  },
+  "obstacle_0114.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:21.719Z"
+  },
+  "obstacle_0115.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:22.993Z"
+  },
+  "obstacle_0116.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:23.987Z"
+  },
+  "obstacle_0117.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:25.027Z"
+  },
+  "obstacle_0118.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:25.837Z"
+  },
+  "obstacle_0119.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:27.011Z"
+  },
+  "obstacle_0120.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:28.002Z"
+  },
+  "obstacle_0121.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:28.969Z"
+  },
+  "obstacle_0122.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:29.827Z"
+  },
+  "obstacle_0123.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:30.703Z"
+  },
+  "obstacle_0124.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:31.610Z"
+  },
+  "obstacle_0125.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:40.781Z"
+  },
+  "obstacle_0126.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:41.790Z"
+  },
+  "obstacle_0127.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:43.425Z"
+  },
+  "obstacle_0128.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:44.665Z"
+  },
+  "obstacle_0129.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:46.341Z"
+  },
+  "obstacle_0130.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:49.123Z"
+  },
+  "obstacle_0131.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:50.115Z"
+  },
+  "obstacle_0132.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:50.939Z"
+  },
+  "obstacle_0133.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:53.055Z"
+  },
+  "obstacle_0134.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:53.781Z"
+  },
+  "obstacle_0135.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:54.640Z"
+  },
+  "obstacle_0136.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:55.548Z"
+  },
+  "obstacle_0137.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:56.356Z"
+  },
+  "obstacle_0138.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:57.123Z"
+  },
+  "obstacle_0139.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:57.848Z"
+  },
+  "obstacle_0140.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:58.556Z"
+  },
+  "obstacle_0141.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:40:59.323Z"
+  },
+  "obstacle_0142.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:00.048Z"
+  },
+  "obstacle_0143.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:00.914Z"
+  },
+  "obstacle_0144.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:01.689Z"
+  },
+  "obstacle_0145.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:02.548Z"
+  },
+  "obstacle_0146.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:03.248Z"
+  },
+  "obstacle_0147.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:04.249Z"
+  },
+  "obstacle_0148.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:04.964Z"
+  },
+  "obstacle_0149.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:06.406Z"
+  },
+  "obstacle_0150.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:07.175Z"
+  },
+  "obstacle_0151.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:07.858Z"
+  },
+  "obstacle_0152.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:08.533Z"
+  },
+  "obstacle_0153.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:09.189Z"
+  },
+  "obstacle_0154.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:09.840Z"
+  },
+  "obstacle_0155.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:10.456Z"
+  },
+  "obstacle_0156.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:11.173Z"
+  },
+  "obstacle_0157.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:11.964Z"
+  },
+  "obstacle_0158.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:12.656Z"
+  },
+  "obstacle_0159.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:13.473Z"
+  },
+  "obstacle_0160.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:18.389Z"
+  },
+  "obstacle_0161.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:19.031Z"
+  },
+  "obstacle_0162.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:20.039Z"
+  },
+  "obstacle_0163.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:20.939Z"
+  },
+  "obstacle_0164.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:22.039Z"
+  },
+  "obstacle_0165.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:22.739Z"
+  },
+  "obstacle_0166.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:23.589Z"
+  },
+  "obstacle_0167.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:24.383Z"
+  },
+  "obstacle_0168.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:25.181Z"
+  },
+  "obstacle_0169.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:25.989Z"
+  },
+  "obstacle_0170.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:26.831Z"
+  },
+  "obstacle_0171.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:27.681Z"
+  },
+  "obstacle_0172.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:28.631Z"
+  },
+  "obstacle_0173.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:29.565Z"
+  },
+  "obstacle_0174.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:33.173Z"
+  },
+  "obstacle_0175.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:34.333Z"
+  },
+  "obstacle_0176.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:35.389Z"
+  },
+  "obstacle_0177.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:36.306Z"
+  },
+  "obstacle_0178.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:37.164Z"
+  },
+  "obstacle_0179.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:37.992Z"
+  },
+  "obstacle_0180.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:39.358Z"
+  },
+  "obstacle_0181.png": {
+    "action": "confirm",
+    "original_category": "obstacle",
+    "timestamp": "2026-03-18T06:41:40.814Z"
+  },
+  "safe_0001.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:41:43.560Z"
+  },
+  "safe_0002.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:41:44.411Z"
+  },
+  "safe_0003.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-18T06:41:45.752Z"
+  },
+  "safe_0004.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:41:49.214Z"
+  },
+  "safe_0005.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:41:50.023Z"
+  },
+  "safe_0006.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "spill",
+    "notes": "",
+    "timestamp": "2026-03-18T06:41:54.202Z"
+  },
+  "safe_0007.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:41:55.964Z"
+  },
+  "safe_0008.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "spill",
+    "notes": "",
+    "timestamp": "2026-03-18T06:41:59.019Z"
+  },
+  "safe_0009.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:01.064Z"
+  },
+  "safe_0010.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:02.022Z"
+  },
+  "safe_0011.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:02.922Z"
+  },
+  "safe_0012.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "spill",
+    "notes": "small spill",
+    "timestamp": "2026-03-18T06:42:11.605Z"
+  },
+  "safe_0013.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:13.185Z"
+  },
+  "safe_0014.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:14.193Z"
+  },
+  "safe_0015.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:15.251Z"
+  },
+  "safe_0016.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:16.203Z"
+  },
+  "safe_0017.png": {
+    "action": "change",
+    "original_category": "spill",
+    "new_category": "spill",
+    "notes": "splill",
+    "timestamp": "2026-03-18T06:42:20.609Z"
+  },
+  "safe_0018.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "spill",
+    "notes": "small spill right side",
+    "timestamp": "2026-03-18T06:42:37.484Z"
+  },
+  "safe_0019.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:39.114Z"
+  },
+  "safe_0020.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:39.872Z"
+  },
+  "safe_0021.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:40.589Z"
+  },
+  "safe_0022.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:41.465Z"
+  },
+  "safe_0023.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:42.297Z"
+  },
+  "safe_0024.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:42.955Z"
+  },
+  "safe_0025.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:43.538Z"
+  },
+  "safe_0026.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:44.105Z"
+  },
+  "safe_0027.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:44.597Z"
+  },
+  "safe_0028.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:45.049Z"
+  },
+  "safe_0029.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:45.439Z"
+  },
+  "safe_0030.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:45.889Z"
+  },
+  "safe_0031.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:46.330Z"
+  },
+  "safe_0032.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:46.764Z"
+  },
+  "safe_0033.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:47.447Z"
+  },
+  "safe_0034.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:47.982Z"
+  },
+  "safe_0035.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:48.422Z"
+  },
+  "safe_0036.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:48.915Z"
+  },
+  "safe_0037.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:49.363Z"
+  },
+  "safe_0038.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:49.830Z"
+  },
+  "safe_0039.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:50.297Z"
+  },
+  "safe_0040.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:50.755Z"
+  },
+  "safe_0041.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:51.689Z"
+  },
+  "safe_0042.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:52.272Z"
+  },
+  "safe_0043.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:52.973Z"
+  },
+  "safe_0044.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:53.447Z"
+  },
+  "safe_0045.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:53.939Z"
+  },
+  "safe_0046.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:54.438Z"
+  },
+  "safe_0047.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:54.905Z"
+  },
+  "safe_0048.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:55.363Z"
+  },
+  "safe_0049.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:55.813Z"
+  },
+  "safe_0050.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:56.247Z"
+  },
+  "safe_0051.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:56.697Z"
+  },
+  "safe_0052.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:57.139Z"
+  },
+  "safe_0053.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:57.580Z"
+  },
+  "safe_0054.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:58.014Z"
+  },
+  "safe_0055.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:58.415Z"
+  },
+  "safe_0056.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:58.822Z"
+  },
+  "safe_0057.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:59.264Z"
+  },
+  "safe_0058.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:42:59.664Z"
+  },
+  "safe_0059.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:00.114Z"
+  },
+  "safe_0060.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:00.522Z"
+  },
+  "safe_0061.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:01.005Z"
+  },
+  "safe_0062.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:01.423Z"
+  },
+  "safe_0063.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:01.905Z"
+  },
+  "safe_0064.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:02.339Z"
+  },
+  "safe_0065.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:02.897Z"
+  },
+  "safe_0066.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:03.472Z"
+  },
+  "safe_0067.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:04.055Z"
+  },
+  "safe_0068.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:04.580Z"
+  },
+  "safe_0069.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:05.055Z"
+  },
+  "safe_0070.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:05.489Z"
+  },
+  "safe_0071.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:05.890Z"
+  },
+  "safe_0072.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:06.357Z"
+  },
+  "safe_0073.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:06.739Z"
+  },
+  "safe_0074.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:07.180Z"
+  },
+  "safe_0075.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:07.622Z"
+  },
+  "safe_0076.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:08.064Z"
+  },
+  "safe_0077.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:08.505Z"
+  },
+  "safe_0078.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:08.947Z"
+  },
+  "safe_0079.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:09.372Z"
+  },
+  "safe_0080.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:09.772Z"
+  },
+  "safe_0081.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:10.182Z"
+  },
+  "safe_0082.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:10.597Z"
+  },
+  "safe_0083.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:11.039Z"
+  },
+  "safe_0084.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:11.448Z"
+  },
+  "safe_0085.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:11.864Z"
+  },
+  "safe_0086.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:12.272Z"
+  },
+  "safe_0087.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:12.674Z"
+  },
+  "safe_0088.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:13.107Z"
+  },
+  "safe_0089.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:13.622Z"
+  },
+  "safe_0090.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:14.080Z"
+  },
+  "safe_0091.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:14.957Z"
+  },
+  "safe_0092.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:15.447Z"
+  },
+  "safe_0093.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:15.980Z"
+  },
+  "safe_0094.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:16.588Z"
+  },
+  "safe_0095.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:17.255Z"
+  },
+  "safe_0096.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:17.830Z"
+  },
+  "safe_0097.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:18.357Z"
+  },
+  "safe_0098.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:18.880Z"
+  },
+  "safe_0099.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:19.305Z"
+  },
+  "safe_0100.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:19.847Z"
+  },
+  "safe_0101.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:20.315Z"
+  },
+  "safe_0102.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:20.789Z"
+  },
+  "safe_0103.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:21.214Z"
+  },
+  "safe_0104.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:21.672Z"
+  },
+  "safe_0105.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:22.122Z"
+  },
+  "safe_0106.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:22.572Z"
+  },
+  "safe_0107.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:23.047Z"
+  },
+  "safe_0108.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:23.571Z"
+  },
+  "safe_0109.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:24.530Z"
+  },
+  "safe_0110.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:25.172Z"
+  },
+  "safe_0111.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:25.822Z"
+  },
+  "safe_0112.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "bit of debris on floor",
+    "timestamp": "2026-03-18T06:43:38.046Z"
+  },
+  "safe_0113.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:40.797Z"
+  },
+  "safe_0114.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "bit of debris",
+    "timestamp": "2026-03-18T06:43:49.000Z"
+  },
+  "safe_0115.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:51.367Z"
+  },
+  "safe_0116.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:52.534Z"
+  },
+  "safe_0117.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:53.592Z"
+  },
+  "safe_0118.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:54.201Z"
+  },
+  "safe_0119.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:54.692Z"
+  },
+  "safe_0120.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:55.151Z"
+  },
+  "safe_0121.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:55.601Z"
+  },
+  "safe_0122.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:56.042Z"
+  },
+  "safe_0123.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:56.484Z"
+  },
+  "safe_0124.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:56.917Z"
+  },
+  "safe_0125.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:57.375Z"
+  },
+  "safe_0126.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:57.760Z"
+  },
+  "safe_0127.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:58.225Z"
+  },
+  "safe_0128.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:58.651Z"
+  },
+  "safe_0129.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:59.051Z"
+  },
+  "safe_0130.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:43:59.493Z"
+  },
+  "safe_0131.png": {
+    "action": "confirm",
+    "original_category": "spill",
+    "timestamp": "2026-03-18T06:43:59.917Z"
+  },
+  "safe_0132.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:00.326Z"
+  },
+  "safe_0133.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:00.751Z"
+  },
+  "safe_0134.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:01.169Z"
+  },
+  "safe_0135.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:01.592Z"
+  },
+  "safe_0136.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:02.018Z"
+  },
+  "safe_0137.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "obstacle",
+    "notes": "bit of debris on right side",
+    "timestamp": "2026-03-18T06:44:18.954Z"
+  },
+  "safe_0138.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:20.438Z"
+  },
+  "safe_0139.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:21.667Z"
+  },
+  "safe_0140.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:22.250Z"
+  },
+  "safe_0141.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:22.858Z"
+  },
+  "safe_0142.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:23.417Z"
+  },
+  "safe_0143.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:23.927Z"
+  },
+  "safe_0144.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:24.409Z"
+  },
+  "safe_0145.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:24.820Z"
+  },
+  "safe_0146.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:25.309Z"
+  },
+  "safe_0147.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:25.767Z"
+  },
+  "safe_0148.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:26.185Z"
+  },
+  "safe_0149.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:26.584Z"
+  },
+  "safe_0150.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:26.992Z"
+  },
+  "safe_0151.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:27.434Z"
+  },
+  "safe_0152.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:27.867Z"
+  },
+  "safe_0153.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:28.293Z"
+  },
+  "safe_0154.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:28.775Z"
+  },
+  "safe_0155.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:29.259Z"
+  },
+  "safe_0156.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:29.692Z"
+  },
+  "safe_0157.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:30.117Z"
+  },
+  "safe_0158.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:44:39.508Z"
+  },
+  "safe_0159.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:40.842Z"
+  },
+  "safe_0160.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:41.484Z"
+  },
+  "safe_0161.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:42.059Z"
+  },
+  "safe_0162.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:42.900Z"
+  },
+  "safe_0163.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:43.576Z"
+  },
+  "safe_0164.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:44.192Z"
+  },
+  "safe_0165.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:44.693Z"
+  },
+  "safe_0166.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:45.334Z"
+  },
+  "safe_0167.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:45.809Z"
+  },
+  "safe_0168.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:46.367Z"
+  },
+  "safe_0169.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:46.875Z"
+  },
+  "safe_0170.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:47.433Z"
+  },
+  "safe_0171.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:47.894Z"
+  },
+  "safe_0172.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:48.342Z"
+  },
+  "safe_0173.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:44:48.867Z"
+  },
+  "safe_0174.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:44:56.941Z"
+  },
+  "safe_0175.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "delete",
+    "timestamp": "2026-03-18T06:45:00.016Z"
+  },
+  "safe_0176.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:01.100Z"
+  },
+  "safe_0177.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:01.684Z"
+  },
+  "safe_0178.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:02.359Z"
+  },
+  "safe_0179.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:03.017Z"
+  },
+  "safe_0180.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:03.617Z"
+  },
+  "safe_0181.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:04.258Z"
+  },
+  "safe_0182.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:04.675Z"
+  },
+  "safe_0183.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:05.200Z"
+  },
+  "safe_0184.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:05.725Z"
+  },
+  "safe_0185.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "obstacle",
+    "notes": "there is a pallet jack in middle",
+    "timestamp": "2026-03-18T06:45:22.262Z"
+  },
+  "safe_0186.png": {
+    "action": "change",
+    "original_category": "safe",
+    "new_category": "safe",
+    "notes": "spill vry small",
+    "timestamp": "2026-03-18T06:45:33.595Z"
+  },
+  "safe_0187.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:35.229Z"
+  },
+  "safe_0188.png": {
+    "action": "confirm",
+    "original_category": "safe",
+    "timestamp": "2026-03-18T06:45:37.871Z"
+  }
+}

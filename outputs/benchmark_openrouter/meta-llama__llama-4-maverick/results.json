@@ -1,0 +1,13 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "n_images": 12,
+  "correct": 4,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.3333,
+  "accuracy_completed": 0.3333,
+  "avg_time_s": 1.45,
+  "avg_prompt_tokens": 1484,
+  "avg_completion_tokens": 28,
+  "timestamp": "2026-05-02T19:36:02.451125"
+}

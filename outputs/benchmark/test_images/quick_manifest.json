@@ -1,0 +1,77 @@
+[
+  {
+    "file": "stacking_frame_0081.jpg",
+    "ground_truth": "improper_stacking",
+    "source": "improper_stacking/frame_0081.png"
+  },
+  {
+    "file": "spill_frame_0100.jpg",
+    "ground_truth": "spill",
+    "source": "spill/frame_0100.png"
+  },
+  {
+    "file": "safe_frame_0068.jpg",
+    "ground_truth": "safe",
+    "source": "realistic/frame_0068.png"
+  },
+  {
+    "file": "safe_frame_0059.jpg",
+    "ground_truth": "safe",
+    "source": "realistic/frame_0059.png"
+  },
+  {
+    "file": "spill_frame_0008.jpg",
+    "ground_truth": "spill",
+    "source": "spill/frame_0008.png"
+  },
+  {
+    "file": "spill_frame_0070.jpg",
+    "ground_truth": "spill",
+    "source": "spill/frame_0070.png"
+  },
+  {
+    "file": "stacking_frame_0009_v1.jpg",
+    "ground_truth": "improper_stacking",
+    "source": "improper_stacking/frame_0009_v1.png"
+  },
+  {
+    "file": "safe_frame_0152.jpg",
+    "ground_truth": "safe",
+    "source": "realistic/frame_0152.png"
+  },
+  {
+    "file": "stacking_frame_0026.jpg",
+    "ground_truth": "improper_stacking",
+    "source": "improper_stacking/frame_0026.png"
+  },
+  {
+    "file": "safe_frame_0069.jpg",
+    "ground_truth": "safe",
+    "source": "realistic/frame_0069.png"
+  },
+  {
+    "file": "safe_frame_0017.jpg",
+    "ground_truth": "safe",
+    "source": "realistic/frame_0017.png"
+  },
+  {
+    "file": "spill_frame_0085.jpg",
+    "ground_truth": "spill",
+    "source": "spill/frame_0085.png"
+  },
+  {
+    "file": "stacking_frame_0031.jpg",
+    "ground_truth": "improper_stacking",
+    "source": "improper_stacking/frame_0031.png"
+  },
+  {
+    "file": "spill_frame_0168.jpg",
+    "ground_truth": "spill",
+    "source": "spill/frame_0168.png"
+  },
+  {
+    "file": "stacking_frame_0000_v0.jpg",
+    "ground_truth": "improper_stacking",
+    "source": "improper_stacking/frame_0000_v0.png"
+  }
+]

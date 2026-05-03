@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HAWKEYE Label Review</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, sans-serif; background: #1a1a2e; color: #e0e0e0; height: 100vh; display: flex; flex-direction: column; }
+.top { display: flex; gap: 20px; padding: 15px; flex: 1; min-height: 0; overflow: hidden; }
+.img-panel { flex: 1; display: flex; align-items: center; justify-content: center; }
+.img-panel img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 8px; }
+.info-panel { width: 350px; min-width: 350px; display: flex; flex-direction: column; gap: 10px; overflow-y: auto; }
+.label-box { background: #16213e; padding: 15px; border-radius: 8px; }
+.label-box h3 { color: #0f3460; font-size: 13px; text-transform: uppercase; margin-bottom: 8px; color: #7ec8e3; }
+.label-box .value { font-size: 16px; font-weight: 600; }
+.cat-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 14px; font-weight: 700; }
+.cat-spill { background: #1e88e5; }
+.cat-forklift_violation { background: #e53935; }
+.cat-improper_stacking { background: #fb8c00; }
+.cat-obstacle { background: #8e24aa; }
+.cat-safe { background: #43a047; }
+.bottom { padding: 15px; background: #16213e; display: flex; gap: 10px; align-items: center; }
+.btn { padding: 10px 20px; border: none; border-radius: 6px; font-size: 15px; font-weight: 600; cursor: pointer; transition: 0.15s; }
+.btn:hover { transform: scale(1.03); }
+.btn-confirm { background: #43a047; color: #fff; }
+.btn-change { background: #e53935; color: #fff; }
+.btn-skip { background: #555; color: #fff; }
+.btn-nav { background: #1565c0; color: #fff; }
+.btn-voice { background: #7b1fa2; color: #fff; font-size: 18px; }
+.btn-voice.recording { background: #f44336; animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
+.change-panel { display: none; flex: 1; }
+.change-panel.active { display: flex; flex-direction: column; gap: 8px; }
+.cat-buttons { display: flex; gap: 6px; flex-wrap: wrap; }
+.cat-btn { padding: 8px 14px; border: 2px solid transparent; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; color: #fff; }
+.cat-btn.selected { border-color: #fff; box-shadow: 0 0 10px rgba(255,255,255,0.3); }
+textarea { background: #0f3460; color: #e0e0e0; border: 1px solid #333; border-radius: 6px; padding: 10px; font-size: 14px; resize: none; flex: 1; min-height: 60px; }
+.progress { font-size: 13px; color: #888; }
+.counter { font-size: 22px; font-weight: 700; color: #7ec8e3; }
+.stats { display: flex; gap: 15px; font-size: 12px; color: #888; }
+kbd { background: #333; padding: 2px 6px; border-radius: 3px; font-size: 12px; }
+.shortcuts { font-size: 11px; color: #666; padding: 5px 15px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="img-panel">
+    <img id="img" src="" alt="Loading...">
+  </div>
+  <div class="info-panel">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span class="counter" id="counter">1/996</span>
+      <div class="stats">
+        <span>✓ <span id="confirmed">0</span></span>
+        <span>✎ <span id="changed">0</span></span>
+        <span>→ <span id="skipped">0</span></span>
+      </div>
+    </div>
+    <div class="label-box">
+      <h3>Image</h3>
+      <div class="value" id="filename">—</div>
+    </div>
+    <div class="label-box">
+      <h3>Current Category</h3>
+      <div><span class="cat-badge" id="category">—</span></div>
+    </div>
+    <div class="label-box">
+      <h3>Subtype</h3>
+      <div class="value" id="subtype">—</div>
+    </div>
+    <div class="label-box">
+      <h3>Description</h3>
+      <div class="value" id="description" style="font-size:13px; font-weight:400;">—</div>
+    </div>
+    <div class="label-box">
+      <h3>Location</h3>
+      <div class="value" id="location" style="font-size:13px; font-weight:400;">—</div>
+    </div>
+    <div class="label-box">
+      <h3>Severity</h3>
+      <div class="value" id="severity">—</div>
+    </div>
+    <div class="change-panel" id="changePanel">
+      <h3 style="color:#7ec8e3; font-size:13px;">NEW CATEGORY</h3>
+      <div class="cat-buttons">
+        <div class="cat-btn cat-spill" onclick="selectCat('spill')">spill</div>
+        <div class="cat-btn cat-forklift_violation" onclick="selectCat('forklift_violation')">forklift</div>
+        <div class="cat-btn cat-improper_stacking" onclick="selectCat('improper_stacking')">stacking</div>
+        <div class="cat-btn cat-obstacle" onclick="selectCat('obstacle')">obstacle</div>
+        <div class="cat-btn cat-safe" onclick="selectCat('safe')">safe</div>
+      </div>
+      <textarea id="notes" placeholder="Notes (plain language — what do you see?)"></textarea>
+      <div style="display:flex; gap:6px;">
+        <button class="btn btn-voice" id="voiceBtn" onclick="toggleVoice()">🎤</button>
+        <button class="btn btn-confirm" onclick="saveChange()" style="flex:1;">Save Change & Next →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bottom">
+  <button class="btn btn-nav" onclick="prev()">← Prev</button>
+  <button class="btn btn-confirm" onclick="confirm()" id="confirmBtn">✓ Confirm (Enter)</button>
+  <button class="btn btn-change" onclick="showChange()">✎ Change (C)</button>
+  <button class="btn btn-skip" onclick="skip()">Skip (→)</button>
+  <button class="btn btn-nav" onclick="next()">Next →</button>
+  <div style="flex:1;"></div>
+  <button class="btn" style="background:#333;" onclick="exportResults()">💾 Export</button>
+  <span class="progress" id="progress">—</span>
+</div>
+
+<div class="shortcuts">
+  <kbd>Enter</kbd> Confirm &nbsp; <kbd>C</kbd> Change &nbsp; <kbd>←</kbd><kbd>→</kbd> Navigate &nbsp; <kbd>V</kbd> Voice &nbsp; <kbd>1-5</kbd> Quick category
+</div>
+
+<script>
+let data = [];
+let idx = 0;
+let results = {};
+let newCat = null;
+let recognition = null;
+let isRecording = false;
+
+// Load metadata
+async function loadData() {
+  const resp = await fetch('../dataset/metadata.jsonl');
+  const text = await resp.text();
+  data = text.trim().split('\n').map(l => JSON.parse(l));
+
+  // Load saved progress
+  const saved = localStorage.getItem('hawkeye_review');
+  if (saved) {
+    results = JSON.parse(saved);
+    // Jump to first unreviewed
+    for (let i = 0; i < data.length; i++) {
+      if (!results[data[i].image]) { idx = i; break; }
+    }
+  }
+  render();
+}
+
+function render() {
+  if (idx < 0) idx = 0;
+  if (idx >= data.length) idx = data.length - 1;
+  const d = data[idx];
+
+  document.getElementById('img').src = '../dataset/images/' + d.image;
+  document.getElementById('filename').textContent = d.image;
+  document.getElementById('subtype').textContent = d.subtype || '—';
+  document.getElementById('description').textContent = d.description || '—';
+  document.getElementById('location').textContent = d.location || '—';
+  document.getElementById('severity').textContent = d.severity || '—';
+
+  const catEl = document.getElementById('category');
+  catEl.textContent = d.category;
+  catEl.className = 'cat-badge cat-' + d.category;
+
+  document.getElementById('counter').textContent = `${idx + 1}/${data.length}`;
+
+  // Stats
+  let conf = 0, chg = 0, skp = 0;
+  Object.values(results).forEach(r => {
+    if (r.action === 'confirm') conf++;
+    else if (r.action === 'change') chg++;
+    else if (r.action === 'skip') skp++;
+  });
+  document.getElementById('confirmed').textContent = conf;
+  document.getElementById('changed').textContent = chg;
+  document.getElementById('skipped').textContent = skp;
+
+  const reviewed = Object.keys(results).length;
+  document.getElementById('progress').textContent = `${reviewed}/${data.length} reviewed (${Math.round(reviewed/data.length*100)}%)`;
+
+  // Highlight if already reviewed
+  const r = results[d.image];
+  if (r) {
+    document.getElementById('confirmBtn').textContent = r.action === 'confirm' ? '✓ Confirmed' : '✎ Changed to ' + (r.new_category || '');
+  } else {
+    document.getElementById('confirmBtn').textContent = '✓ Confirm (Enter)';
+  }
+
+  // Reset change panel
+  document.getElementById('changePanel').classList.remove('active');
+  newCat = null;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
+  document.getElementById('notes').value = '';
+}
+
+function confirm() {
+  const d = data[idx];
+  results[d.image] = { action: 'confirm', original_category: d.category, timestamp: new Date().toISOString() };
+  save();
+  next();
+}
+
+function skip() {
+  results[data[idx].image] = { action: 'skip', timestamp: new Date().toISOString() };
+  save();
+  next();
+}
+
+function showChange() {
+  document.getElementById('changePanel').classList.toggle('active');
+  document.getElementById('notes').focus();
+}
+
+function selectCat(cat) {
+  newCat = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelector('.cat-btn.cat-' + cat).classList.add('selected');
+}
+
+function saveChange() {
+  const d = data[idx];
+  const notes = document.getElementById('notes').value.trim();
+  results[d.image] = {
+    action: 'change',
+    original_category: d.category,
+    new_category: newCat || d.category,
+    notes: notes,
+    timestamp: new Date().toISOString()
+  };
+  save();
+  next();
+}
+
+function next() { idx++; if (idx >= data.length) idx = data.length - 1; render(); }
+function prev() { idx--; if (idx < 0) idx = 0; render(); }
+
+function save() {
+  localStorage.setItem('hawkeye_review', JSON.stringify(results));
+}
+
+function exportResults() {
+  const blob = new Blob([JSON.stringify(results, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'review_results.json';
+  a.click();
+}
+
+// Voice
+function toggleVoice() {
+  if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+    alert('Speech recognition not supported in this browser. Use Chrome.');
+    return;
+  }
+
+  if (isRecording) {
+    recognition.stop();
+    return;
+  }
+
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.lang = 'en-US';
+
+  recognition.onstart = () => {
+    isRecording = true;
+    document.getElementById('voiceBtn').classList.add('recording');
+    document.getElementById('voiceBtn').textContent = '⏹';
+  };
+
+  recognition.onresult = (e) => {
+    const text = e.results[0][0].transcript;
+    document.getElementById('notes').value += (document.getElementById('notes').value ? ' ' : '') + text;
+
+    // Auto-detect category from speech
+    const lower = text.toLowerCase();
+    if (lower.includes('spill')) selectCat('spill');
+    else if (lower.includes('forklift') || lower.includes('fork lift')) selectCat('forklift_violation');
+    else if (lower.includes('stacking') || lower.includes('improper')) selectCat('improper_stacking');
+    else if (lower.includes('obstacle') || lower.includes('debris')) selectCat('obstacle');
+    else if (lower.includes('safe') || lower.includes('clean') || lower.includes('good')) selectCat('safe');
+  };
+
+  recognition.onend = () => {
+    isRecording = false;
+    document.getElementById('voiceBtn').classList.remove('recording');
+    document.getElementById('voiceBtn').textContent = '🎤';
+  };
+
+  recognition.onerror = (e) => {
+    console.error('Speech error:', e.error);
+    isRecording = false;
+    document.getElementById('voiceBtn').classList.remove('recording');
+    document.getElementById('voiceBtn').textContent = '🎤';
+  };
+
+  recognition.start();
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'TEXTAREA') return;
+
+  if (e.key === 'Enter') { e.preventDefault(); confirm(); }
+  else if (e.key === 'c' || e.key === 'C') { showChange(); }
+  else if (e.key === 'ArrowRight') { next(); }
+  else if (e.key === 'ArrowLeft') { prev(); }
+  else if (e.key === 'v' || e.key === 'V') { toggleVoice(); }
+  else if (e.key === '1') { showChange(); selectCat('spill'); }
+  else if (e.key === '2') { showChange(); selectCat('forklift_violation'); }
+  else if (e.key === '3') { showChange(); selectCat('improper_stacking'); }
+  else if (e.key === '4') { showChange(); selectCat('obstacle'); }
+  else if (e.key === '5') { showChange(); selectCat('safe'); }
+});
+
+loadData();
+</script>
+</body>
+</html>

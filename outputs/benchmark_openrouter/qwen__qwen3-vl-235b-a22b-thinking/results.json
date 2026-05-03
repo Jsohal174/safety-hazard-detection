@@ -1,0 +1,13 @@
+{
+  "model": "qwen/qwen3-vl-235b-a22b-thinking",
+  "n_images": 12,
+  "correct": 8,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.6667,
+  "accuracy_completed": 0.6667,
+  "avg_time_s": 7.53,
+  "avg_prompt_tokens": 714,
+  "avg_completion_tokens": 336,
+  "timestamp": "2026-05-02T19:33:56.345805"
+}

@@ -1,0 +1,60 @@
+{
+  "model": "llava-phi3:latest",
+  "prompt": "chain_of_thought",
+  "mode": "nothink",
+  "temperature": 0.0,
+  "n_images": 150,
+  "accuracy": 0.24,
+  "correct": 36,
+  "total": 150,
+  "avg_time_s": 4.57,
+  "total_time_min": 11.4,
+  "category_metrics": {
+    "spill": {
+      "precision": 0.1231,
+      "recall": 0.2667,
+      "f1": 0.1684,
+      "tp": 8,
+      "fp": 57,
+      "fn": 22,
+      "support": 30
+    },
+    "forklift_violation": {
+      "precision": 0.3333,
+      "recall": 0.1,
+      "f1": 0.1538,
+      "tp": 3,
+      "fp": 6,
+      "fn": 27,
+      "support": 30
+    },
+    "improper_stacking": {
+      "precision": 0.2308,
+      "recall": 0.5,
+      "f1": 0.3158,
+      "tp": 15,
+      "fp": 50,
+      "fn": 15,
+      "support": 30
+    },
+    "obstacle": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 30,
+      "support": 30
+    },
+    "safe": {
+      "precision": 0.9091,
+      "recall": 0.3333,
+      "f1": 0.4878,
+      "tp": 10,
+      "fp": 1,
+      "fn": 20,
+      "support": 30
+    }
+  },
+  "timestamp": "2026-03-18T22:25:54.386080"
+}

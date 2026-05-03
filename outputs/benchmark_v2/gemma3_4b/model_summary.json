@@ -1,0 +1,12 @@
+{
+  "model": "gemma3:4b",
+  "best_prompt": "json_structured",
+  "best_accuracy": 0.6333,
+  "all_prompts": {
+    "direct": 0.5,
+    "osha_inspector": 0.3267,
+    "chain_of_thought": 0.2933,
+    "describe_then_classify": 0.3867,
+    "json_structured": 0.6333
+  }
+}

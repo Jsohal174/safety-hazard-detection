@@ -1,0 +1,8 @@
+{
+  "model": "hawkeye",
+  "best_prompt": "direct",
+  "best_accuracy": 0,
+  "all_prompts": {
+    "direct": 0
+  }
+}

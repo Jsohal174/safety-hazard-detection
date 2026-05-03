@@ -1,0 +1,13 @@
+{
+  "model": "moonshotai/kimi-k2.6",
+  "n_images": 12,
+  "correct": 4,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.3333,
+  "accuracy_completed": 0.3333,
+  "avg_time_s": 14.67,
+  "avg_prompt_tokens": 912,
+  "avg_completion_tokens": 638,
+  "timestamp": "2026-05-02T19:39:11.626438"
+}

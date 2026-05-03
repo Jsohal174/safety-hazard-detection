@@ -1,0 +1,12 @@
+{
+  "model": "qwen3-vl:8b",
+  "best_prompt": "json_structured",
+  "best_accuracy": 0.5933,
+  "all_prompts": {
+    "direct": 0.5733,
+    "osha_inspector": 0.4267,
+    "chain_of_thought": 0.4867,
+    "describe_then_classify": 0.5333,
+    "json_structured": 0.5933
+  }
+}

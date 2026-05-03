@@ -1,0 +1,60 @@
+{
+  "model": "qwen3.5:9b",
+  "prompt": "osha_inspector",
+  "mode": "nothink",
+  "temperature": 0.0,
+  "n_images": 150,
+  "accuracy": 0.74,
+  "correct": 111,
+  "total": 150,
+  "avg_time_s": 10.45,
+  "total_time_min": 26.1,
+  "category_metrics": {
+    "spill": {
+      "precision": 0.9667,
+      "recall": 0.9667,
+      "f1": 0.9667,
+      "tp": 29,
+      "fp": 1,
+      "fn": 1,
+      "support": 30
+    },
+    "forklift_violation": {
+      "precision": 0.8824,
+      "recall": 0.5,
+      "f1": 0.6383,
+      "tp": 15,
+      "fp": 2,
+      "fn": 15,
+      "support": 30
+    },
+    "improper_stacking": {
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "tp": 10,
+      "fp": 0,
+      "fn": 20,
+      "support": 30
+    },
+    "obstacle": {
+      "precision": 0.8108,
+      "recall": 1.0,
+      "f1": 0.8955,
+      "tp": 30,
+      "fp": 7,
+      "fn": 0,
+      "support": 30
+    },
+    "safe": {
+      "precision": 0.4821,
+      "recall": 0.9,
+      "f1": 0.6279,
+      "tp": 27,
+      "fp": 29,
+      "fn": 3,
+      "support": 30
+    }
+  },
+  "timestamp": "2026-03-18T03:57:43.858724"
+}

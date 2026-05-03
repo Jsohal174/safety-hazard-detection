@@ -1,0 +1,13 @@
+{
+  "model": "x-ai/grok-4.20",
+  "n_images": 12,
+  "correct": 11,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.9167,
+  "accuracy_completed": 0.9167,
+  "avg_time_s": 1.28,
+  "avg_prompt_tokens": 819,
+  "avg_completion_tokens": 32,
+  "timestamp": "2026-05-02T19:25:53.256618"
+}

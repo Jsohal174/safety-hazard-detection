@@ -1,0 +1,12 @@
+{
+  "model": "moondream:latest",
+  "best_prompt": "chain_of_thought",
+  "best_accuracy": 0.3667,
+  "all_prompts": {
+    "direct": 0.36,
+    "osha_inspector": 0.2533,
+    "chain_of_thought": 0.3667,
+    "describe_then_classify": 0.3667,
+    "json_structured": 0.02
+  }
+}

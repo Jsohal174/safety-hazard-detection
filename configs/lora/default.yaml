@@ -1,0 +1,12 @@
+r: 16
+lora_alpha: 32
+target_modules:
+  - q_proj
+  - v_proj
+lora_dropout: 0.05
+learning_rate: 2.0e-4
+epochs: 5
+batch_size: 4
+warmup_steps: 50
+gradient_accumulation_steps: 4
+max_length: 512

@@ -67,3 +67,28 @@ wandb/
 .env
 *.pem
 credentials.json
+
+# Claude Code workspace
+.claude/
+
+# Dataset images (hosted on HuggingFace)
+dataset/images/
+dataset/images_small/
+outputs/datasets/
+
+# Stale renders directory
+outputs/renders/
+
+# Blender scenes and heavy assets (large binaries)
+*.blend
+hawkeye/simulation/blender/assets/
+
+# Internal scratch / private dev tools (not for public repo)
+docs/VIDEO_PLAN.md
+vision_api.py
+
+# Compiled Python
+*.pyc
+
+# OS
+.DS_Store

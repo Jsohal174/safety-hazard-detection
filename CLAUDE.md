@@ -1,146 +1,166 @@
-# HAWKEYE: Drone-Based Warehouse Safety Hazard Detection
+# HAWKEYE: Benchmarking VLMs for Warehouse Safety Hazard Detection
 
 ## Project Overview
-Autonomous drone-based warehouse hazard detection system using RGB-D fusion trained on synthetic data. The system detects hazards from a drone's aerial perspective, tracks them across frames, and sends alerts to a dashboard.
+
+Evaluating open-source Vision Language Models (VLMs) for warehouse safety hazard detection using synthetic images. We generate warehouse images with injected hazards, benchmark multiple VLMs zero-shot with different prompt strategies, then LoRA fine-tune the best performer and measure improvement.
+
+**Research Question:** "How well do open-source VLMs detect warehouse safety hazards zero-shot, and does LoRA fine-tuning on synthetic images improve their performance?"
 
 ## Owner
+
 Jaskirat Singh Sohal (Jas)
-- Research project with Prof. John Akinyemi, University of Guelph
-- Deadline: April 5-6, 2026
 
-## What We're Building
-A computer vision pipeline that:
-1. Generates synthetic warehouse images from drone perspective (Blender + SD/ControlNet)
-2. Trains RGB-D fusion object detection models (4-channel YOLOv8)
-3. Tracks hazards across frames in simulated drone flights
-4. Deploys with real-time alert dashboard
+- CIS\*4900 research project with Prof. John Akinyemi, University of Guelph
+- Deadline: April 5-10, 2026
 
-## Key Differentiators from Standard Approach
-- **Drone perspective** (aerial view at ~2.5m height, 45-60° pitch)
-- **RGB-D fusion** (depth camera adds distance/3D information)
-- **Multi-object tracking** (IoU-based tracker for consistency across frames)
-- **Real-time dashboard** (React frontend with WebSocket updates)
+## Pipeline
 
-## Hazard Classes to Detect
-| ID | Class | Description |
-|----|-------|-------------|
-| 0 | `spill` | Liquid on floor |
-| 1 | `obstacle` | Boxes/debris in aisle |
-| 2 | `missing_ppe` | Worker without hard hat/vest |
-| 3 | `forklift_violation` | Unsafe forklift operation |
-| 4 | `blocked_exit` | Exit door obstructed |
-| 5 | `damaged_rack` | Bent/broken racking |
+```
+1. BASE RENDERS (Blender)
+   Warehouse scene → Drone-perspective renders (60-80 clean images)
+
+2. HAZARD INJECTION (Gemini API / Stable Diffusion img2img)
+   Clean renders → Add hazards → 300 images (60 per category)
+
+3. ZERO-SHOT VLM BENCHMARK
+   4 VLMs × 3 prompt strategies × 300 images = 3,600 evaluations
+   → Precision, Recall, F1, BERTScore per model/strategy
+
+4. LORA FINE-TUNING
+   Best VLM + LoRA on 240 train images → Evaluate on 60 test
+   → Compare fine-tuned vs zero-shot
+
+5. THESIS
+   Results, analysis, figures → Research paper
+```
+
+## Hazard Categories
+
+| ID  | Category             | Description                                           |
+| --- | -------------------- | ----------------------------------------------------- |
+| 0   | `spill`              | Liquid puddle on warehouse floor                      |
+| 1   | `missing_ppe`        | Worker without hard hat                               |
+| 2   | `forklift_violation` | Unsafe forklift operation (no seatbelt, forks raised) |
+| 3   | `improper_stacking`  | Unstable/overloaded boxes or pallets                  |
+| 4   | `safe`               | Clean warehouse, no hazards                           |
+
+**Target:** 300 images total, 60 per category.
+
+## VLMs to Benchmark
+
+| Model            | Size | Source          |
+| ---------------- | ---- | --------------- |
+| Qwen 2.5 VL      | 7B   | Alibaba/Qwen    |
+| LLaMA 3.2 Vision | 11B  | Meta            |
+| InternVL 2.5     | ~8B  | Shanghai AI Lab |
+| Gemma 3          | 12B  | Google          |
+
+## Prompt Strategies
+
+1. **Direct** — Classify this image into one category
+2. **Descriptive** — Describe hazards, then classify
+3. **Chain-of-thought** — Step-by-step safety analysis, then classify
 
 ## Tech Stack
-| Category | Tool |
-|----------|------|
-| 3D Modeling | Blender 4.0+ |
-| Image Enhancement | Stable Diffusion, ControlNet |
-| Depth Rendering | OpenEXR |
-| Config Management | Hydra |
-| Augmentation | Albumentations |
-| Training | PyTorch, PyTorch Lightning, Ultralytics (YOLOv8) |
-| Experiment Tracking | Weights & Biases |
-| Cloud GPU | RunPod or Lambda Labs |
-| Optimization | ONNX, TorchScript |
-| Backend | FastAPI, WebSockets |
-| Frontend | React, Tailwind CSS |
-| Evaluation | pycocotools |
 
-## Timeline (8 weeks - Already in Week 1-2)
-
-### Weeks 1-2: Simulation Foundation
-- Build warehouse scene with drone camera setup
-- RGB-D rendering pipeline
-- Hazard spawning system
-
-### Week 3: Data Pipeline
-- Domain randomization
-- Flight path generation
-- SD + ControlNet enhancement
-- Generate dataset (15000+ frames)
-
-### Weeks 4-5: Perception Model
-- RGB-D dataset and dataloader
-- Train RGB-only baseline
-- Train fusion model (4-channel YOLOv8)
-- Ablation studies
-
-### Week 6: Drone Integration
-- Inference pipeline optimization
-- Multi-object tracker
-- Simulation integration
-
-### Week 7: Alert System
-- FastAPI backend
-- React dashboard
-- WebSocket real-time updates
-
-### Week 8: Polish & Evaluation
-- Full evaluation suite
-- Demo materials
-- Documentation
+| Category         | Tool                                                    |
+| ---------------- | ------------------------------------------------------- |
+| 3D Rendering     | Blender 5.0.1                                           |
+| Image Generation | Gemini API, Stable Diffusion (diffusers)                |
+| VLM Inference    | HuggingFace Transformers                                |
+| Fine-tuning      | PEFT (LoRA)                                             |
+| Quantization     | bitsandbytes (4-bit)                                    |
+| Evaluation       | bert-score, scikit-learn                                |
+| Config           | Hydra                                                   |
+| Tracking         | Weights & Biases                                        |
+| Compute          | MacBook Pro M2 16GB (dev) + Google Colab Pro (training) |
 
 ## Project Structure
+
 ```
 hawkeye/
-├── simulation/
-│   ├── blender/
-│   │   ├── assets/           # Warehouse, hazards, props
-│   │   ├── scripts/          # Generation scripts
-│   │   └── scenes/           # .blend files
-│   └── generation/           # Flight paths, annotations
-├── perception/
-│   ├── models/               # Fusion YOLOv8, dual encoder
-│   ├── datasets/             # RGB-D dataset class
-│   ├── training/             # Lightning module
-│   └── evaluation/           # Metrics
-├── drone/
-│   ├── planning/             # Path planning
-│   ├── inference/            # Real-time detection
-│   └── control/              # Tracker
-├── alert_system/
-│   ├── backend/              # FastAPI
-│   └── dashboard/            # React
-├── configs/                  # Hydra configs
-├── scripts/                  # Entry points
-├── outputs/
-│   ├── datasets/             # Generated data
-│   ├── checkpoints/          # Model weights
-│   └── results/              # Evaluation outputs
-└── docs/
+├── simulation/blender/          # Blender assets, scenes, scripts
+│   ├── assets/                  # 3D models (shelves, boxes, forklift, etc.)
+│   ├── scenes/                  # .blend files
+│   └── scripts/                 # Blender Python scripts
+├── data/                        # Dataset management
+│   ├── hazard_injector.py       # Gemini/SD img2img hazard injection
+│   ├── dataset.py               # Dataset class + splits
+│   └── prompts.py               # Hazard injection prompts
+├── evaluation/                  # VLM benchmarking
+│   ├── vlm_runner.py            # Load & run VLMs
+│   ├── prompt_strategies.py     # 3 prompt strategies
+│   ├── response_parser.py       # Parse VLM output → category
+│   ├── metrics.py               # BERTScore, P/R/F1
+│   └── results_analyzer.py      # Tables, plots, confusion matrices
+├── finetuning/                  # LoRA fine-tuning
+│   ├── prepare_lora_data.py     # Format dataset for training
+│   └── lora_trainer.py          # LoRA training script
+configs/
+├── config.yaml                  # Main config
+├── vlm/                         # Per-model configs
+├── prompts/                     # Prompt strategy configs
+├── lora/                        # LoRA training config
+scripts/
+├── 01_render_base_images.py     # Generate clean warehouse renders
+├── 02_inject_hazards.py         # Add hazards via AI editing
+├── 03_benchmark_vlms.py         # Run VLM evaluation
+├── 04_finetune_lora.py          # LoRA fine-tuning
+├── 05_evaluate_finetuned.py     # Evaluate fine-tuned model
+├── 06_generate_report.py        # Results figures/tables
+notebooks/
+├── vlm_benchmark.ipynb          # Colab: heavy inference
+├── lora_finetuning.ipynb        # Colab: training
+outputs/
+├── renders/base/                # Clean Blender renders
+├── datasets/images/             # Hazard-injected images (by category)
+├── results/                     # Benchmark results + analysis
+├── checkpoints/                 # LoRA adapter weights
 ```
 
-## Commands Reference
+## Commands
+
 ```bash
-# Generate dataset
-python scripts/generate_dataset.py
+# Step 1: Render base warehouse images (requires Blender)
+python scripts/01_render_base_images.py
 
-# Train model
-python scripts/train_model.py model=fusion_yolo training.epochs=100
+# Step 2: Inject hazards into base renders
+python scripts/02_inject_hazards.py
 
-# Evaluate
-python scripts/evaluate.py checkpoint=outputs/checkpoints/best.pt
+# Step 3: Run VLM benchmark
+python scripts/03_benchmark_vlms.py
 
-# Run demo
-python scripts/run_demo.py
+# Step 4: LoRA fine-tune best model
+python scripts/04_finetune_lora.py
 
-# Start alert backend
-uvicorn hawkeye.alert_system.backend.main:app --reload
+# Step 5: Evaluate fine-tuned model
+python scripts/05_evaluate_finetuned.py
 
-# Start dashboard (dev)
-cd hawkeye/alert_system/dashboard && npm run dev
+# Step 6: Generate report figures
+python scripts/06_generate_report.py
 ```
 
-## Goals
-1. Learn full ML engineer stack with drone/robotics angle
-2. Compare RGB-only vs RGB-D fusion performance
-3. Build end-to-end system from synthetic data to live dashboard
-4. Research paper/documentation for Prof. Akinyemi
+## Timeline (8 weeks)
 
-## Success Metrics
-- mAP@50 > 0.80 (target 0.85)
-- RGB-D fusion improves over RGB-only by >5%
-- Real-time inference > 15 FPS
-- Working alert dashboard with live visualization
-- All experiments tracked in W&B
+| Week | Dates        | Task                                   |
+| ---- | ------------ | -------------------------------------- |
+| 1    | Feb 18-24    | Restructure repo + base renders        |
+| 2    | Feb 25-Mar 3 | Hazard injection pipeline → 300 images |
+| 3    | Mar 4-10     | Build VLM evaluation framework         |
+| 4    | Mar 11-17    | Run full benchmark on Colab            |
+| 5    | Mar 18-24    | Analysis + LoRA data prep              |
+| 6    | Mar 25-31    | LoRA fine-tuning + evaluation          |
+| 7    | Apr 1-7      | Write thesis                           |
+| 8    | Apr 7-10     | Buffer + submission                    |
+
+## Current Progress
+
+- [x] Blender warehouse scene built (warehouse_assembled.blend)
+- [x] 3D assets collected (boxes, shelves, forklift, human, PPE)
+- [x] Project restructured for VLM benchmarking
+- [ ] Base warehouse renders from drone perspective
+- [ ] Hazard injection pipeline
+- [ ] VLM evaluation framework
+- [ ] Zero-shot benchmark
+- [ ] LoRA fine-tuning
+- [ ] Thesis

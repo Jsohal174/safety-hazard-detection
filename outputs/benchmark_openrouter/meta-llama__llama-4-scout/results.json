@@ -1,0 +1,13 @@
+{
+  "model": "meta-llama/llama-4-scout",
+  "n_images": 12,
+  "correct": 2,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.1667,
+  "accuracy_completed": 0.1667,
+  "avg_time_s": 1.09,
+  "avg_prompt_tokens": 1464,
+  "avg_completion_tokens": 34,
+  "timestamp": "2026-05-02T19:36:15.594616"
+}

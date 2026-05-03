@@ -1,0 +1,13 @@
+{
+  "model": "google/gemini-3.1-flash-lite-preview",
+  "n_images": 12,
+  "correct": 10,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.8333,
+  "accuracy_completed": 0.8333,
+  "avg_time_s": 1.69,
+  "avg_prompt_tokens": 1181,
+  "avg_completion_tokens": 28,
+  "timestamp": "2026-05-02T19:25:37.918777"
+}

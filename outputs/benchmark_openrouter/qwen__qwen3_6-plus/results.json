@@ -1,0 +1,13 @@
+{
+  "model": "qwen/qwen3.6-plus",
+  "n_images": 12,
+  "correct": 12,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 1.0,
+  "accuracy_completed": 1.0,
+  "avg_time_s": 15.81,
+  "avg_prompt_tokens": 718,
+  "avg_completion_tokens": 1523,
+  "timestamp": "2026-05-02T19:32:25.876703"
+}

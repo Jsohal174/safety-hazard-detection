@@ -1,0 +1,13 @@
+{
+  "model": "z-ai/glm-4.6v",
+  "n_images": 12,
+  "correct": 6,
+  "refused": 0,
+  "errored": 0,
+  "accuracy_all": 0.5,
+  "accuracy_completed": 0.5,
+  "avg_time_s": 6.72,
+  "avg_prompt_tokens": 873,
+  "avg_completion_tokens": 210,
+  "timestamp": "2026-05-02T19:40:32.319459"
+}

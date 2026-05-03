@@ -1,0 +1,8 @@
+{
+  "model": "qwen3.5:0.8b",
+  "best_prompt": "direct",
+  "best_accuracy": 0.5067,
+  "all_prompts": {
+    "direct": 0.5067
+  }
+}
